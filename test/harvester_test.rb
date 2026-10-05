@@ -192,7 +192,7 @@ class HarvesterTest < Minitest::Test
       edit_metadata(dir) do |rows|
         rows.map { |row| row['id'] == 'GRanD_Dams_v2' ? row.merge('metadata' => row['metadata'].merge('title' => 'Dams v2')) : row }
       end
-      redirects = File.join(dir, 'worldview', Worldview::CONFIG, 'wv.json', 'redirects.json')
+      redirects = File.join(dir, 'worldview', 'redirects.json')
       config = JSON.parse(File.read(redirects, mode: 'r:utf-8'))
       config['redirects']['layers']['GRanD_Dams'] = 'GRanD_Dams_v2'
       File.write(redirects, JSON.generate(config))

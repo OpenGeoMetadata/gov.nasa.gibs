@@ -1,6 +1,7 @@
 require 'fileutils'
 require 'json'
 require 'open3'
+require 'tmpdir'
 require_relative 'description'
 
 # What Worldview, NASA's browser for GIBS, says about each layer: the description it shows, overrides for the titles
@@ -13,10 +14,16 @@ class Worldview
   REPOSITORY = 'https://github.com/nasa-gibs/worldview.git'
   CONFIG = 'config/default/common/config'
 
-  # The directories cloned. Sparse checkout also takes the files directly inside their parents, which brings
-  # wv.json/redirects.json.
-  PATHS = %W[#{CONFIG}/wv.json/layers #{CONFIG}/wv.json/measurements #{CONFIG}/wv.json/categories
-             #{CONFIG}/metadata/layers].freeze
+  # Where each part of the configuration is in Worldview's repository, and where the snapshot keeps it. The snapshot
+  # flattens the layout, leaving out the repository's wv.json directory, which tools looking for JSON records take
+  # for a file.
+  LAYOUT = {
+    "#{CONFIG}/wv.json/layers" => 'layers',
+    "#{CONFIG}/wv.json/measurements" => 'measurements',
+    "#{CONFIG}/wv.json/categories" => 'categories',
+    "#{CONFIG}/wv.json/redirects.json" => 'redirects.json',
+    "#{CONFIG}/metadata/layers" => 'descriptions'
+  }.freeze
 
   RELEASE_FILE = 'RELEASE'
 
@@ -25,16 +32,29 @@ class Worldview
 
   class Error < StandardError; end
 
-  # Clones the latest release's configuration into `dir`, replacing whatever was there
+  # Clones the latest release's configuration and copies it into `dir`, replacing whatever was there
   def self.fetch(dir, log: $stdout)
     tag = latest_release
-    FileUtils.rm_rf(dir)
-    FileUtils.mkdir_p(File.dirname(dir))
-    git('-c', 'advice.detachedHead=false', 'clone', '--quiet', '--depth', '1', '--branch', tag, '--filter=blob:none',
-        '--sparse', REPOSITORY, dir)
-    git('-C', dir, 'sparse-checkout', 'set', *PATHS)
-    File.write(File.join(dir, RELEASE_FILE), "#{tag}\n")
+    Dir.mktmpdir('worldview') do |tmp|
+      checkout = File.join(tmp, 'worldview')
+      git('-c', 'advice.detachedHead=false', 'clone', '--quiet', '--depth', '1', '--branch', tag, '--filter=blob:none',
+          '--sparse', REPOSITORY, checkout)
+      # Sparse checkout takes the files directly inside a directory's parents too, which brings redirects.json
+      git('-C', checkout, 'sparse-checkout', 'set', *LAYOUT.keys.reject { |path| path.end_with?('.json') })
+      copy(checkout, dir, tag)
+    end
     load(dir).tap { |worldview| log.puts "Worldview #{tag}: #{worldview.layers.size} layers" }
+  end
+
+  # Copies the configuration out of a checkout of Worldview's repository, into the snapshot's layout
+  def self.copy(checkout, dir, release)
+    FileUtils.rm_rf(dir)
+    FileUtils.mkdir_p(dir)
+    LAYOUT.each do |from, to|
+      source = File.join(checkout, from)
+      FileUtils.cp_r(source, File.join(dir, to)) if File.exist?(source)
+    end
+    File.write(File.join(dir, RELEASE_FILE), "#{release}\n")
   end
 
   def self.latest_release
@@ -57,7 +77,7 @@ class Worldview
   end
 
   def self.load(dir)
-    raise Error, "No Worldview configuration at #{dir}" unless Dir.exist?(File.join(dir, CONFIG))
+    raise Error, "No Worldview configuration at #{dir}" unless Dir.exist?(File.join(dir, 'layers'))
 
     new(dir)
   end
@@ -67,7 +87,7 @@ class Worldview
   def initialize(dir)
     @dir = dir
     @release = File.exist?(File.join(dir, RELEASE_FILE)) ? File.read(File.join(dir, RELEASE_FILE)).strip : nil
-    @layers = read_all('wv.json/layers/**/*.json').map { |config| config['layers'] || {} }.reduce({}, :merge)
+    @layers = read_all('layers/**/*.json').map { |config| config['layers'] || {} }.reduce({}, :merge)
     raise Error, "The Worldview configuration at #{dir} has no layers" if @layers.empty?
   end
 
@@ -79,7 +99,7 @@ class Worldview
   # The layer's description as paragraphs of plain text, or none if Worldview has no description for it
   def description(id)
     path = layers.dig(id, 'description')
-    file = path && File.join(dir, CONFIG, 'metadata', 'layers', "#{path}.md")
+    file = path && File.join(dir, 'descriptions', "#{path}.md")
     file && File.exist?(file) ? Description.paragraphs(File.read(file, mode: 'r:bom|utf-8')) : []
   end
 
@@ -98,12 +118,12 @@ class Worldview
   private
 
   def read_all(pattern)
-    Dir.glob(File.join(dir, CONFIG, pattern)).sort.map { |path| JSON.parse(File.read(path, mode: 'r:bom|utf-8')) }
+    Dir.glob(File.join(dir, pattern)).sort.map { |path| JSON.parse(File.read(path, mode: 'r:bom|utf-8')) }
   end
 
   # The measurements each layer is a source setting of
   def measurements_by_layer
-    @measurements_by_layer ||= read_all('wv.json/measurements/*.json').each_with_object({}) do |file, index|
+    @measurements_by_layer ||= read_all('measurements/*.json').each_with_object({}) do |file, index|
       (file['measurements'] || {}).each do |name, measurement|
         (measurement['sources'] || {}).each_value do |source|
           (source['settings'] || []).each { |id| (index[id] ||= []) << name }
@@ -113,7 +133,7 @@ class Worldview
   end
 
   def disciplines_by_measurement
-    @disciplines_by_measurement ||= read_all('wv.json/categories/**/*.json').each_with_object({}) do |file, index|
+    @disciplines_by_measurement ||= read_all('categories/**/*.json').each_with_object({}) do |file, index|
       (file.dig('categories', DISCIPLINES) || {}).each do |name, category|
         index[name] = category['measurements'] || [] unless name == 'All'
       end
@@ -122,7 +142,7 @@ class Worldview
 
   def redirects
     @redirects ||= begin
-      path = File.join(dir, CONFIG, 'wv.json', 'redirects.json')
+      path = File.join(dir, 'redirects.json')
       File.exist?(path) ? JSON.parse(File.read(path, mode: 'r:bom|utf-8')).dig('redirects', 'layers') || {} : {}
     end
   end

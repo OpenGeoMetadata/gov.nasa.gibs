@@ -24,4 +24,4 @@ The files:
 - `layer-metadata.jsonl`: `{id, metadata}` for each layer GIBS documents.
 - `domains.jsonl`: `{id, start}` for the truncated layer.
 - `collections.jsonl`: `{concept_id, umm}` for each linked collection CMR has.
-- `worldview/`: Worldview's configuration for these layers, as the harvester clones it: their layer files and descriptions, the measurements listing them (cut to just these layers), and the science disciplines and redirects whole.
+- `worldview/`: Worldview's configuration for these layers, in the snapshot's layout, which flattens the repository's: their layer files in `layers/` and descriptions in `descriptions/`, the measurements listing them in `measurements/` (cut to just these layers), and the science disciplines in `categories/` and `redirects.json` whole.
