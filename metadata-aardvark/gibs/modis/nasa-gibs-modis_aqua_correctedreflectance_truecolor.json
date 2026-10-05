@@ -1,0 +1,89 @@
+{
+  "id": "nasa-gibs-modis_aqua_correctedreflectance_truecolor",
+  "dct_title_s": "Corrected Reflectance (True Color), Aqua / MODIS",
+  "dct_description_sm": [
+    "True Color: Red = Band 1, Green = Band 4, Blue = Band 3",
+    "These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features. The downside of this set of bands is that they tend to produce a hazy image.",
+    "The MODIS Corrected Reflectance imagery is available only as near real-time imagery. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 500 m and 250 m (Bands 1 and 2 have a sensor resolution of 250 m, Bands 3 – 7 have a sensor resolution of 500m, and Bands 8 - 36 are 1 km. Band 1 is used to sharpen Band 3, 4, 6, and 7), imagery resolution is 250 m, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2002-07-03 and updated as new data arrive. Made from MODIS/Aqua Calibrated Radiances 5-Min L1B Swath 250m (MYD02QKM, version 6.1, doi:10.5067/MODIS/MYD02QKM.061); MODIS/Aqua Calibrated Radiances 5-Min L1B Swath 500m (MYD02HKM, version 6.1, doi:10.5067/MODIS/MYD02HKM.061); MODIS/Aqua Calibrated Radiances 5-Min L1B Swath 1km (MYD021KM, version 6.1, doi:10.5067/MODIS/MYD021KM.061)."
+  ],
+  "dct_creator_sm": [
+    "MCST Team"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-07-03 to present"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Aqua_CorrectedReflectance_TrueColor"
+  ],
+  "dct_subject_sm": [
+    "Corrected Reflectance",
+    "Infrared Radiance",
+    "Reflected Infrared",
+    "Visible Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "MODIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "JPEG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Aqua_CorrectedReflectance_TrueColor",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Aqua_CorrectedReflectance_TrueColor/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=MODIS_Aqua_CorrectedReflectance_TrueColor\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Aqua_CorrectedReflectance_TrueColor&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

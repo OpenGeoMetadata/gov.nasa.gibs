@@ -1,0 +1,56 @@
+{
+  "id": "nasa-gibs-ols_dmsp_f12_digital_derived_lightning",
+  "dct_title_s": "Digital Derived Lightning (Level 3, Standard), DMSP-F12 / OLS",
+  "dct_description_sm": [
+    "The Digital Derived Lightning (Level 2, Standard) layer is created from the OLS Digital Derived Lightning from DMSP F12 dataset. It consists of global lightning signatures from the Defense Meteorological Satellite Program (DMSP) Operational Linescan System (OLS) flown on DMSP 5D-2/F12 that have been analyzed from the visible channel imagery. These signatures show up as horizontal streaks on the images. The time and location of each of these streaks have been extracted and are stored by month in HDF data files. Data are available from May 1, 1995 through November 30, 1995.",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 1995-05-01 to 1995-11-01. Made from OLS DIGITAL DERIVED LIGHTNING FROM DMSP F12 V1 (olsdig12, version 1, doi:10.5067/LIS/OLS/DATA303)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1995-05-01 to 1995-11-01"
+  ],
+  "gbl_indexYear_im": [
+    1995
+  ],
+  "gbl_dateRange_drsim": [
+    "[1995 TO 1995]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OLS_DMSP_F12_Digital_Derived_Lightning"
+  ],
+  "dct_subject_sm": [
+    "Lightning"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "DMSP 5D-2/F12",
+    "OLS",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OLS_DMSP_F12_Digital_Derived_Lightning",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OLS_DMSP_F12_Digital_Derived_Lightning/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OLS_DMSP_F12_Digital_Derived_Lightning\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OLS_DMSP_F12_Digital_Derived_Lightning&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

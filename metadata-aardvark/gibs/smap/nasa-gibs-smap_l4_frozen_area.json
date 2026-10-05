@@ -1,0 +1,81 @@
+{
+  "id": "nasa-gibs-smap_l4_frozen_area",
+  "dct_title_s": "Percent Frozen Area (L4, 9 km Grid Cell Coverage), SMAP / Model Value-Added",
+  "dct_description_sm": [
+    "The Soil Moisture Active Passive (SMAP) “Percent Frozen Area (L4, 9 km Grid Cell Coverage, Model Value-Added)” layer displays an environmental constraint defined as the percent frozen area within each 9-km grid cell, as defined by daily surface temperature inputs from the Goddard Earth Observing System Model, Version 5 (GEOS-5) land model. Percent frozen area, combined with environmental constraints on temperature and moisture, facilitates improved algorithm and product accuracy over heterogeneous land cover areas, and product outputs that are more consistent with the mean sampling footprint of most tower CO₂ flux measurement sites.",
+    "The SMAP spacecraft carries two instruments, a radar (active) and a radiometer (passive), that together make global measurements of land surface soil moisture and freeze/thaw state. It is useful for monitoring and predicting natural hazards such as floods and droughts, understanding the linkages between Earth’s water, energy and carbon cycles, and reducing uncertainties in predicting weather and climate.",
+    "Data field: frozen_area",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2015-03-31 and updated as new data arrive. Made from SMAP L4 Global Daily 9 km EASE-Grid Carbon Net Ecosystem Exchange V008 (SPL4CMDL, version 008, doi:10.5067/U7SN8JDZL0UC)."
+  ],
+  "dct_creator_sm": [
+    "NASA/GSFC/SED/ESD/GMAO"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2015-03-31 to present"
+  ],
+  "gbl_indexYear_im": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SMAP_L4_Frozen_Area"
+  ],
+  "dct_subject_sm": [
+    "Frozen Area",
+    "Soil Productivity",
+    "Soil Respiration",
+    "Carbon"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "MODIS",
+    "SMAP",
+    "SMAP L-BAND RADIOMETER",
+    "Suomi-NPP",
+    "VIIRS",
+    "Terra",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SMAP_L4_Frozen_Area",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SMAP_L4_Frozen_Area/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SMAP_L4_Frozen_Area\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SMAP_L4_Frozen_Area&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

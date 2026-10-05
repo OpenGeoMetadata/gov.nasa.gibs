@@ -1,0 +1,74 @@
+{
+  "id": "nasa-gibs-viirs_snpp_l2_sea_surface_temp_night",
+  "dct_title_s": "Sea Surface Temperature (Night, L2), Suomi NPP / VIIRS",
+  "dct_description_sm": [
+    "The Sea Surface Temperature (Night) layer displays level 2 11µm sea surface temperature in Celsius (C). The Visible and Infrared Imager/Radiometer Suite (VIIRS) is a multi-disciplinary instrument that is being flown on the Joint Polar Satellite System (JPSS) series of spacecraft, including the Suomi National Polar-orbiting Partnership (S-NPP) that launched in October 2011. JPSS is a multi-platform, multi-agency program that consolidates the polar orbiting spacecraft of NASA and the National Oceanic and Atmospheric Administration (NOAA). S-NPP is the initial spacecraft in this series, and VIIRS is the successor to MODIS for Earth science data product generation. VIIRS has 22 spectral bands ranging from 412 nm to 12 nm. There are 16 moderate-resolution bands (750m at nadir), 5 image-resolution bands (375m), and one day-night band (DNB).",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-01-02 and updated as new data arrive. Made from Suomi-NPP VIIRS Level-2 Regional 11µm Daytime Sea Surface Temperature (SST) Data, version 2016.2 (VIIRSN_L2_SST, version 2016.2)."
+  ],
+  "dct_creator_sm": [
+    "Ocean Biology Processing Group"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-01-02 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_SNPP_L2_Sea_Surface_Temp_Night"
+  ],
+  "dct_subject_sm": [
+    "Sea Surface Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Suomi-NPP",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_SNPP_L2_Sea_Surface_Temp_Night",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_L2_Sea_Surface_Temp_Night/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_SNPP_L2_Sea_Surface_Temp_Night\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_L2_Sea_Surface_Temp_Night&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

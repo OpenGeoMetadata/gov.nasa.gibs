@@ -1,0 +1,79 @@
+{
+  "id": "nasa-gibs-viirs_snpp_l4_net_photosynthesis_8day",
+  "dct_title_s": "Net Photosynthesis (L4, 8-Day), Suomi NPP / VIIRS",
+  "dct_description_sm": [
+    "The Net Photosynthesis (L4, 8-Day) layer is created from the NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP) Visible Infrared Imaging Radiometer Suite (VIIRS) Gross Primary Productivity (GPP) and Net Photosynthesis (PSN) (VNP17A2) Version 2 data product. It is a cumulative composite of GPP values based on the radiation use efficiency concept that is potentially used as inputs to data models to calculate terrestrial energy, carbon, water cycle processes, and biogeochemistry of vegetation.",
+    "For previous years, the Net Photosynthesis (L4, 8-Day) is created from the VNP17A2 product. The VNP17A2GF is generated at the end of each year when the entire yearly 8-day VNP15A2H is available. Hence, the gap-filled VNP17A2GF is the improved VNP17A2, which has cleaned the poor-quality inputs from 8-day Leaf Area Index and Fraction of Photosynthetically Active Radiation (LAI/FPAR) based on the Quality Control (QC) label for every pixel. If any LAI/FPAR pixel did not meet the quality screening criteria, its value is determined through linear interpolation.",
+    "The imagery resolution is 500 m, and the temporal resolution is 8 days.",
+    "An 8-day visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-01-01 and updated as new data arrive. Made from VIIRS/NPP Gross Primary Productivity and Net Photosynthesis 8-Day L4 Global 500m SIN Grid V002 (VNP17A2, version 002, doi:10.5067/VIIRS/VNP17A2.002); VIIRS/NPP Gross Primary Productivity and Net Photosynthesis Gap-Filled 8-Day L4 Global 500m SIN Grid V002 (VNP17A2GF, version 002, doi:10.5067/VIIRS/VNP17A2GF.002)."
+  ],
+  "dct_creator_sm": [
+    "Maosheng Zhao, John Kimball, Sadashiva Devadiga"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-01-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_SNPP_L4_Net_Photosynthesis_8Day"
+  ],
+  "dct_subject_sm": [
+    "Photosynthesis",
+    "Water Vapor Processes",
+    "Precipitation Profiles",
+    "Vegetation Productivity"
+  ],
+  "dcat_theme_sm": [
+    "Biology",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Suomi-NPP",
+    "VIIRS",
+    "8-Day"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_SNPP_L4_Net_Photosynthesis_8Day",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_L4_Net_Photosynthesis_8Day/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_SNPP_L4_Net_Photosynthesis_8Day\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_L4_Net_Photosynthesis_8Day&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

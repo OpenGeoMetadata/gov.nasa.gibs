@@ -1,0 +1,77 @@
+{
+  "id": "nasa-gibs-gmi_precipitation_rate_dsc",
+  "dct_title_s": "Precipitation Rate (Descending), GPM / GMI",
+  "dct_description_sm": [
+    "The Global Precipitation Measurement (GPM) Microwave Imager (GMI) Precipitation Rate (Descending) layer provides the rate at which rain and frozen precipitation (snow) reaches the Earth's surface in millimeters per hour (mm/hr). The layer shows both the Rain Rate and Snow Rate with two different legends. This layer provides snapshots of individual storms, including tropical cyclones and flood-producing systems.",
+    "The GPM Microwave Imager (GMI) has a total of 13 channels, each observing the Earth at a different frequency (10-183 GHz) or at a different polarization (vertical or horizontal). Each channel measures the natural emission from the Earth's surface, atmospheric gases, and precipitation. GMI sees through the tops of clouds to observe how much and where precipitation occurs. The lower frequency GMI channels respond more directly to rain, while the higher frequency GMI channels respond to the higher-altitude ice precipitation that is often associated with vigorous rain rates near the Earth's surface.",
+    "The GPM Microwave Imager (GMI) is an instrument on the satellite known as the Global Precipitation Measurement (GPM) Core Observatory. The parent data product for the Rain Rate layer is the 2AGPROFGMI data product, which is also known as \"Level 2A Goddard Profiling algorithm\" or as \"GPM_2AGPROFGPMGMI\". The imagery resolution is 2 km and sensor resolution is approximately 4 km at the equator, and the rain estimates are reported on footprints that are approximately 6 km across. The temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2014-03-04 and updated as new data arrive. Made from GPM GMI (GPROF) Radiometer Precipitation Profiling L2A 1.5 hours 13 km V08 (GPM_2AGPROFGPMGMI) (GPM_2AGPROFGPMGMI, version 08, doi:10.5067/GPM/GMI/GPM/GPROF/2A/08)."
+  ],
+  "dct_creator_sm": [
+    "Christian Kummerow"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2014-03-04 to present"
+  ],
+  "gbl_indexYear_im": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2014 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GMI_Precipitation_Rate_Dsc"
+  ],
+  "dct_subject_sm": [
+    "Precipitation Rate",
+    "Atmospheric Water Vapor",
+    "Precipitation"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "GPM",
+    "GMI",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 70, -70)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 70, -70)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GMI_Precipitation_Rate_Dsc",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GMI_Precipitation_Rate_Dsc/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GMI_Precipitation_Rate_Dsc\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GMI_Precipitation_Rate_Dsc&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

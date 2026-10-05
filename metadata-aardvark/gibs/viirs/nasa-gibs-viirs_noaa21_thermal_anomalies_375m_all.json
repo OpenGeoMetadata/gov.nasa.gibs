@@ -1,0 +1,64 @@
+{
+  "id": "nasa-gibs-viirs_noaa21_thermal_anomalies_375m_all",
+  "dct_title_s": "Fires and Thermal Anomalies (Day and Night, 375m), NOAA-21 / VIIRS",
+  "dct_description_sm": [
+    "The VIIRS (Visible Infrared Imaging Radiometer Suite) Fire and Thermal Anomalies (Day and Night, 375m) layer shows active fire detections and thermal anomalies, such as volcanoes, and gas flares. Fires can be set naturally, such as by lightning, or by humans, whether intentionally or accidentally. Fire is often thought of as a menace and detriment to life, but in some ecosystems it is necessary to maintain the equilibrium, for example, some plants only release seeds under high temperatures that can only be achieved by fire, fires can also clear undergrowth and brush to help restore forests to good health, humans use fire in slash and burn agriculture, to clear away last year’s crop stubble and provide nutrients for the soil and to clear areas for pasture. The fire layer is useful for studying the spatial and temporal distribution of fire, to locate persistent hot spots such as volcanoes and gas flares, to locate the source of air pollution from smoke that may have adverse human health impacts.",
+    "The 375m I-band data complements the MODIS fire detections; they both show good agreement in hotspot detection but the improved spatial resolution of the 375m data provides a greater response over fires of relatively small areas and provides improved mapping of large fire perimeters. The 375m data also has improved nighttime performance. Consequently, these data are well suited for use in support of fire management (e.g., near real-time alert systems), as well as other science applications requiring improved fire mapping fidelity.",
+    "The VIIRS Fire and Thermal Anomalies product is available from the NOAA-21 satellite (also known as JPSS-2), as well as the NOAA-20 (JPSS-2) and Suomi NPP satellites. The sensor resolution is 375 m, imagery resolution is 250 m, and the temporal resolution is twice daily. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-21 satellite. The nominal (equator-crossing) observation times are 1:30PM (ascending node) and 1:30AM (descending node). NOAA-21 crosses the equator approximately 50 minutes prior to NOAA-20, with Suomi NPP in between the two satellites. The thermal anomalies are represented as points (approximate center of a 375 m pixel) in GIBS/Worldview.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2024-01-17 and updated as new data arrive. Made from VIIRS/JPSS2 Active Fires 6-Min L2 Swath 375m NRT (VJ214IMG_NRT, version 2, doi:10.5067/VIIRS/VJ214IMG_NRT.002)."
+  ],
+  "dct_creator_sm": [
+    "LANCEMODIS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-01-17 to present"
+  ],
+  "gbl_indexYear_im": [
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_NOAA21_Thermal_Anomalies_375m_All"
+  ],
+  "dct_subject_sm": [
+    "Fires and Thermal Anomalies",
+    "Fire Ecology",
+    "Surface Radiative Properties",
+    "Land Surface Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-21",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_NOAA21_Thermal_Anomalies_375m_All",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_NOAA21_Thermal_Anomalies_375m_All\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_NOAA21_Thermal_Anomalies_375m_All&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

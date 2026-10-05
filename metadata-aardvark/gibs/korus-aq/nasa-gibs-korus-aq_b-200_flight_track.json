@@ -1,0 +1,58 @@
+{
+  "id": "nasa-gibs-korus-aq_b-200_flight_track",
+  "dct_title_s": "B-200 Flight Track (Per Flight), KORUS-AQ/Beechcraft B-200",
+  "dct_description_sm": [
+    "The Korea United States Air Quality Study (KORUS-AQ) B200 Flight Tracks provide the locations of where the B-200 aircraft collected measurements to support the KORUS-AQ field campaign. The B-200 aircraft was equipped with the Geostationary Trace gas and Aerosol Sensor Optimization Spectrometer (GeoTASO) and the Applanix POS System (POSAV). The GeoTASO instrument was used to collect column measurements of ozone, formaldehyde, and nitrogen dioxide while the Applanix POSAV was used to measure Meteorological and Navigation (METNAV) data.",
+    "KORUS-AQ was conducted in South Korea from May to June 2016 and was jointly sponsored by NASA and Korea’s National Institute of Environmental Research (NIER). The objectives of KORUS-AQ were to investigate the factors controlling air quality in Korea and to assess future air quality observing strategies by incorporating geostationary satellite observations. KORUS-AQ adopted a highly coordinated sampling strategy involving surface and airborne measurements including both in-situ and remote sensing instruments. Airborne sampling was primarily conducted from near surface to about 12km with extensive profiling to characterize the vertical distribution of pollutants and their precursors. Airborne observational data was coupled with surface measurements from 16 ground sites and two ships: Research Vessel (R/V) Onnuri and R/V Jang Mok. Major data products collected from ground and air included in situ measurements of trace gases, aerosols, active remote sensing of ozone and aerosols, and passive remote sensing of trace gas column densities.",
+    "KORUS-AQ Campaign DOI: 10.5067/SUBORBITAL/KORUSAQ/DATA01",
+    "KORUS-AQ B200 Meteorological and Navigation Data DOI: 10.5067/ASDC/SUBORBITAL/KORUSAQ_MetNav_AircraftInSitu_B200_Data_1",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2016-05-01 to 2016-06-09. Made from KORUS-AQ B200 Aircraft In Situ Meteorological and Navigational Data (KORUSAQ_MetNav_AircraftInSitu_B200_Data, version 1, doi:10.5067/ASDC/SUBORBITAL/KORUSAQ_MetNav_AircraftInSitu_B200_Data_1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2016-05-01 to 2016-06-09"
+  ],
+  "gbl_indexYear_im": [
+    2016
+  ],
+  "gbl_dateRange_drsim": [
+    "[2016 TO 2016]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "KORUS-AQ_B-200_Flight_Track"
+  ],
+  "dct_subject_sm": [
+    "Suborbital Flight Tracks",
+    "Altitude",
+    "Platform Characteristics"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "B-200",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(124.21, 131.63, 37.74, 32)",
+  "dcat_bbox": "ENVELOPE(124.21, 131.63, 37.74, 32)",
+  "dcat_centroid": "34.87,127.92",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "KORUS-AQ_B-200_Flight_Track",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,KORUS-AQ_B-200_Flight_Track\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=KORUS-AQ_B-200_Flight_Track&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

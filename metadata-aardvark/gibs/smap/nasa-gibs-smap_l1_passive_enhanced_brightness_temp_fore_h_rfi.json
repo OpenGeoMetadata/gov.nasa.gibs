@@ -1,0 +1,72 @@
+{
+  "id": "nasa-gibs-smap_l1_passive_enhanced_brightness_temp_fore_h_rfi",
+  "dct_title_s": "Uncorrected Brightness Temperature 9 km RFI (L1, Passive, Fore, H Polarization), SMAP / Radiometer",
+  "dct_description_sm": [
+    "The Soil Moisture Active Passive (SMAP) \"Uncorrected Brightness Temperature 9 km RFI” layer displays Radio Frequency Interference (RFI) quality flags of uncorrected brightness temperatures (TBs) posted to a 9 km EASE-Grid 2.0 for the horizontal (H) polarization of the fore scan from the SMAP radiometer. RFI refers to the interference in measurements from other transmitters operating at frequencies adjacent to the SMAP L-band frequency.",
+    "Within the image, green indicates that TB observations are free of RFI and approved for science use, yellow indicates that caution should be used with the TB observations as RFI was detected but mitigated, and red indicates that TB observations are flagged as bad due to RFI.",
+    "Data field: cell_tb_qual_flag_h_fore",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2015-03-31 and updated as new data arrive. Made from SMAP Enhanced L1C Radiometer Half-Orbit 9 km EASE-Grid Brightness Temperatures V004 (SPL1CTB_E, version 004, doi:10.5067/99LHDR3NUM47)."
+  ],
+  "dct_creator_sm": [
+    "NASA/JPL/SMAP"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2015-03-31 to present"
+  ],
+  "gbl_indexYear_im": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI"
+  ],
+  "dct_subject_sm": [
+    "Brightness Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "SMAP",
+    "SMAP L-BAND RADIOMETER",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SMAP_L1_Passive_Enhanced_Brightness_Temp_Fore_H_RFI&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

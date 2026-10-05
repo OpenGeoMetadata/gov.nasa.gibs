@@ -1,0 +1,63 @@
+{
+  "id": "nasa-gibs-smap_l3_active_sigma0_vv",
+  "dct_title_s": "Sigma0 3 km (L3, Active, VV Polarization), SMAP / Radar",
+  "dct_description_sm": [
+    "The Soil Moisture Active Passive (SMAP) \"Sigma0 3 km (L3, Active, VV Polarization)\" layer displays backscatter from the SMAP radar in decibels (dB) posted on a 3 km EASE-Grid 2.0 for the vertical transmit and vertical receive (VV) polarizations. Backscatter is the portion of the outgoing radar signal that the target redirects directly back towards the radar antenna. Sigma0 (Sigma nought), the backscatter coefficient, is the normalized measure of the radar return from a distributed target, defined per unit area on the ground.",
+    "The SMAP spacecraft carries two instruments, a radar (active) and a radiometer (passive), that together make global measurements of land surface soil moisture and freeze/thaw state. It is useful for monitoring and predicting natural hazards such as floods and droughts, understanding the linkages between Earth’s water, energy and carbon cycles, and reducing uncertainties in predicting weather and climate.",
+    "Data field: sigma0_vv_mean",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2015-04-13 to 2015-07-07. Made from SMAP L3 Radar Global Daily 3 km EASE-Grid Soil Moisture V003 (SPL3SMA, version 003, doi:10.5067/IGQNPB6183ZX)."
+  ],
+  "dct_creator_sm": [
+    "NASA/JPL/SMAP"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2015-04-13 to 2015-07-07"
+  ],
+  "gbl_indexYear_im": [
+    2015
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2015]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SMAP_L3_Active_Sigma0_VV"
+  ],
+  "dct_subject_sm": [
+    "Sigma0",
+    "Sigma Naught",
+    "Soil Moisture/Water Content"
+  ],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "SMAP",
+    "SMAP L-BAND RADAR",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SMAP_L3_Active_Sigma0_VV",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SMAP_L3_Active_Sigma0_VV/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SMAP_L3_Active_Sigma0_VV\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SMAP_L3_Active_Sigma0_VV&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

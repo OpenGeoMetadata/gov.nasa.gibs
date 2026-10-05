@@ -1,0 +1,87 @@
+{
+  "id": "nasa-gibs-amsua_noaa15_brightness_temp_channel_2",
+  "dct_title_s": "Brightness Temperature (Channel 02), NOAA-15 / AMSU-A",
+  "dct_description_sm": [
+    "The Brightness Temperature (Channel 02) displays brightness temperature in Kelvin (K).",
+    "The Advanced Microwave Sounding Unit, (AMSU-A), is a cross-track, line-scanning instrument designed to measure scene radiances in 15 discrete frequency channels which permit the calculation of the vertical temperature and moisture profile from about 3 millibars (~45 km) to the Earth's surface. AMSU flies on the National Oceanic and Atmospheric Administration (NOAA) polar orbiting spacecraft as part of the National Polar-orbiting Operational Environmental Satellite System (NPOESS). NOAA-15 was the first spacecraft to fly AMSU. Launched on 13 May 1998, NOAA-15 is in a sun synchronous near polar orbit. Channel 11 has an end date of 10 April 2002 and channel 14 has an end date of 30 October 2002 due to failures with those two channels.",
+    "The spatial resolution is 3.3 degrees (50 km at nadir), imagery resolution is 2 km and temporal availability is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1998-08-03 to 2025-08-19. Made from ADVANCED MICROWAVE SOUNDING UNIT-A (AMSU-A) SWATH FROM NOAA-15 (amsua15sp, version 1, doi:10.5067/GHRC/AMSU-A/DATA201)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1998-08-03 to 2025-08-19"
+  ],
+  "gbl_indexYear_im": [
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "gbl_dateRange_drsim": [
+    "[1998 TO 2025]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AMSUA_NOAA15_Brightness_Temp_Channel_2"
+  ],
+  "dct_subject_sm": [
+    "Brightness Temperature",
+    "Upper Air Temperature",
+    "Water Vapor Profiles"
+  ],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-15",
+    "AMSU-A",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AMSUA_NOAA15_Brightness_Temp_Channel_2",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/AMSUA_NOAA15_Brightness_Temp_Channel_2/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AMSUA_NOAA15_Brightness_Temp_Channel_2\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AMSUA_NOAA15_Brightness_Temp_Channel_2&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

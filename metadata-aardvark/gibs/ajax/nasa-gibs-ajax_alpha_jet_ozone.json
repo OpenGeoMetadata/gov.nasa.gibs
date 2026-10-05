@@ -1,0 +1,61 @@
+{
+  "id": "nasa-gibs-ajax_alpha_jet_ozone",
+  "dct_title_s": "Ozone and Flight Track (Per AJAX Flight), AJAX/Alpha Jet",
+  "dct_description_sm": [
+    "The Alpha Jet Atmospheric eXperiment (AJAX) Flight Tracks and In-Situ Ozone (O3) measurements provide ozone data collected during AJAX flights. AJAX completed more than 200 flights from 2011 to 2018 in support of numerous flight objectives, including wildfire sampling, vertical spiral profiles, vertical profiles over the ocean, urban outflow, oil and gas infrastructure, and to support multiple field campaigns. Ozone data was collected using a 2B Technologies ozone monitor. Visit the Flight Catalog to view dates and locations over California, Nevada, and the coastal Pacific where data are available.",
+    "AJAX was a partnership between NASA's Ames Research Center and H211, L.L.C., which owns the Alpha Jet, a tactical military aircraft modified for scientific observations. AJAX facilitated routine in-situ measurements over California, Nevada, and the coastal Pacific in support of satellite data validation. The standard payload complement included rigorously calibrated ozone (O3), formaldehyde (HCHO), carbon dioxide (CO2), and methane (CH4) mixing ratios, as well as meteorological data including 3-D winds. Multiple vertical profiles (to ~8.5 km) were able to be accomplished in each 2-hr flight. The AJAX project collected trace gas data on a regular basis in all seasons for over a decade, helping to assess satellite sensors' health and calibration over significant portions of their lifetimes, and complementing surface and tower-based observations collected elsewhere in the region.",
+    "AJAX supported NASA's Orbiting Carbon Observatory (OCO-2/3) and Japan's Greenhouse gases Observing SATellite (GOSAT and GOSAT-2) and collaborated with many other research organizations (e.g. CARB, NOAA, USFS, EPA). AJAX celebrated its 200th science flight in 2016, and previous studies have investigated topics as varied as stratospheric-to-tropospheric transport, forest fire plumes, atmospheric river events, long-range transport of pollution from Asia to the western US, urban outflow, and emissions from gas leaks, oil fields, and dairies.",
+    "References: AJAX Overview Paper; AJAX at the ASDC doi:10.5067/ASDC/SUBORBITAL/AJAX/DATA001; AJAX Ozone Data doi:10.5067/ASDC/AJAX_O3",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2011-02-02 to 2018-06-06."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2011-02-02 to 2018-06-06"
+  ],
+  "gbl_indexYear_im": [
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "gbl_dateRange_drsim": [
+    "[2011 TO 2018]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AJAX_Alpha_Jet_Ozone"
+  ],
+  "dct_subject_sm": [
+    "Ozone"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AJAX_Alpha_Jet_Ozone",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AJAX_Alpha_Jet_Ozone\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AJAX_Alpha_Jet_Ozone&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

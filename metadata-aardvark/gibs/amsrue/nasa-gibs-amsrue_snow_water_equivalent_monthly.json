@@ -1,0 +1,72 @@
+{
+  "id": "nasa-gibs-amsrue_snow_water_equivalent_monthly",
+  "dct_title_s": "AMSR-UE Snow Water Equivalent (25 km, Monthly), Aqua/AMSR-E; GCOM-W1/AMSR2",
+  "dct_description_sm": [
+    "The Advanced Microwave Scanning Radiometer-E/Advanced Microwave Scanning Radiometer-2 (AMSR-E/AMSR2) “Snow Water Equivalent” (SWE) layer displays monthly mean SWE estimates in millimeters (mm) for the Northern Hemisphere. SWE indicates the quantity of water that is contained in snowpack and is fundamental for water resources management, weather forecasting, flash flood prediction and the study of water and energy cycles.",
+    "The data are derived from observations acquired by the Advanced Microwave Scanning Radiometer (AMSR) for EOS (AMSR-E) and AMSR2 instruments that have been spatially resampled by the Japan Aerospace Exploration Agency (JAXA) to unify the AMSR-E and AMSR2 missions.",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2002-06-01 to 2011-10-01. Made from AMSR-E/AMSR2 Unified L3 Global Monthly 25 km EASE-Grid Snow Water Equivalent V001 (AU_MoSno, version 1, doi:10.5067/43NH9LHM9YRK)."
+  ],
+  "dct_creator_sm": [
+    "NASA/MSFC/GHRC"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-06-01 to 2011-10-01"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2011]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AMSRUE_Snow_Water_Equivalent_Monthly"
+  ],
+  "dct_subject_sm": [
+    "Snow Water Equivalent"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "AMSR-E",
+    "GCOM-W1",
+    "AMSR2",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AMSRUE_Snow_Water_Equivalent_Monthly",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/AMSRUE_Snow_Water_Equivalent_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AMSRUE_Snow_Water_Equivalent_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AMSRUE_Snow_Water_Equivalent_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

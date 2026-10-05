@@ -1,0 +1,70 @@
+{
+  "id": "nasa-gibs-seawifs_orbview-2_gac_true_color",
+  "dct_title_s": "Corrected Reflectance (True Color), SeaWiFS / Orbview-2",
+  "dct_description_sm": [
+    "The SeaWiFS Corrected Reflectance (True Color) layer provides true-color or natural color images because the combination of wavelengths produces an image that is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.",
+    "The SeaWiFS instrument was launched by Orbital Sciences Corporation on the OrbView-2 (a.k.a. SeaStar) satellite in August 1997, and collected data from September 1997 until the end of mission in December 2010. SeaWiFS had 8 spectral bands from 412 to 865 nm. It collected global data at 4 km resolution, and local data (limited onboard storage and direct broadcast) at 1 km. The mission and sensor were optimized for ocean color measurements, with a local noon (descending) equator crossing time orbit, fore-and-aft tilt capability, full dynamic range, and low polarization sensitivity.",
+    "The SeaWiFS Corrected Reflectance (Global Area Coverage (GAC)) product is available from the OrbView-2 satellite for September 4, 1997 to December 11, 2010. The sensor and imagery resolution is 4 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1997-09-04 to 2010-12-11."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1997-09-04 to 2010-12-11"
+  ],
+  "gbl_indexYear_im": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010
+  ],
+  "gbl_dateRange_drsim": [
+    "[1997 TO 2010]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SEAWIFS_ORBVIEW-2_GAC_True_Color"
+  ],
+  "dct_subject_sm": [
+    "Corrected Reflectance"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "JPEG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SEAWIFS_ORBVIEW-2_GAC_True_Color",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SEAWIFS_ORBVIEW-2_GAC_True_Color/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=SEAWIFS_ORBVIEW-2_GAC_True_Color\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SEAWIFS_ORBVIEW-2_GAC_True_Color&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

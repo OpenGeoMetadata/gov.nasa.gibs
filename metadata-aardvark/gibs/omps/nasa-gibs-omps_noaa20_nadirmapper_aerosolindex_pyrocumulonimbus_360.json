@@ -1,0 +1,61 @@
+{
+  "id": "nasa-gibs-omps_noaa20_nadirmapper_aerosolindex_pyrocumulonimbus_360",
+  "dct_title_s": "Aerosol Index (PyroCumuloNimbus) at 360nm, NOAA-20 / OMPS NM",
+  "dct_description_sm": [
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2025-04-28 to 2025-05-05. Made from OMPS-N20 L2 NM Aerosol Index swath orbital NRT (OMPS_N20_NMUVAI_L2_NRT, version 2).",
+    "The OMPS-N20 L2 NM Aerosol Index swath orbital V2 for Near Real Time. For the standard product see the OMPS_N20_NMUVAI_L2 product in CMR .The aerosol index is derived from normalized radiances using 2 wavelength pairs at 340 and 378.5 nm. Additionally, this data product contains measurements of normalized radiances, reflectivity, cloud fraction, reflectivity, and other ancillary variables."
+  ],
+  "dct_creator_sm": [
+    "NASA/GSFC/OMISIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2025-04-28 to 2025-05-05"
+  ],
+  "gbl_indexYear_im": [
+    2025
+  ],
+  "gbl_dateRange_drsim": [
+    "[2025 TO 2025]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OMPS_NOAA20_NadirMapper_AerosolIndex_PyroCumuloNimbus_360"
+  ],
+  "dct_subject_sm": [
+    "Aerosol Index",
+    "Dust/Ash/Smoke",
+    "Aerosols"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-20",
+    "OMPS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OMPS_NOAA20_NadirMapper_AerosolIndex_PyroCumuloNimbus_360",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OMPS_NOAA20_NadirMapper_AerosolIndex_PyroCumuloNimbus_360/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OMPS_NOAA20_NadirMapper_AerosolIndex_PyroCumuloNimbus_360&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

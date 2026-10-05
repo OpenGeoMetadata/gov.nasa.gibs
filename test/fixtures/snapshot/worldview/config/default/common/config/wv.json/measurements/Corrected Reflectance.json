@@ -1,0 +1,29 @@
+{
+  "measurements": {
+    "Corrected Reflectance": {
+      "id": "corrected-reflectance",
+      "title": "Corrected Reflectance",
+      "subtitle": "Aqua/MODIS, Terra/MODIS, Suomi NPP/VIIRS, NOAA-20/VIIRS, NOAA-21/VIIRS, PACE/HARP2, PACE/OCI, PACE/SPEXone, Landsat/WELD, OrbView-2/SeaWiFS, ENVISAT/MERIS",
+      "sources": {
+        "Aqua/MODIS": {
+          "id": "aqua-modis",
+          "title": "Aqua/MODIS",
+          "description": "modis/CorrectedReflectance",
+          "image": "",
+          "settings": [
+            "OrbitTracks_Aqua_Ascending"
+          ]
+        },
+        "Terra/MODIS": {
+          "id": "terra-modis",
+          "title": "Terra/MODIS",
+          "description": "modis/terra/CorrectedReflectance",
+          "image": "",
+          "settings": [
+            "MODIS_Terra_CorrectedReflectance_TrueColor"
+          ]
+        }
+      }
+    }
+  }
+}

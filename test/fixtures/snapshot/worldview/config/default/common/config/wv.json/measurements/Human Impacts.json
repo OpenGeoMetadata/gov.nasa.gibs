@@ -1,0 +1,21 @@
+{
+  "measurements": {
+    "Human Impacts": {
+      "id": "human-impacts",
+      "title": "Human Impacts",
+      "subtitle": "SEDAC",
+      "sources": {
+        "SEDAC": {
+          "id": "sedac",
+          "title": "SEDAC",
+          "description": "",
+          "image": "",
+          "settings": [
+            "GRanD_Dams",
+            "GPW_Population_Density_2020"
+          ]
+        }
+      }
+    }
+  }
+}

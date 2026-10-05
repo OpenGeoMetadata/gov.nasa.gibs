@@ -1,0 +1,60 @@
+{
+  "id": "nasa-gibs-summer_night_min_land_surface_temp_2013",
+  "dct_title_s": "Summer Nighttime Minimum Land Surface Temperature, Global Summer Land Surface Temperature (LST) Grids, v1 (2013)",
+  "dct_description_sm": [
+    "The Summer Nighttime Minimum Land Surface Temperature layer is from the Global Summer Land Surface Temperature (LST) Grids, 2013 data set. The Global Summer Land Surface Temperature (LST) Grids, 2013, represent daytime maximum temperature and nighttime minimum temperature in degree Celsius at a spatial resolution of 30 arc-seconds (~1 km) during summer months of the northern and southern hemisphere for the year 2013. The grids are produced using Aqua Level-3 Moderate Resolution Imaging Spectroradiometer (MODIS) Version 5 global daytime and nighttime LST 8-day composite data (MYD11A2).",
+    "For most regions, the LST grids provide the daytime maximum (1:30 p.m. overpass) and nighttime minimum (1:30 a.m. overpass) LST values for each grid cell from a 40-day time-span during July-August (Julian days 185-224) 2013 in the northern hemisphere and January-February (Julian days 001-040) 2013 in the southern hemisphere. LST grid cells with missing values resulting from high cloud cover in tropical regions were filled with daytime maximum and nighttime minimum LST values from April-May 2013 in the northern hemisphere and December 2013-January 2014 in the southern hemisphere, where available. Some data gaps remain in areas where data were insufficient (e.g., Central Africa).",
+    "The purpose of the data set is to provide raster representations of global summer daytime maximum and nighttime minimum surface temperature for studies related to human health and climate change.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global Summer Land Surface Temperature (LST) Grids, 2013 (CIESIN_SEDAC_SDEI_LST2013, version 1.0, doi:10.7927/H408638T)."
+  ],
+  "dct_creator_sm": [
+    "Center for International Earth Science Information Network - CIESIN - Columbia University"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Summer_Night_Min_Land_Surface_Temp_2013"
+  ],
+  "dct_subject_sm": [
+    "Land Surface Temperature",
+    "Natural Hazards",
+    "Infrastructure",
+    "Land Use/Land Cover",
+    "Sustainability"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 179.99, 80.01, -60.01)",
+  "dcat_bbox": "ENVELOPE(-180, 179.99, 80.01, -60.01)",
+  "dcat_centroid": "10,-0.005",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS).",
+    "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided."
+  ],
+  "dct_license_sm": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Summer_Night_Min_Land_Surface_Temp_2013",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Summer_Night_Min_Land_Surface_Temp_2013/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,Summer_Night_Min_Land_Surface_Temp_2013\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Summer_Night_Min_Land_Surface_Temp_2013&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

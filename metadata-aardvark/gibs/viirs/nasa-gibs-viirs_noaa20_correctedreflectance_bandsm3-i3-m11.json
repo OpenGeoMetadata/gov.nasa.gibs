@@ -1,0 +1,82 @@
+{
+  "id": "nasa-gibs-viirs_noaa20_correctedreflectance_bandsm3-i3-m11",
+  "dct_title_s": "Corrected Reflectance (Bands M3-I3-M11), NOAA-20 / VIIRS",
+  "dct_description_sm": [
+    "False Color: Red = M3, Green = I3, Blue = M11",
+    "This combination is used to map snow and ice. Snow and ice are very reflective in the visible part of the spectrum (Band M3), and very absorbent in Bands I3 and M11 (short-wave infrared, or SWIR). This band combination is good for distinguishing liquid water from frozen water, for example, clouds over snow, ice cloud versus water cloud; or floods from dense vegetation.",
+    "The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.",
+    "Snow and Ice",
+    "Since the only visible light used in these images (Band M3) is assigned to red, snow and ice appear bright red. The more ice, the stronger the absorption in the SWIR bands, and the more red the color. Thick ice and snow appear vivid red (or dark pink), while small ice crystals in high-level clouds will appear pinkish.",
+    "Vegetation",
+    "Vegetation will appear green in this band combination, as vegetation is absorbent in Bands M3 and M11, but reflective in Band I3. Bare soil and deserts will appear bright cyan in the image since it much more reflective in Band I3 and M11 than Band M3.",
+    "Water",
+    "Liquid water on the ground will appear very dark since it absorbs in the red and the SWIR, but small liquid water drops in clouds scatter light equally in both the visible and the SWIR, and will therefore appear white. Sediments in water appear dark red.",
+    "Note: The Corrected Reflectance and the Thermal Band I5 imagery from NOAA-20/VIIRS will occasionally show a checkered pattern, especially over the respective polar areas. This is due to overlapping and superimposition of observations from multiple orbits with widely different cloud/snow coverages. The checkered pattern may also arise from the mixture of partial day and night observations. Though all necessary steps have been taken to mitigate this effect, users may still notice this to some extent over the polar areas, depending on the season.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2018-01-05 and updated as new data arrive. Made from VIIRS/JPSS1 Imagery Resolution 6 Min L1B Swath 375m NRT (VJ102IMG_NRT, version 2.1, doi:10.5067/VIIRS/VJ102IMG_NRT.021); VIIRS/JPSS1 Imagery Resolution Terrain Corrected Geolocation 6 Min L1 Swath 375m NRT (VJ103IMG_NRT, version 2.1, doi:10.5067/VIIRS/VJ103IMG_NRT.021); VIIRS/JPSS1 Moderate Resolution 6 Min L1B Swath 750m NRT (VJ102MOD_NRT, version 2.1, doi:10.5067/VIIRS/VJ102MOD_NRT.021); VIIRS/JPSS1 Moderate Resolution 6-Min L1B Swath 750m NRT (VJ102MOD_NRT, version 2, doi:10.5067/VIIRS/VJ102MOD_NRT.002)."
+  ],
+  "dct_creator_sm": [
+    "VCST Team"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2018-01-05 to present"
+  ],
+  "gbl_indexYear_im": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2018 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_NOAA20_CorrectedReflectance_BandsM3-I3-M11"
+  ],
+  "dct_subject_sm": [
+    "Corrected Reflectance",
+    "Infrared Radiance",
+    "Reflected Infrared",
+    "Visible Radiance",
+    "Geolocation",
+    "Geoid Characteristics"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-20",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "JPEG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_NOAA20_CorrectedReflectance_BandsM3-I3-M11",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA20_CorrectedReflectance_BandsM3-I3-M11/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=VIIRS_NOAA20_CorrectedReflectance_BandsM3-I3-M11\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_NOAA20_CorrectedReflectance_BandsM3-I3-M11&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

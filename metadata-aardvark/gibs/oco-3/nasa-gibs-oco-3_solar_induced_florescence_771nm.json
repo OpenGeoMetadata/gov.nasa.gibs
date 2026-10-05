@@ -1,0 +1,67 @@
+{
+  "id": "nasa-gibs-oco-3_solar_induced_florescence_771nm",
+  "dct_title_s": "Solar-induced Chlorophyll Fluorescence (771nm), OCO-3",
+  "dct_description_sm": [
+    "The OCO-3 Solar Induced Chlorophyll Fluorescence 771 nm layer displays the fluorescence emission from land surfaces derived from in-filling of solar Fraunhofer lines in the 771 nm region of the measured spectrum.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2019-08-06 to 2025-09-29. Made from OCO-3 Level 2 bias-corrected solar-induced fluorescence and other select fields from the IMAP-DOAS algorithm aggregated as daily files, Retrospective processing V11r (OCO3_L2_Lite_SIF) (OCO3_L2_Lite_SIF, version 11r, doi:10.5067/HC776J71KV41)."
+  ],
+  "dct_creator_sm": [
+    "OCO-2/OCO-3 Science Team, Vivienne Payne, Abhishek Chatterjee"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2019-08-06 to 2025-09-29"
+  ],
+  "gbl_indexYear_im": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "gbl_dateRange_drsim": [
+    "[2019 TO 2025]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OCO-3_Solar_Induced_Florescence_771nm"
+  ],
+  "dct_subject_sm": [
+    "Solar Induced Chlorophyll Fluorescence",
+    "Carbon and Hydrocarbon Compounds"
+  ],
+  "dcat_theme_sm": [
+    "Biology",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "ISS",
+    "OCO-3",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OCO-3_Solar_Induced_Florescence_771nm",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OCO-3_Solar_Induced_Florescence_771nm/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OCO-3_Solar_Induced_Florescence_771nm\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OCO-3_Solar_Induced_Florescence_771nm&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

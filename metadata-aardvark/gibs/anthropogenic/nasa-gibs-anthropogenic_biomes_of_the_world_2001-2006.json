@@ -1,0 +1,52 @@
+{
+  "id": "nasa-gibs-anthropogenic_biomes_of_the_world_2001-2006",
+  "dct_title_s": "Anthropogenic Biomes, Anthropogenic Biomes of the World, v1 (2001-2006)",
+  "dct_description_sm": [
+    "The Anthropogenic Biomes layer is a part of the Anthropogenic Biomes of the World, v1 (2001-2006) data set which describes globally-significant ecological patterns within the terrestrial biosphere caused by sustained direct human interaction with ecosystems, including agriculture, urbanization, forestry and other land uses. Conventional biomes, such as tropical rainforests or grasslands, are based on global vegetation patterns related to climate. Now that humans have fundamentally altered global patterns of ecosystem form, process, and biodiversity, anthropogenic biomes provide a contemporary view of the terrestrial biosphere in its human-altered form. Anthropogenic biomes may also be termed \"anthromes\" to distinguish them from conventional biome systems, or \"human biomes\" (a simpler but less precise term).",
+    "The purpose of the data set is to provide information on global land use for research on human-environment interactions.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Anthropogenic Biomes of the World, Version 1 (CIESIN_SEDAC_ANTHROMES_v1, version 1.0, doi:10.7927/H4H12ZXD)."
+  ],
+  "dct_creator_sm": [
+    "Ellis, E.C., and N. Ramankutty"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Anthropogenic_Biomes_of_the_World_2001-2006"
+  ],
+  "dct_subject_sm": [
+    "Land Cover",
+    "Anthropogenic/Human Influenced Ecosystems"
+  ],
+  "dcat_theme_sm": [
+    "Biology",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 83.083332, -55.750001)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 83.083332, -55.750001)",
+  "dcat_centroid": "13.666666,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Anthropogenic_Biomes_of_the_World_2001-2006",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Anthropogenic_Biomes_of_the_World_2001-2006/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,Anthropogenic_Biomes_of_the_World_2001-2006\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Anthropogenic_Biomes_of_the_World_2001-2006&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

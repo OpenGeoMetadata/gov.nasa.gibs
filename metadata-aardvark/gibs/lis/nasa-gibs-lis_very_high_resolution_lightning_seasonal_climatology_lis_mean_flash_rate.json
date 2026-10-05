@@ -1,0 +1,72 @@
+{
+  "id": "nasa-gibs-lis_very_high_resolution_lightning_seasonal_climatology_lis_mean_flash_rate",
+  "dct_title_s": "Seasonal Mean Lightning Flash Rate, TRMM / LIS",
+  "dct_description_sm": [
+    "The Seasonal Mean Lightning Flash Rate layer is created from the LIS 0.1 Degree Very High Resolution Gridded Lightning Seasonal Climatology (VHRSC) dataset consists of gridded seasonal climatologies of total lightning flash rates seen by the Lightning Imaging Sensor (LIS) from January 1, 1998 through December 31, 2013. The Flash Rate is reported in flashes/km²/day. LIS is an instrument on the Tropical Rainfall Measurement Mission satellite (TRMM) used to detect the distribution and variability of total lightning occurring in the Earth's tropical and subtropical regions. This information can be used for severe storm detection and analysis, and also for lightning-atmosphere interaction studies. The gridded climatologies include annual mean flash rate, mean diurnal cycle of flash rate with 24 hour resolution, and mean annual cycle of flash rate with daily, monthly, or seasonal resolution. All datasets are in 0.1 degree spatial resolution. The mean annual cycle of flash rate datasets (i.e., daily, monthly or seasonal) have both 49-day and 1 degree boxcar moving averages to remove diurnal cycle and smooth regions with low flash rate, making the results more robust.",
+    "A 3-month visualization from NASA's Global Imagery Browse Services (GIBS), covering 1998-01-01 to 2013-10-01. Made from LIS 0.1 DEGREE VERY HIGH RESOLUTION GRIDDED LIGHTNING SEASONAL CLIMATOLOGY (VHRSC) V1 (lisvhrsc, version 1, doi:10.5067/LIS/LIS/DATA305)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1998-01-01 to 2013-10-01"
+  ],
+  "gbl_indexYear_im": [
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013
+  ],
+  "gbl_dateRange_drsim": [
+    "[1998 TO 2013]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "LIS_Very_High_Resolution_Lightning_Seasonal_Climatology_LIS_Mean_Flash_Rate"
+  ],
+  "dct_subject_sm": [
+    "Lightning"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "TRMM",
+    "LIS",
+    "3-Month"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 38, -38)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 38, -38)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "LIS_Very_High_Resolution_Lightning_Seasonal_Climatology_LIS_Mean_Flash_Rate",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/LIS_Very_High_Resolution_Lightning_Seasonal_Climatology_LIS_Mean_Flash_Rate/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,LIS_Very_High_Resolution_Lightning_Seasonal_Climatology_LIS_Mean_Flash_Rate\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=LIS_Very_High_Resolution_Lightning_Seasonal_Climatology_LIS_Mean_Flash_Rate&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

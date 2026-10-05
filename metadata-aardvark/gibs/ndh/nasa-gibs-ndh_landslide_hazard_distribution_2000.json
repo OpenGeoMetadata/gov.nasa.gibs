@@ -1,0 +1,54 @@
+{
+  "id": "nasa-gibs-ndh_landslide_hazard_distribution_2000",
+  "dct_title_s": "Landslide Hazard: Frequency and Distribution, Global Landslide Hazard Distribution, v1 (2000)",
+  "dct_description_sm": [
+    "The Landslide Hazard: Frequency and Distribution layer indicates the relative distribution and frequency of landslide hazard. The Global Landslide Hazard Distribution is a 2.5 minute grid of global landslide and snow avalanche hazards based upon work of the Norwegian Geotechnical Institute (NGI). The hazards mapping of NGI incorporates a range of data including slope, soil, soil moisture conditions, precipitation, seismicity, and temperature. Shuttle Radar Topography Mission (SRTM) elevation data at 30 second resolution are also incorporated. Hazards values less than or equal to 4 are considered negligible and only values 5 through 9 are utilized in further analyses. To ensure compatibility with other datasets, value 1 is added to each of the values to provide a hazard ranking ranging 6 through 10 in increasing hazard. This data set is the result of collaboration among the Columbia University Center for Hazards and Risk Research (CHRR), Norwegian Geotechnical Institute (NGI), and Columbia University Center for International Earth Science and Information Network (CIESIN).",
+    "The purpose of the data set is to provide a means of assessing the relative distribution and frequency of global landslide hazard.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global Landslide Hazard Distribution (CIESIN_CHRR_NDH_LSLIDE_HD, version 1.0, doi:10.7927/H4P848VZ)."
+  ],
+  "dct_creator_sm": [
+    "Dilley, M., R.S. Chen, U. Deichmann, A.L. Lerner-Lam, M. Arnold, J. Agwe, P. Buys, O. Kjekstad, B. Lyon, and G. Yetman"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "NDH_Landslide_Hazard_Distribution_2000"
+  ],
+  "dct_subject_sm": [
+    "Landslide Hazard",
+    "Landslides",
+    "Avalanche",
+    "Food Security",
+    "Sustainability"
+  ],
+  "dcat_theme_sm": [
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 85, -58)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 85, -58)",
+  "dcat_centroid": "13.5,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "NDH_Landslide_Hazard_Distribution_2000",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/NDH_Landslide_Hazard_Distribution_2000/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,NDH_Landslide_Hazard_Distribution_2000\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=NDH_Landslide_Hazard_Distribution_2000&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

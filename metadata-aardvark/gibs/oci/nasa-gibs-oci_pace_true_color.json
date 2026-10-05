@@ -1,0 +1,65 @@
+{
+  "id": "nasa-gibs-oci_pace_true_color",
+  "dct_title_s": "Corrected Reflectance (True Color), PACE / OCI",
+  "dct_description_sm": [
+    "These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features. The downside of this set of bands is that they tend to produce a hazy image.",
+    "This Corrected Reflectance (True Color) layer is from the Ocean Color Instrument (OCI), which is a spectrometer aboard NASA's Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) satellite. The sensor resolution is 1.2 km, imagery resolution is 1 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2024-02-25 and updated as new data arrive. Made from PACE OCI Level-2 Regional Surface Reflectance Data, version 3.1 (PACE_OCI_L2_SFREFL, version 3.1, doi:10.5067/PACE/OCI/L2/SFREFL/3.1)."
+  ],
+  "dct_creator_sm": [
+    "Ocean Biology Processing Group"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-02-25 to present"
+  ],
+  "gbl_indexYear_im": [
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OCI_PACE_True_Color"
+  ],
+  "dct_subject_sm": [
+    "Corrected Reflectance",
+    "Reflectance",
+    "Surface Radiative Properties"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "PACE",
+    "OCI",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "JPEG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OCI_PACE_True_Color",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OCI_PACE_True_Color/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=OCI_PACE_True_Color\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OCI_PACE_True_Color&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

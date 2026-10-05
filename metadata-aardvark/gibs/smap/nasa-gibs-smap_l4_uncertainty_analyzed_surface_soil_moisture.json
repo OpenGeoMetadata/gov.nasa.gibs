@@ -1,0 +1,74 @@
+{
+  "id": "nasa-gibs-smap_l4_uncertainty_analyzed_surface_soil_moisture",
+  "dct_title_s": "Surface Soil Moisture Uncertainty 9 km (L4, 12z Instantaneous), SMAP / Model Value-Added",
+  "dct_description_sm": [
+    "The Soil Moisture Active Passive (SMAP) “Surface Soil Moisture 9 km Uncertainty (L4, 12z Instantaneous, Model Value-Added)” layer displays uncertainty estimates of model-derived global surface soil moisture of the top 5 cm of the soil column in m³/m³ posted on a 9 km EASE-Grid 2.0. Surface soil moisture estimates are obtained by merging SMAP observations with estimates from a land surface model in a soil moisture ensemble Kalman filter data assimilation system. Error estimates are derived from the ensemble standard deviation of the analyzed fields.",
+    "The SMAP spacecraft carries two instruments, a radar (active) and a radiometer (passive), that together make global measurements of land surface soil moisture and freeze/thaw state. It is useful for monitoring and predicting natural hazards such as floods and droughts, understanding the linkages between Earth’s water, energy and carbon cycles, and reducing uncertainties in predicting weather and climate.",
+    "Data field: sm_surface_analysis_ensstd",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2015-03-31 and updated as new data arrive. Made from SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update V008 (SPL4SMAU, version 008, doi:10.5067/02LGW4DGJYRX)."
+  ],
+  "dct_creator_sm": [
+    "NASA/GSFC/SED/ESD/GMAO"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2015-03-31 to present"
+  ],
+  "gbl_indexYear_im": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SMAP_L4_Uncertainty_Analyzed_Surface_Soil_Moisture"
+  ],
+  "dct_subject_sm": [
+    "Soil Moisture",
+    "Soil Moisture/Water Content"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "SMAP",
+    "SMAP L-BAND RADIOMETER",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SMAP_L4_Uncertainty_Analyzed_Surface_Soil_Moisture",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SMAP_L4_Uncertainty_Analyzed_Surface_Soil_Moisture/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SMAP_L4_Uncertainty_Analyzed_Surface_Soil_Moisture\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SMAP_L4_Uncertainty_Analyzed_Surface_Soil_Moisture&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

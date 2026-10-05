@@ -1,0 +1,102 @@
+{
+  "id": "nasa-gibs-airs_l2_sulfur_dioxide_brightness_temperature_difference_night",
+  "dct_title_s": "Sulfur Dioxide Brightness Temperature Difference (L2, Night), Aqua / AIRS",
+  "dct_description_sm": [
+    "Sulfur dioxide (SO2) brightness temperature difference is calculated by subtracting brightness temperature values reported in two AIRS channels, one that is sensitive to SO2 and one that is not. A large difference implies greater SO2 absorption. Note that clouds can block the detection of the SO2 signal by the AIRS instrument. Sulfur dioxide can also be emitted from volcanic eruptions. Volcanic SO2 absorbs the energy in passing infrared wavelengths of light, or radiances, in transit from the surface of the Earth to space. This absorption is controlled by the types and quantities of the components within the plume, together with other factors such as cloud cover, surface temperature and emissivity.",
+    "Image Resolution",
+    "32 km/pixel (AIRS Level 2 BT_diff_SO2 data is nominally 13.5 km/pixel, the data has been resampled into a 32 km/pixel visualization.)",
+    "Data Product",
+    "Image initially produced with NRT data. Science quality image replaces NRT when available.",
+    "Near Real-Time Product: AIRS2SUP_NRT (Aqua/AIRS L2 Near Real Time (NRT) Support Retrieval (AIRS-only) V7.0 at GES DISC)",
+    "Science Quality Product: AIRS2SUP (qua/AIRS L2 Support Retrieval (AIRS-only) V7.0 at GES DISC)",
+    "Field Name: BT_diff_SO2b",
+    "Resolution: 13.5 km/pixel at nadir",
+    "Coverage",
+    "Spatial Coverage: Global",
+    "Overpasses: Twice daily (day and night)",
+    "Orbit: Sun-synchronous polar; Equatorial crossing local time: Daytime 1:30 pm, Nighttime 1:30 am",
+    "Note: For the Arctic (EPSG:3413) and Antarctic (EPSG:3031) projections, there is no differentation between the Day and the Night layers, they both show the same imagery.",
+    "Data Product: AIRS2SUP_NRT doi:10.5067/MOQOVNHNERGG; AIRS2SUP doi:10.5067/APJ6EEN0PD0Z",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2002-08-30 and updated as new data arrive. Made from Aqua/AIRS L2 Support Retrieval (AIRS-only) V7.0 (AIRS2SUP, version 7.0, doi:10.5067/APJ6EEN0PD0Z)."
+  ],
+  "dct_creator_sm": [
+    "AIRS project"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-08-30 to present"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AIRS_L2_Sulfur_Dioxide_Brightness_Temperature_Difference_Night"
+  ],
+  "dct_subject_sm": [
+    "Sulfur Dioxide",
+    "Carbon Monoxide",
+    "Tropospheric Ozone",
+    "Geopotential Height",
+    "Tropopause",
+    "Oxygen Compounds"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "AIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AIRS_L2_Sulfur_Dioxide_Brightness_Temperature_Difference_Night",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/AIRS_L2_Sulfur_Dioxide_Brightness_Temperature_Difference_Night/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AIRS_L2_Sulfur_Dioxide_Brightness_Temperature_Difference_Night\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AIRS_L2_Sulfur_Dioxide_Brightness_Temperature_Difference_Night&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "nasa-gibs-ceres_ebaf_surface_net_longwave_flux_all_sky_monthly",
+  "dct_title_s": "Surface Net Longwave Flux (Monthly, Energy Balanced and Filled, All-Sky), Terra / CERES",
+  "dct_description_sm": [
+    "The CERES Surface Net Longwave Flux (Monthly, Energy Balanced and Filled, All-Sky) layer shows the parameterized broadband longwave (3.5-50 µm) downwelling minus upwelling flux at the surface (W/m²), from the CERES EBAF product for all-sky conditions (whereas the Surface CRE Net parameters show the difference between the two). CERES footprints (20 km nominal resolution) are classified as clear if they contain 99% of pixels identified as clear by the CERES-MODIS clear-sky mask.",
+    "Surface Net Flux aids in calculating the energy budget at Earth’s surface, an indicator of how much energy is available to evaporate water and moisten the atmosphere. It also allows study of air-sea energy interactions, which set the thermal structure of the oceans and in turn results in the redistribution of energy around the planet, with many important consequences for climate.",
+    "The CERES Energy Balanced and Filled (EBAF) layers are derived from CERES SYN1Deg products, and provide monthly mean radiative fluxes corresponding to collection either at the Earth’s surface (EBAF-Surface) or top-of-the-atmosphere (EBAF-TOA). EBAF-products were designed for climate model evaluation, estimating the Earth's global mean energy budget, and to infer meridional heat transport. For some climate modelers, the products address the need for a net imbalance constrained to the ocean heat storage term.",
+    "For EBAF surface fluxes, all-sky and clear-sky fluxes are calculated at all hourly increments during the month, regardless of cloud amount. For the all-sky condition, corresponding cloud type is specified for each pixel (e.g. ITCZ, maritime stratus, etc.). In regions with frequent cloudiness, it is possible that no clear-sky observations exist over a given month. Whereas the SSF1deg product, from which this product originates, does not attempt to fill in these non-measured clear-sky regions and default values are placed where there are no CERES observed clear-sky footprints in the spatial or temporal domain, the EBAF clear-sky filled product is a spatially complete clear-sky product.",
+    "The CERES Surface Net Longwave Flux (Monthly, Energy Balanced and Filled, All-Sky) layer is available from the CERES instruments on the Terra satellite. The sensor resolution is 1 degree, imagery resolution is 2 km, and the temporal resolution is monthly.",
+    "Data parameter: Sfc_net_lw_all_mon",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-03-01 to 2018-03-01. Made from CERES Energy Balanced and Filled (EBAF) TOA and Surface Monthly means data in netCDF Edition 4.2.1 (CERES_EBAF, version Edition4.2.1, doi:10.5067/TERRA-AQUA-NOAA20/CERES/EBAF_L3B004.2.1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-03-01 to 2018-03-01"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2018]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "CERES_EBAF_Surface_Net_Longwave_Flux_All_Sky_Monthly"
+  ],
+  "dct_subject_sm": [
+    "Surface Flux",
+    "Cloud Microphysics",
+    "Solar Radiation",
+    "Outgoing Longwave Radiation",
+    "Radiative Flux",
+    "Cloud Properties"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Terra",
+    "CERES-FM1",
+    "CERES-FM2",
+    "Aqua",
+    "CERES-FM3",
+    "CERES-FM4",
+    "NOAA-20",
+    "CERES-FM6",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "CERES_EBAF_Surface_Net_Longwave_Flux_All_Sky_Monthly",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/CERES_EBAF_Surface_Net_Longwave_Flux_All_Sky_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,CERES_EBAF_Surface_Net_Longwave_Flux_All_Sky_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=CERES_EBAF_Surface_Net_Longwave_Flux_All_Sky_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

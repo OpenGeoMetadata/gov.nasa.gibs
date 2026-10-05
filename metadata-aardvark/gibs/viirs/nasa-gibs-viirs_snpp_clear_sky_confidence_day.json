@@ -1,0 +1,78 @@
+{
+  "id": "nasa-gibs-viirs_snpp_clear_sky_confidence_day",
+  "dct_title_s": "Clear Sky Confidence (Day), Suomi NPP / VIIRS",
+  "dct_description_sm": [
+    "The Clear Sky Confidence product is the output of a cloud mask designed to work on multiple imaging sensors. Data values range from 0->1 and represent a confidence that clear skies were observed. A value of 1.0 means very high confidence of clear sky. A value of 0.0 means very low confidence of clear sky, or very high confidence that cloudy skies were observed. Confidences 0.95. By doing that and having the base layer set as the Corrected Reflectance one can see how effective the product is at masking out clouds. Find out more about the cloud mask product.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-03-01 and updated as new data arrive. Made from VIIRS/Suomi-NPP Cloud Mask 6-Min Swath 750 m (CLDMSK_L2_VIIRS_SNPP, version 1, doi:10.5067/VIIRS/CLDMSK_L2_VIIRS_SNPP.001)."
+  ],
+  "dct_creator_sm": [
+    "NASA VIIRS Atmosphere SIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-03-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_SNPP_Clear_Sky_Confidence_Day"
+  ],
+  "dct_subject_sm": [
+    "Clear Sky Confidence",
+    "Clouds",
+    "Cloud Properties",
+    "Infrared Radiance",
+    "Reflected Infrared",
+    "Visible Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Suomi-NPP",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_SNPP_Clear_Sky_Confidence_Day",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_Clear_Sky_Confidence_Day/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_SNPP_Clear_Sky_Confidence_Day\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_Clear_Sky_Confidence_Day&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

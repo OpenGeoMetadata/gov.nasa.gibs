@@ -1,0 +1,49 @@
+{
+  "id": "nasa-gibs-human_footprint_1995-2004",
+  "dct_title_s": "Human Footprint, Global Human Footprint (Geographic), v2 (1995-2004)",
+  "dct_description_sm": [
+    "The Human Footprint, 1995-2004 layer is from the Global Human Footprint Dataset of the Last of the Wild Project, Version 2, 2005 (LWP-2) is the Human Influence Index (HII) normalized by biome and realm. The HII is a global dataset of 1-kilometer grid cells, created from nine global data layers covering human population pressure (population density), human land use and infrastructure (built up areas, nighttime lights, land use/land cover), and human access (coastlines, roads, railroads, navigable rivers). The dataset in Clarke 1866 Geographic Coordinate system is produced by the Wildlife Conservation Society (WCS) and the Columbia University Center for International Earth Science Information Network (CIESIN).",
+    "The purpose of the data set is to provide an updated map of anthropogenic impacts on the environment in geographic projection which can be used in wildlife conservation planning, natural resource management, and research on human-environment interactions.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Last of the Wild Project, Version 2, 2005 (LWP-2): Global Human Footprint Dataset (Geographic) (CIESIN_SEDAC_LWP2_HF_GEOG, version 2.0, doi:10.7927/H4M61H5F)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Human_Footprint_1995-2004"
+  ],
+  "dct_subject_sm": [
+    "Human Footprint",
+    "Land Use/Land Cover",
+    "Anthropogenic/Human Influenced Ecosystems",
+    "Sustainability"
+  ],
+  "dcat_theme_sm": [
+    "Biology",
+    "Society"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Human_Footprint_1995-2004",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Human_Footprint_1995-2004/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,Human_Footprint_1995-2004\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Human_Footprint_1995-2004&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

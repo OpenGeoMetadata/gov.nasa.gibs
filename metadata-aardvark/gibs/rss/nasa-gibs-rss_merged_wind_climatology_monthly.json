@@ -1,0 +1,107 @@
+{
+  "id": "nasa-gibs-rss_merged_wind_climatology_monthly",
+  "dct_title_s": "Wind Speed over Ice-Free Oceans (Monthly, Average), Aqua/AMSR-E, GCOM-W1/AMSR2, DMSP-F16/SSMI, DMSP-F17/SSMI",
+  "dct_description_sm": [
+    "The RSS Wind Speed over Ice-Free Oceans layer indicates the average wind speed within a month in meters per second over ocean areas that are not covered in ice. The imagery resolution is about 1 degree, or about 111 kilometers, and the temporal resolution is monthly. This layer was constructed using data collected from all of the SSM/I, SSMIS F16, SSMIS F17, AMSR-E, AMSR-2, and WindSat instruments. This layer was constructed by first creating a monthly wind speed 1-degree map from each satellite. Then, quality control measures were applied to this map and combined with wind speed measurements from each instrument to output this layer.",
+    "The Special Sensor Microwave/Imager (SSM/I) is a seven channel passive microwave radiometer operating at four frequencies and dual-polarization. The Special Sensor Microwave Imager Sounder (SSMIS) is also a microwave radiometer that includes a sounder. The Advanced Microwave Scanning Radiometer - Earth Observing System (AMSR-E) is a twelve-channel, six-frequency, total power passive-microwave radiometer. The Advanced Microwave Scanning Radiometer 2 (AMSR2) is a remote sensing instrument measuring weak microwave emissions from the surface and the atmosphere of the Earth providing microwave emission and scattering intensity measurements. Finally, WindSat is a polarimetric microwave radiometer which measures ocean surface wind vectors.",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 1988-01-01 to 2021-12-01. Made from RSS MONTHLY 1-DEG MERGED WIND CLIMATOLOGY NETCDF V7R01 (rss1windnv7r01, version 7R01, doi:10.5067/MEASURES/MULTIPLE/WIND_CLIMATOLOGY/DATA302)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1988-01-01 to 2021-12-01"
+  ],
+  "gbl_indexYear_im": [
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "gbl_dateRange_drsim": [
+    "[1988 TO 2021]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "RSS_Merged_Wind_Climatology_Monthly"
+  ],
+  "dct_subject_sm": [
+    "Wind Speed",
+    "Upper Level Winds",
+    "Surface Winds"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "DMSP 5D-2/F10",
+    "SSM/I",
+    "DMSP 5D-2/F13",
+    "CORIOLIS",
+    "WINDSAT",
+    "DMSP 5D-2/F11",
+    "Aqua",
+    "AMSR-E",
+    "DMSP 5D-2/F8",
+    "DMSP 5D-3/F17",
+    "SSMIS",
+    "DMSP 5D-2/F15",
+    "GCOM-W1",
+    "AMSR2",
+    "DMSP 5D-2/F14",
+    "DMSP 5D-3/F16",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "RSS_Merged_Wind_Climatology_Monthly",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/RSS_Merged_Wind_Climatology_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,RSS_Merged_Wind_Climatology_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=RSS_Merged_Wind_Climatology_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

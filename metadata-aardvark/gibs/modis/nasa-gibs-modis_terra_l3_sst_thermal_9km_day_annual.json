@@ -1,0 +1,82 @@
+{
+  "id": "nasa-gibs-modis_terra_l3_sst_thermal_9km_day_annual",
+  "dct_title_s": "Sea Surface Temperature (L3, Day, Annual, Thermal, 9 km), Terra / MODIS",
+  "dct_description_sm": [
+    "The MODIS L3 SST 9km layer shows global daytime sea surface temperature (SST) at a depth of a few micrometers with ranges from -1.8 to 32 degree Celsius. The SST is derived with a Thermal-Infrared (Long–Wave) SST Algorithm that uses MODIS bands 31 and 32 at 11 and 12 μm. This Level 3 product is derived from native 1 km Level 2 SST observations that are mapped to a global 9 km grid. The temporal resolution of this MODIS L3 SST is annual.",
+    "P. J. Minnett et al., \"Sea-surface temperature measurements from the Moderate-Resolution Imaging Spectroradiometer (MODIS) on Aqua and Terra,\" IGARSS 2004. 2004 IEEE International Geoscience and Remote Sensing Symposium, Anchorage, AK, 2004, pp. 4576-4579 vol.7. doi: 10.1109/IGARSS.2004.1370173.",
+    "A yearly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-01-01 to 2021-01-01. Made from MODIS Terra Level 3 SST Thermal IR Annual 9km Daytime V2019.0 (MODIS_TERRA_L3_SST_THERMAL_ANNUAL_9KM_DAYTIME_V2019.0, version 2019.0, doi:10.5067/MODST-AN9D9)."
+  ],
+  "dct_creator_sm": [
+    "NASA OBPG"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-01-01 to 2021-01-01"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2021]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Terra_L3_SST_Thermal_9km_Day_Annual"
+  ],
+  "dct_subject_sm": [
+    "Sea Surface Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Terra",
+    "MODIS",
+    "Yearly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Terra_L3_SST_Thermal_9km_Day_Annual",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_SST_Thermal_9km_Day_Annual/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Terra_L3_SST_Thermal_9km_Day_Annual\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Terra_L3_SST_Thermal_9km_Day_Annual&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

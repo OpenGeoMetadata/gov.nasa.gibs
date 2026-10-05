@@ -1,0 +1,60 @@
+{
+  "id": "nasa-gibs-ceres_terra_surface_uv_index_all_sky_monthly",
+  "dct_title_s": "Surface UV Index (Monthly, All-Sky), Terra / CERES",
+  "dct_description_sm": [
+    "The Surface UV Index (Monthly, All-Sky) layer shows CERES-observed temporally interpolated and spatially gridded observed Surface UV Index under all-sky conditions contained within the SYN1deg product, which is a primary input to the EBAF product.",
+    "The Surface UV Index (Monthly, All-Sky) layer is available from the CERES instruments on the Terra satellite. The sensor resolution is 1 degree, imagery resolution is 2 km, and the temporal resolution is monthly.",
+    "Data parameter: Total_Sky_Surface_UV_Index",
+    "References: CER_SYN1deg-Month_Terra-MODIS_Edition4A doi:10.5067/TERRA/CERES/SYN1DEGMONTH_L3.004A",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-03-01 to 2002-06-01."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-03-01 to 2002-06-01"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2002]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "CERES_Terra_Surface_UV_Index_All_Sky_Monthly"
+  ],
+  "dct_subject_sm": [
+    "Surface Flux"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "CERES_Terra_Surface_UV_Index_All_Sky_Monthly",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/CERES_Terra_Surface_UV_Index_All_Sky_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,CERES_Terra_Surface_UV_Index_All_Sky_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=CERES_Terra_Surface_UV_Index_All_Sky_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

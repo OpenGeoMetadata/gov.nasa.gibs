@@ -1,0 +1,91 @@
+{
+  "id": "nasa-gibs-modis_terra_cloud_top_pressure_day",
+  "dct_title_s": "Cloud Top Pressure (Day), Terra / MODIS",
+  "dct_description_sm": [
+    "The MODIS Cloud Top Pressure (Day) layer indicates the pressure at the top of the clouds measured in hectopascals (hPa). Cloud Top Pressure can be used as an indicator of the highest altitude of the visible portion of the cloud. The Cloud Top Pressure layer is useful for identifying convective clouds - tall puffy clouds that produce thunderstorms. Generally, air pressure decreases as altitude increases so the lower the cloud top pressure, the taller the cloud.",
+    "The MODIS Cloud Top Pressure layer is a science parameter of the MODIS Cloud product and is available from both the Terra (MOD06) and Aqua (MYD06) satellites for day and nighttime overpasses. The sensor resolution is 5 km, imagery resolution is 2 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2000-02-24 and updated as new data arrive. Made from MODIS/Terra Clouds 5-Min L2 Swath 1km and 5km (MOD06_L2, version 6.1, doi:10.5067/MODIS/MOD06_L2.061)."
+  ],
+  "dct_creator_sm": [
+    "MODIS Science Team"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-02-24 to present"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Terra_Cloud_Top_Pressure_Day"
+  ],
+  "dct_subject_sm": [
+    "Cloud Pressure",
+    "Atmospheric Emitted Radiation",
+    "Emissivity",
+    "Optical Depth/Thickness",
+    "Radiative Flux",
+    "Reflectance"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Terra",
+    "MODIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Terra_Cloud_Top_Pressure_Day",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_Cloud_Top_Pressure_Day/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Terra_Cloud_Top_Pressure_Day\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Terra_Cloud_Top_Pressure_Day&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

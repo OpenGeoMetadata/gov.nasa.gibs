@@ -1,0 +1,67 @@
+{
+  "id": "nasa-gibs-cygnss_l3_wind_speed_daily",
+  "dct_title_s": "Wind Speed (L3, CDR), CYGNSS / DDMI",
+  "dct_description_sm": [
+    "The CYGNSS/DDMI Level 3 Wind Speed (CDR, Daily) layer is the daily ocean surface wind speed in meters per second (m/s) as provided by the Delay Doppler Mapping Instrument (DDMI) on board the CYGNSS spacecraft constellation. The layer provides high resolution wind speed data that allows for global tropical ocean observation. The primary mission objective for CYGNSS is to provide frequent space‐based measurements of ocean surface wind speed in the inner core of tropical cyclones. The orbital asynchronicity with respect to the local solar daytime/nighttime patterns may provide additional scientific opportunity to study wind speed variations and patterns due to the diurnal cycle. The data imagery is provided by the CYGNSS Version 1.0 CYGNSS Level 3 Climate Data Record (CDR). The Version 1.0 CDR represents the first climate-quality release and is a collection of reanalysis products derived from the Science Data Record v2.1 Level 1 data.",
+    "The CYGNSS constellation includes 8 spacecraft observatories, in which one day will nominally contain data from 6 out of 8 CYGNSS observatories. Data latency ranges from 24 hours to 6 days from the last available observation. Daily coverage is constrained to the global tropical oceans and basins within the 40 degree north and south latitude band.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2017-03-18 to 2021-02-28. Made from CYGNSS Level 3 Climate Data Record Version 1.0 (CYGNSS_L3_CDR_V1.0, version 1.0, doi:10.5067/CYGNS-L3C10); CYGNSS Level 3 Climate Data Record Version 1.1 (CYGNSS_L3_CDR_V1.1, version 1.1, doi:10.5067/CYGNS-L3C11)."
+  ],
+  "dct_creator_sm": [
+    "CYGNSS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2017-03-18 to 2021-02-28"
+  ],
+  "gbl_indexYear_im": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021
+  ],
+  "gbl_dateRange_drsim": [
+    "[2017 TO 2021]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "CYGNSS_L3_Wind_Speed_Daily"
+  ],
+  "dct_subject_sm": [
+    "Wind Speed",
+    "Surface Winds"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "CYGNSS",
+    "DDMI",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 40, -40)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 40, -40)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "CYGNSS_L3_Wind_Speed_Daily",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/CYGNSS_L3_Wind_Speed_Daily/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,CYGNSS_L3_Wind_Speed_Daily\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=CYGNSS_L3_Wind_Speed_Daily&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

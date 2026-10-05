@@ -1,0 +1,20 @@
+{
+  "measurements": {
+    "TEMPO - Featured": {
+      "id": "featured-tempo",
+      "title": "Tropospheric Emissions: Monitoring of Pollution",
+      "subtitle": "TEMPO",
+      "sources": {
+        "TEMPO": {
+          "id": "tempo",
+          "title": "TEMPO",
+          "description": "",
+          "image": "",
+          "settings": [
+            "TEMPO_L3_NO2_Vertical_Column_Troposphere"
+          ]
+        }
+      }
+    }
+  }
+}

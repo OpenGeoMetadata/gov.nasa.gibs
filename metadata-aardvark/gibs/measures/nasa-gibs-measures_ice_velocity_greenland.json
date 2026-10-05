@@ -1,0 +1,77 @@
+{
+  "id": "nasa-gibs-measures_ice_velocity_greenland",
+  "dct_title_s": "Ice Velocity (Greenland), ALOS/PALSAR, RADARSAT-1/SAR, TSX/SAR",
+  "dct_description_sm": [
+    "The MEaSUREs Ice Velocity (Greenland) layer reports seasonal (winter) ice-sheet-wide velocity maps for Greenland derived from Interferometric Synthetic Aperture Radar (InSAR) data obtained by RADARSAT-1, the Advanced Land Observation Satellite (ALOS), and the TerraSAR-X satellite.",
+    "An ice sheet is a mass of glacial land ice extending more than 50,000 square kilometers (20,000 square miles) and forms in areas where snow that falls in winter does not melt entirely over the summer. Over thousands of years, the layers of snow pile up into thick masses of ice, growing thicker and denser as the weight of new snow and ice layers compresses the older layers. Ice sheets are constantly in motion, slowly flowing downhill under their own weight. Near the coast, most of the ice moves through relatively fast-moving outlets called ice streams, glaciers, and ice shelves. Within the image, the various colors, ranging from dark blue (0 m/yr) to dark red (16000 m/yr), indicate the velocity of the various ice outlets.",
+    "The MEaSUREs Ice Velocity (Greenland) layer's sensor and imagery resolution is 500 m, and the temporal resolution is 5-6 months.",
+    "A multi-day visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-09-03 to 2008-12-01. Made from MEaSUREs Greenland Ice Sheet Velocity Map from InSAR Data V002 (NSIDC-0478, version 2, doi:10.5067/OC7B04ZM9G6Q)."
+  ],
+  "dct_creator_sm": [
+    "UWA/APL"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-09-03 to 2008-12-01"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2008]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MEaSUREs_Ice_Velocity_Greenland"
+  ],
+  "dct_subject_sm": [
+    "Ice Velocity Greenland",
+    "Ice Velocity"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "ALOS",
+    "PALSAR",
+    "RADARSAT-1",
+    "SAR",
+    "SENTINEL-1A",
+    "C-SAR",
+    "SENTINEL-1B",
+    "TDX",
+    "TSX",
+    "Multi-Day"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-75, -14, 83, 60)",
+  "dcat_bbox": "ENVELOPE(-75, -14, 83, 60)",
+  "dcat_centroid": "71.5,-44.5",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MEaSUREs_Ice_Velocity_Greenland&p=arctic\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg3413/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MEaSUREs_Ice_Velocity_Greenland&STYLES=&SRS=EPSG:3413&BBOX=-4194304,-4194304,4194304,4194304&WIDTH=512&HEIGHT=512&FORMAT=image/jpeg\"}"
+}

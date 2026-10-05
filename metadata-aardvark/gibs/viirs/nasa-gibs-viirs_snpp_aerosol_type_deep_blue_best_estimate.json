@@ -1,0 +1,74 @@
+{
+  "id": "nasa-gibs-viirs_snpp_aerosol_type_deep_blue_best_estimate",
+  "dct_title_s": "Deep Blue Aerosol Type (Land and Ocean), Suomi NPP / VIIRS (VIIRS_SNPP_Aerosol_Type_Deep_Blue_Best_Estimate)",
+  "dct_description_sm": [
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-03-01 and updated as new data arrive. Made from VIIRS/SNPP Deep Blue Aerosol L2 6 Min Swath 6km (AERDB_L2_VIIRS_SNPP, version 2, doi:10.5067/VIIRS/AERDB_L2_VIIRS_SNPP.002).",
+    "The Visible Infrared Imaging Radiometer Suite (VIIRS) NASA standard Level-2 (L2) Deep Blue aerosol products from the Suomi National Polar-orbiting Partnership (SNPP) instrument provide satellite-derived measurements of Aerosol Optical Thickness (AOT) and their properties over land and ocean in 6-minute data granules with daily global coverage. The Deep Blue algorithm draws its heritage from previous applications to retrieve AOT from Sea‐viewing Wide Field‐of‐view Sensor (SeaWiFS) over both land and ocean, and Moderate Resolution Imaging Spectroradiometer (MODIS) measurements over land. This L2 description pertains to the SNPP VIIRS Deep Blue Aerosol Version 2.0 (V2.0) product, whose record starts from March 1, 2012. This orbit-level product (Short-name: AERDB_L2_VIIRS_ SNPP) has an at-nadir resolution of 6 km x 6 km, and progressively increases away from nadir given the sensor’s scanning geometry and Earth’s curvature. Viewed differently, this product’s resolution accommodates 8 x 8 native VIIRS moderate-resolution (M-band) pixels that nominally have ~750 m horizontal pixel size. The L2 Deep Blue AOT data products, at 550 nm reference wavelengths, are derived from particular VIIRS bands using two primary AOT retrieval algorithms: Deep Blue algorithm over land, and the Satellite Ocean Aerosol Retrieval (SOAR) algorithm over ocean. Although this product is called Deep Blue based on retrievals for the land algorithm, the data includes over-water retrievals as well. The L2 netCDF product, acquired every 6 minutes, contains 55 Science Data Set (SDS) layers. They include the following: 1. Aerosol_Optical_Thickness_550_Expected_Uncertainty_Land 2. Aerosol_Optical_Thickness_550_Expected_Uncertainty_Ocean 3. Aerosol_Optical_Thickness_550_Land 4. Aerosol_Optical_Thickness_550_Land_Best_Estimate 5. Aerosol_Optical_Thickness_550_Land_Ocean 6. Aerosol_Optical_Thickness_550_Land_Ocean_Best_Estimate 7. Aerosol_Optical_Thickness_550_Ocean 8. Aerosol_Optical_Thickness_550_Ocean_Best_Estimate 9. Aerosol_Optical_Thickness_550_STDV_Land 10. Aerosol_Optical_Thickness_550_STDV_Ocean 11. Aerosol_Optical_Thickness_QA_Flag_Land 12. Aerosol_Optical_Thickness_QA_Flag_Ocean 13. Aerosol_Type_Land 14. Aerosol_Type_Land_Ocean 15. Aerosol_Type_Ocean 16. Algorithm_Flag_Land 17. Algorithm_Flag_Ocean 18. Angstrom_Exponent_Land 19. Angstrom_Exponent_Land_Best_Estimate 20. Angstrom_Exponent_Land_Ocean 21. Angstrom_Exponent_Land_Ocean_Best_Estimate 22. Angstrom_Exponent_Ocean 23. Angstrom_Exponent_Ocean_Best_Estimate 24. Cell_Average_Elevation_Land 25. Cell_Average_Elevation_Ocean 26. Fine_Mode_Fraction_550_Ocean 27. Fine_Mode_Fraction_550_Ocean_Best_Estimate 28. Idx_Atrack 29. Idx_Xtrack 30. Land_Bands 31. Latitude 32. Longitude 33. Number_Of_Pixels_Used_Land 34. Number_Of_Pixels_Used_Ocean 35. Number_Valid_Pixels 36. Ocean_Bands 37. Ocean_Sum_Squares 38. Precipitable_Water 39. Reflectance_Bands 40. Relative_Azimuth_Angle 41. Scan_Start_Time 42. Scattering_Angle 43. Solar_Zenith_Angle 44. Spectral_Aerosol_Optical_Thickness_Land 45. Spectral_Aerosol_Optical_Thickness_Ocean 46. Spectral_Single_Scattering_Albedo_Land 47. Spectral_Surface_Reflectance 48. Spectral_TOA_Reflectance_Land 49. Spectral_TOA_Reflectance_Ocean 50. TOA_NDVI 51. Total_Column_Ozone 52. Unsuitable_Pixel_Fraction_Land_Ocean 53. Viewing_Zenith_Angle 54. Wind_Direction 55. Wind_Speed Differences between the V2.0 and V1.1 VIIRS Deep Blue Aerosol L2 product The V2.0 VIIRS deep blue aerosol products are available from both NOAA20 and SNPP platforms. Significant changes have been made to the V2.0 Deep Blue/SOAR algorithms to further improve the data quality. Changes in the retrieval algorithms and data products include the following: * NOAA20 VIIRS-derived products are now available besides the SNPP VIIRS-derived version. * New SDS suite for prognostic uncertainties of 550 nm AOT over both land and ocean is added. (Aerosol_Optical_Thickness_550_Expected_Uncertainty_Land, Aerosol_Optical_Thickness_550_Expected_Uncertainty_Ocean, Unsuitable_Pixel_Fraction_Land_Ocean). * Surface pressure is better accounted for both over-land and over-ocean retrievals by adding surface pressure nodes in the aerosol lookup table. This has improved retrieval accuracy over elevated land surfaces as well as water surfaces. * A new surface database describing the surface reflectance relationships between visible and 2.2 mm bands in each geographic grid is introduced for the over-land retrievals. This new database mitigates overall biases. * New fine-mode dominant aerosol optical models are added to existing nonspherical dust models, together replacing the original Deep Blue optical models over land. This has improved retrieval accuracy for fine-mode dominant aerosol cases. * Optimized global retrieval performance. * QA filtering and smoke detection scheme has been improved. Consult the VIIRS Deep Blue Aerosol product user guide for additional information regarding the global attributes, data field attributes, quality flags, software to handle and use these data products, etc."
+  ],
+  "dct_creator_sm": [
+    "NASA VIIRS Atmosphere SIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-03-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_SNPP_Aerosol_Type_Deep_Blue_Best_Estimate"
+  ],
+  "dct_subject_sm": [
+    "Aerosol Type",
+    "Aerosol Optical Depth/Thickness"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Suomi-NPP",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_SNPP_Aerosol_Type_Deep_Blue_Best_Estimate",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_Aerosol_Type_Deep_Blue_Best_Estimate/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_Aerosol_Type_Deep_Blue_Best_Estimate&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

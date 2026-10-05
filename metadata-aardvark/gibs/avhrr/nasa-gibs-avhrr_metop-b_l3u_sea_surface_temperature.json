@@ -1,0 +1,74 @@
+{
+  "id": "nasa-gibs-avhrr_metop-b_l3u_sea_surface_temperature",
+  "dct_title_s": "Sea Surface Temperature (L3, Metop-B), GHRSST / AVHRR / Metop-B / NOAA",
+  "dct_description_sm": [
+    "This layer contains L3U (Level 3 Uncollated) Sea Surface Temperature (SST) data on a 0.02 degree horizontal grid resolution from the Meteorological Operational satellite B (Metop-B) Advanced Very High Resolution Radiometer 3 (AVHRR/3) instrument. Only input SSTs with QL=5 (highest quality) are included, ensuring that only valid SSTs are provided for users. Per GDS2 specifications, two additional Sensor-Specific Error Statistics layers (SSES bias and standard deviation) are reported in each pixel with valid SST.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-10-19 and updated as new data arrive. Made from GHRSST NOAA/STAR Metop-B AVHRR FRAC ACSPO v2.80 0.02 L3U Dataset (GDS v2) (AVHRRF_MB-STAR-L3U-v2.80, version 2.80, doi:10.5067/GHMTB-3US28)."
+  ],
+  "dct_creator_sm": [
+    "NOAA/STAR"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-10-19 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AVHRR_MetOp-B_L3U_Sea_Surface_Temperature"
+  ],
+  "dct_subject_sm": [
+    "Sea Surface Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "METOP-B",
+    "AVHRR-3",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AVHRR_MetOp-B_L3U_Sea_Surface_Temperature",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/AVHRR_MetOp-B_L3U_Sea_Surface_Temperature/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AVHRR_MetOp-B_L3U_Sea_Surface_Temperature\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AVHRR_MetOp-B_L3U_Sea_Surface_Temperature&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

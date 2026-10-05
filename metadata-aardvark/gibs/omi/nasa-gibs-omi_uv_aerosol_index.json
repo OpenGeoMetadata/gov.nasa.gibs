@@ -1,0 +1,84 @@
+{
+  "id": "nasa-gibs-omi_uv_aerosol_index",
+  "dct_title_s": "UV Aerosol Index, Aura / OMI",
+  "dct_description_sm": [
+    "The UV Aerosol Index layer indicates the presence of UV-absorbing aerosols such as dust and soot. UV Aerosol Index (AI) is based on a spectral contrast method in a UV region where the ozone absorption is very small. It is the difference between the observations and model calculations of absorbing and non-absorbing spectral radiance ratios. Positive values of Aerosol Index generally represent absorbing aerosols (dust and smoke) while small or negative values represent non-absorbing aerosols and clouds. The Index can be interpreted in terms of optical depth if the index of refraction, particle size distribution, and the height of the aerosol layer are known from other measurements.",
+    "The UV Aerosol Index layer is a science parameter of the Ozone Monitoring Instrument (OMI) Level-3 Near UV Aerosol Optical Depth and Single Scattering Albedo product (OMAERUVd) product provides daily gridded global coverage with a temporal resolution of 1 day, imagery resolution of 2 km and sensor/algorithm resolution of 1.0 x 1.0 degrees.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2004-10-01 and updated as new data arrive. Made from OMI/Aura Near UV Aerosol Optical Depth and Single Scattering Albedo L3 1 day 1.0 degree x 1.0 degree V3 (OMAERUVd) (OMAERUVd, version 003, doi:10.5067/Aura/OMI/DATA3003)."
+  ],
+  "dct_creator_sm": [
+    "Omar O. Torres"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2004-10-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2004 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OMI_UV_Aerosol_Index"
+  ],
+  "dct_subject_sm": [
+    "Aerosol Index",
+    "Aerosol Extinction",
+    "Aerosol Optical Depth/Thickness"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aura",
+    "OMI",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OMI_UV_Aerosol_Index",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OMI_UV_Aerosol_Index/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OMI_UV_Aerosol_Index\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OMI_UV_Aerosol_Index&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

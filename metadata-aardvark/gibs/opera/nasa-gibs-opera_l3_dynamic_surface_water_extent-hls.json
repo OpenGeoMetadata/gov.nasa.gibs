@@ -1,0 +1,75 @@
+{
+  "id": "nasa-gibs-opera_l3_dynamic_surface_water_extent-hls",
+  "dct_title_s": "OPERA Dynamic Surface Water Extent (L3), DSWx-HLS",
+  "dct_description_sm": [
+    "The OPERA Dynamic Surface Water Extent imagery layer is a Level-3 (L3) product that maps surface water every few days. The resolution is 30 m and the layer has 5 classifications: Not Water, Open Water, Partial Surface Water, Snow/Ice, and Cloud/Cloud Shadow.",
+    "The input dataset for generating each product is the Harmonized Landsat Sentinel-2 (HLS) dataset. The OPERA Dynamic Surface Water Extent (L3) imagery layer is available through the Observational Products for End-Users from Remote Sensing Analysis (OPERA) project.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2016-01-07 and updated as new data arrive. Made from OPERA Dynamic Surface Water Extent from Harmonized Landsat Sentinel-2 product (Version 1) (OPERA_L3_DSWX-HLS_V1, version 1.0, doi:10.5067/OPDSW-PL3V1)."
+  ],
+  "dct_creator_sm": [
+    "OPERA"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2016-01-07 to present"
+  ],
+  "gbl_indexYear_im": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2016 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OPERA_L3_Dynamic_Surface_Water_Extent-HLS"
+  ],
+  "dct_subject_sm": [
+    "Surface Water Extent",
+    "Surface Water Processes/Measurements"
+  ],
+  "dcat_theme_sm": [
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "LANDSAT-8",
+    "OLI",
+    "Sentinel-2A",
+    "Sentinel-2 MSI",
+    "Sentinel-2B",
+    "Sentinel-2C",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OPERA_L3_Dynamic_Surface_Water_Extent-HLS",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OPERA_L3_Dynamic_Surface_Water_Extent-HLS/default/default/GoogleMapsCompatible_Level12/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OPERA_L3_Dynamic_Surface_Water_Extent-HLS\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OPERA_L3_Dynamic_Surface_Water_Extent-HLS&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

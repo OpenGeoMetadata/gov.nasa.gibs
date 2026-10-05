@@ -1,0 +1,114 @@
+{
+  "id": "nasa-gibs-nldas_underground_soil_moisture_noah_monthly",
+  "dct_title_s": "Soil Moisture (Monthly, 0 - 100 cm, Noah LSM), NLDAS",
+  "dct_description_sm": [
+    "This NLDAS Soil Moisture is one of the model assimilated fields from the North America Land Data Assimilation System Phase 2 (NLDAS-2) Noah Land Surface Model (LSM). The NLDAS Soil Moisture monthly data are generated through temporal averaging of the hourly data. This NLDAS-2 Noah Soil Moisture parameter represents the 0 - 100 cm depth-averaged amount of water in unit “kg/m²” which is equivalent to “mm”.",
+    "Soil Moisture is a science variable that controls the exchange of water and heat energy between the land surface and the atmosphere through evaporation and plant transpiration. As a result, soil moisture plays an important role in the development of weather patterns and the production of precipitation. The NLDAS Soil Moisture data can be used for supporting research and applications related to global water and energy cycle, drought and flood, and climatology, land surface assimilation, etc.",
+    "The NLDAS Soil Moisture data are in 1/8th-degree grid spacing and the imagery resolution is 2 km, and the temporal resolution is monthly.",
+    "Xia, Y., K. Mitchell, M. Ek, J. Sheffield, B. Cosgrove, E. Wood, L. Luo, C. Alonge, H. Wei, J. Meng, B. Livneh, D. Lettenmaier, V. Koren, Q. Duan, K. Mo, Y. Fan, and D. Mocko, (2012), Continental-scale water and energy flux analysis and validation for the North American Land Data Assimilation System project phase 2 (NLDAS-2): 1. Intercomparison and application of model products, J. Geophys. Res., 117, D03109, doi:10.1029/2011JD016048.",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), available from 1979-01-01 and updated as new data arrive. Made from NLDAS Noah Land Surface Model L4 Monthly 0.125 x 0.125 degree V2.0 (NLDAS_NOAH0125_M) (NLDAS_NOAH0125_M, version 2.0, doi:10.5067/WB224IA3PVOJ)."
+  ],
+  "dct_creator_sm": [
+    "NLDAS project"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1979-01-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    1979,
+    1980,
+    1981,
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[1979 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "NLDAS_Underground_Soil_Moisture_Noah_Monthly"
+  ],
+  "dct_subject_sm": [
+    "Soil Moisture",
+    "Heat Flux",
+    "Longwave Radiation",
+    "Shortwave Radiation",
+    "Surface Temperature",
+    "Water Vapor Processes"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-125, -67, 53, 25)",
+  "dcat_bbox": "ENVELOPE(-125, -67, 53, 25)",
+  "dcat_centroid": "39,-96",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "NLDAS_Underground_Soil_Moisture_Noah_Monthly",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/NLDAS_Underground_Soil_Moisture_Noah_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,NLDAS_Underground_Soil_Moisture_Noah_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=NLDAS_Underground_Soil_Moisture_Noah_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

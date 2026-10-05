@@ -1,0 +1,89 @@
+{
+  "id": "nasa-gibs-modis_terra_water_vapor_5km_night",
+  "dct_title_s": "Water Vapor (Night), Terra / MODIS",
+  "dct_description_sm": [
+    "The MODIS Precipitable Water Vapor layer shows the total amount of water vapor in a 5 km by 5 km column of the atmosphere, measured in centimeters (cm). Water cycles through the Earth’s atmosphere in three states: solid (ice), liquid (rain drops), gas (water vapor). Water vapor is the gaseous form of water, which occurs when water gets hotter and it changes from a liquid to a gas. Water vapor in the Earth’s atmosphere traps heat near the surface and keeps the Earth warm. When water vapor rises into the atmosphere, it cools and turns back into water droplets. Water droplets form clouds and eventually some clouds produce rain or snow. Monitoring water vapor is useful as it influences weather patterns and it is an important component of the Earth’s climate system.",
+    "The MODIS Water Vapor product is available from both the Terra (MOD05) and Aqua (MYD05) satellites. The sensor resolution is 5 km, imagery resolution is 2 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2000-02-24 and updated as new data arrive. Made from MODIS/Terra Total Precipitable Water Vapor 5-Min L2 Swath 1km and 5km (MOD05_L2, version 6.1, doi:10.5067/MODIS/MOD05_L2.061)."
+  ],
+  "dct_creator_sm": [
+    "MODIS Science Team"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-02-24 to present"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Terra_Water_Vapor_5km_Night"
+  ],
+  "dct_subject_sm": [
+    "Water Vapor",
+    "Water Vapor Indicators",
+    "Water Vapor Profiles"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Terra",
+    "MODIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Terra_Water_Vapor_5km_Night",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_Water_Vapor_5km_Night/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Terra_Water_Vapor_5km_Night\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Terra_Water_Vapor_5km_Night&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

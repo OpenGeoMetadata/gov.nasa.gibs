@@ -1,0 +1,20 @@
+{
+  "measurements": {
+    "Nitrogen Dioxide": {
+      "id": "nitrogen-dioxide",
+      "title": "Nitrogen Dioxide",
+      "subtitle": "Aura/OMI, TEMPO, TROPOMI, ASIA-AQ, SEDAC",
+      "sources": {
+        "TEMPO": {
+          "id": "tempo",
+          "title": "TEMPO",
+          "description": "tempo/NitrogenDioxide",
+          "image": "",
+          "settings": [
+            "TEMPO_L3_NO2_Vertical_Column_Troposphere"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "nasa-gibs-lecz_urban_rural_extents_below_10m",
+  "dct_title_s": "Urban-Rural Extents Below 10m Elevation, Urban-Rural Population and Land Area Estimates, v2 (1990, 2000, 2010, 2100)",
+  "dct_description_sm": [
+    "This layer provides the extent of urban and rural areas in the 10m Low Elevation Coastal Zone around the world. It is part of the Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2 data set.",
+    "The Low Elevation Coastal Zone (LECZ) was derived from Shuttle Radar Topography Mission (SRTM), 3 arc second (~90m) data which were post processed by ISciences LLC to include only elevations less than 20m contiguous to coastlines; and to supplement SRTM data in northern and southern latitudes. The full data set includes population and land area statistics summarized at the low coastal elevations of less than or equal to 1m, 3m, 5m, 7m, 9m, 10m, 12m, and 20m. Additionally, estimates are provided for elevations > 20m, and nationally. Urban and rural areas are differentiated by the GRUMPv1 Urban Extents.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Low Elevation Coastal Zone (LECZ) Urban-Rural Population and Land Area Estimates, Version 2 (CIESIN_SEDAC_LECZ_URPLAEv2, version 2.0, doi:10.7927/H4MW2F2J)."
+  ],
+  "dct_creator_sm": [
+    "Center for International Earth Science Information Network - CIESIN - Columbia University"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "LECZ_Urban_Rural_Extents_Below_10m"
+  ],
+  "dct_subject_sm": [
+    "Urban Extents",
+    "Population Estimates"
+  ],
+  "dcat_theme_sm": [
+    "Society"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 85, -58)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 85, -58)",
+  "dcat_centroid": "13.5,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS).",
+    "This work is licensed under the Creative Commons Attribution 4.0 International License (https://creativecommons.org/licenses/by/4.0). Users are free to use, copy, distribute, transmit, and adapt the work for commercial and non-commercial purposes, without restriction, as long as clear attribution of the source is provided."
+  ],
+  "dct_license_sm": [
+    "https://creativecommons.org/licenses/by/4.0/"
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "LECZ_Urban_Rural_Extents_Below_10m",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/LECZ_Urban_Rural_Extents_Below_10m/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,LECZ_Urban_Rural_Extents_Below_10m\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=LECZ_Urban_Rural_Extents_Below_10m&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

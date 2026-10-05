@@ -1,0 +1,80 @@
+{
+  "id": "nasa-gibs-smap_sentinel-1_l2_active_passive_soil_moisture",
+  "dct_title_s": "Soil Moisture (L2, Active-Passive, Radiometer and Radar), SMAP / Sentinel-1",
+  "dct_description_sm": [
+    "The Soil Moisture Active Passive (SMAP)/Sentinel-1 \"Soil Moisture (L2, Active-Passive, Radiometer and Radar)\" layer displays surface soil moisture in cm³/cm³ posted on a 3 km EASE-Grid 2.0. L-band brightness temperatures from the SMAP radiometer during 6:00 a.m. descending half-orbit passes and C-band backscatter coefficients from the Copernicus Sentinel-1A and -1B radar are used to derive soil moisture data.",
+    "This data set contains modified Copernicus Sentinel-1 data (2015-present), acquired by the European Space Agency (ESA), distributed through the Alaska Satellite Facility (ASF), and processed by the SMAP Science Data System.",
+    "Data field: soil_moisture_3km",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2015-04-01 and updated as new data arrive. Made from SMAP/Sentinel-1 L2 Radiometer/Radar 30-Second Scene 3 km EASE-Grid Soil Moisture V003 (SPL2SMAP_S, version 003, doi:10.5067/ASB0EQO2LYJV)."
+  ],
+  "dct_creator_sm": [
+    "NASA/JPL/SMAP"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2015-04-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SMAP_Sentinel-1_L2_Active_Passive_Soil_Moisture"
+  ],
+  "dct_subject_sm": [
+    "Soil Moisture",
+    "Brightness Temperature",
+    "Sigma Naught",
+    "Soil Moisture/Water Content"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "SMAP",
+    "SMAP L-BAND RADIOMETER",
+    "Sentinel-1A",
+    "C-SAR",
+    "Sentinel-1B",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 60, -60)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 60, -60)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SMAP_Sentinel-1_L2_Active_Passive_Soil_Moisture",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SMAP_Sentinel-1_L2_Active_Passive_Soil_Moisture/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SMAP_Sentinel-1_L2_Active_Passive_Soil_Moisture\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SMAP_Sentinel-1_L2_Active_Passive_Soil_Moisture&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

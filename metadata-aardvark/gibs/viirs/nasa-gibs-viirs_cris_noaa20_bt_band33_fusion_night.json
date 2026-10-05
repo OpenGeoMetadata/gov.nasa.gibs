@@ -1,0 +1,73 @@
+{
+  "id": "nasa-gibs-viirs_cris_noaa20_bt_band33_fusion_night",
+  "dct_title_s": "Band 33 Fusion Brightness Temperature (Night), NOAA-20 / VIIRS+CrIS",
+  "dct_description_sm": [
+    "The VIIRS+CrIS Band 33 Fusion Brightness Temperature (Night) layer is the VIIRS+CrIS fusion brightness temperature, measured in Kelvin (K).",
+    "The VIIRS+CrIS fusion process constructs MODIS-like infrared (IR) channel radiances and brightness temperatures for VIIRS at M-band (750m) spatial resolution, where brightness temperatures are constructed using the Aqua MODIS channel 33 (13.3-micron) spectral response function. The goal is to provide continuity of the MODIS IR absorption channel record by supplementing VIIRS with MODIS-like fusion channels through the JPSS series of satellites, as each platform has (or will have) both the VIIRS and CrIS sensors.",
+    "The fusion method consists of two steps: (a) performing a nearest-neighbor search using a k-d tree algorithm on split-window (11 and 12 µm) imager radiances to find for each VIIRS high-spatial-resolution (M-band data) pixel the five nearest in distance and radiance VIIRS low-spatial-resolution FOVs (M-band data averaged over the CrIS FOV), and (b) averaging the convolved sounder radiances at low spatial resolution for the five nearest neighbors selected in the previous step for each imager pixel. The term “convolved sounder radiances” refers to the process of applying a given spectral response function (SRF) to the sounder hyperspectral radiances. The fusion product uses SRFs defined for the MODIS sensor on the NASA Earth Observation System (EOS) Aqua satellite.",
+    "The fusion product is produced for each 6-minute granule. It performs best within the CrIS swath but is also produced to full VIIRS swath width.",
+    "The VIIRS+CrIS Band 33 Fusion Brightness Temperature layer is available from the joint NASA/NOAA NOAA 20 satellite. The sensor resolution is 750m, the imagery resolution is 1 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2018-02-17 and updated as new data arrive. Made from NOAA20 VIIRS+CrIS Fusion 6-Min L2 Swath 750m V2 (FSNRAD_L2_VIIRS_CRIS_NOAA20, version 2, doi:10.5067/VIIRS/FSNRAD_L2_VIIRS_CRIS_NOAA20.002)."
+  ],
+  "dct_creator_sm": [
+    "NASA VIIRS Atmosphere SIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2018-02-17 to present"
+  ],
+  "gbl_indexYear_im": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2018 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_CrIS_NOAA20_BT_Band33_Fusion_Night"
+  ],
+  "dct_subject_sm": [
+    "Brightness Temperature",
+    "Infrared Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-20",
+    "VIIRS",
+    "CrIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_CrIS_NOAA20_BT_Band33_Fusion_Night",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_CrIS_NOAA20_BT_Band33_Fusion_Night/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_CrIS_NOAA20_BT_Band33_Fusion_Night\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_CrIS_NOAA20_BT_Band33_Fusion_Night&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

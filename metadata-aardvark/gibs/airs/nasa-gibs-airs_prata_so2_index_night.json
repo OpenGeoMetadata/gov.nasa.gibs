@@ -1,0 +1,77 @@
+{
+  "id": "nasa-gibs-airs_prata_so2_index_night",
+  "dct_title_s": "Sulfur Dioxide (Night, Prata Algorithm), Aqua / AIRS",
+  "dct_description_sm": [
+    "The AIRS Prata SO2 Index (Night) layer indicates Sulfur Dioxide column amounts in the atmosphere, measured in Dobson Units (DU). The AIRS Sulfur Dioxide Index Prata algorithm was authored by Fred Prata from the Norwegian Institute for Air Research.",
+    "The Atmospheric Infrared Sounder (AIRS) is an instrument on board the Aqua satellite. The AIRS Prata SO2 Index science parameter is a derived parameter from the Level 1B Near-Real Time Infrared (IR) geolocated and calibrated radiances, (AIRIBRAD_NRT). The imagery resolution is 2 km and sensor resolution is 45 km. The temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-05-08 and updated as new data arrive. Made from AIRS/Aqua L1B Infrared (IR) geolocated and calibrated radiances V005 (AIRIBRAD) (AIRIBRAD, version 005, doi:10.5067/YZEXEVN4JGGJ)."
+  ],
+  "dct_creator_sm": [
+    "AIRS project"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-05-08 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AIRS_Prata_SO2_Index_Night"
+  ],
+  "dct_subject_sm": [
+    "Sulfur Dioxide",
+    "Dust/Ash/Smoke",
+    "Sulfur Compounds",
+    "Infrared Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "AIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AIRS_Prata_SO2_Index_Night",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/AIRS_Prata_SO2_Index_Night/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AIRS_Prata_SO2_Index_Night\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AIRS_Prata_SO2_Index_Night&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "nasa-gibs-grace_tellus_liquid_water_equivalent_thickness_mascon_cri",
+  "dct_title_s": "Liquid Water Equivalent Thickness (Mascon, CRI), GRACE Tellus",
+  "dct_description_sm": [
+    "The Liquid Water Equivalent Thickness (Mascon, CRI) layer provides global water storage anomalies relative to a time-mean of monthly mass grids as derived from GRACE and GRACE-FO. This version employs a Coastal Resolution Improvement (CRI) filter that reduces leakage errors across coastlines. The storage anomalies are given in equivalent water thickness units (cm).",
+    "References: TELLUS_GRAC-GRFO_MASCON_CRI_GRID_RL06_V2 doi:10.5067/TEMSC-3JC62",
+    "A multi-day visualization from NASA's Global Imagery Browse Services (GIBS), covering 2002-04-04 to 2022-12-01."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-04-04 to 2022-12-01"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2022]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GRACE_Tellus_Liquid_Water_Equivalent_Thickness_Mascon_CRI"
+  ],
+  "dct_subject_sm": [
+    "Liquid Water Equivalent"
+  ],
+  "dcat_theme_sm": [
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Multi-Day"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GRACE_Tellus_Liquid_Water_Equivalent_Thickness_Mascon_CRI",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GRACE_Tellus_Liquid_Water_Equivalent_Thickness_Mascon_CRI/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GRACE_Tellus_Liquid_Water_Equivalent_Thickness_Mascon_CRI\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GRACE_Tellus_Liquid_Water_Equivalent_Thickness_Mascon_CRI&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

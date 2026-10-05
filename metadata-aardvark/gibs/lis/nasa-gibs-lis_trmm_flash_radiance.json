@@ -1,0 +1,75 @@
+{
+  "id": "nasa-gibs-lis_trmm_flash_radiance",
+  "dct_title_s": "Flash Radiance (Level 2, Standard), TRMM / LIS",
+  "dct_description_sm": [
+    "The Flash Radiance (Level 2, Standard) layer displays the radiance of lightning flashes measured in μJ/sr/m²/μm as recorded by the Lightning Imaging Sensor (LIS) on the Tropical Rainfall Measuring Mission (TRMM) satellite.",
+    "The Lightning Imaging Sensor (LIS) Science Data was collected by the LIS instrument on the Tropical Rainfall Measuring Mission (TRMM) satellite used to detect the distribution and variability of total lightning occurring in the Earth’s tropical and subtropical regions. This data can be used for severe storm detection and analysis, as well as for lightning-atmosphere interaction studies. The LIS instrument makes measurements during both day and night with high detection efficiency.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1998-01-01 to 2015-04-08. Made from Lightning Imaging Sensor (LIS) on TRMM Science Data V4 (lislip, version 4, doi:10.5067/LIS/LIS/DATA201)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1998-01-01 to 2015-04-08"
+  ],
+  "gbl_indexYear_im": [
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "gbl_dateRange_drsim": [
+    "[1998 TO 2015]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "LIS_TRMM_Flash_Radiance"
+  ],
+  "dct_subject_sm": [
+    "Lightning"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "TRMM",
+    "LIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 40, -40)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 40, -40)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "LIS_TRMM_Flash_Radiance",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/LIS_TRMM_Flash_Radiance/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,LIS_TRMM_Flash_Radiance\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=LIS_TRMM_Flash_Radiance&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

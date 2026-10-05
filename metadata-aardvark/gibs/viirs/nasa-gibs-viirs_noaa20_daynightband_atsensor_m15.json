@@ -1,0 +1,68 @@
+{
+  "id": "nasa-gibs-viirs_noaa20_daynightband_atsensor_m15",
+  "dct_title_s": "Black Marble Nighttime Blue/Yellow Composite (Day/Night Band), NOAA-20 / VIIRS",
+  "dct_description_sm": [
+    "The Black Marble Nighttime Blue/Yellow Composite (Day/Night Band) is a false color composite using the VIIRS at-sensor radiance and the brightness temperatures from the M15 band. Data are provided by NASA’s VJ146A1 product using NOAA-20 (JPSS-1) observations. Originally designed by the Naval Research Lab and incorporated into NASA research and applications efforts, the resulting false color scheme produces nighttime city lights in shades of yellow with infrared, nighttime cloud presence in shades of blue. During bright moonlight conditions, moonlight reflected from cloud tops and the land surface may also provide a yellow hue to those features. Comparisons of cloud-free conditions before and after a period of significant change, such as new city growth, disasters, fires, or other factors, may exhibit a change in emitted light (yellows) from those features over time.",
+    "The Black Marble Nighttime Blue/Yellow Composite (Day/Night Band) layer is available in near real-time from the Visible Infrared Imaging Radiometer Suite (VIIRS) aboard the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The sensor resolution is 750 m at nadir, imagery resolution is 500 m, and the temporal resolution is daily.",
+    "Román, M. O., Z. Wang, Q. Sun, V. Kalb, S. D. Miller, A. Molthan, L. Schultz, J. Bell, E. C. Stokes, B. Pandey, K. C. Seto, D. Hall, T. Oda, R. E. Wolfe, G. Lin, N. Golpayegani, S. Devadiga, C. Davidson, S. Sarkar, C. Praderas, J. Schmaltz, R. Boller, J. Stevens, O. M. Ramos Gonzalez, E. Padilla, J. Alonso, Y. Detrés, R. Armstrong, I. Miranda, Y. Conte, N. Marrero, K. MacManus, T. Esch, and E. J. Masuoka. 2018. \"NASA’s Black Marble nighttime lights product suite.\" Remote Sensing of Environment 210 113-143 doi:10.1016/j.rse.2018.03.017",
+    "Lee, T., S. Miller, F. Turk, C. Schueler, R. Julian, S. Deyo, P. Dills, and S. Wang, 2006: The NPOESS VIIRS Day/Night Visible Sensor. Bull. Amer. Meteor. Soc., 87, 191–199, doi:10.1175/BAMS-87-2-191",
+    "Román, M. O. and Stokes, E. C. (2015), Holidays in lights: Tracking cultural patterns in demand for energy services. Earth's Future, 3: 182–205. doi:10.1002/2014EF000285",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2024-03-18 and updated as new data arrive. Made from VIIRS/JPSS1 Granular Gridded Day Night Band 15 arc-second Linear Lat Lon Grid Night NRT (VJ146A1G_NRT, version 2, doi:10.5067/VIIRS/VJ146A1G_NRT.002); VIIRS/JPSS1 Daily Gridded Day Night Band 15 arc-second Linear Lat Lon Grid Night NRT (VJ146A1_NRT, version 2, doi:10.5067/VIIRS/VJ146A1_NRT.002)."
+  ],
+  "dct_creator_sm": [
+    "VIIRS Land SIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-03-18 to present"
+  ],
+  "gbl_indexYear_im": [
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_NOAA20_DayNightBand_AtSensor_M15"
+  ],
+  "dct_subject_sm": [
+    "Earth at Night",
+    "Visible Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-20",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "JPEG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_NOAA20_DayNightBand_AtSensor_M15",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA20_DayNightBand_AtSensor_M15/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=VIIRS_NOAA20_DayNightBand_AtSensor_M15\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_NOAA20_DayNightBand_AtSensor_M15&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

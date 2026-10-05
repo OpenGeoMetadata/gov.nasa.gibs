@@ -1,0 +1,73 @@
+{
+  "id": "nasa-gibs-modis_terra_l3_land_water_mask",
+  "dct_title_s": "Land/Water Mask (L3, Annual), Terra / MODIS",
+  "dct_description_sm": [
+    "The Land/Water Mask (L3, Annual) layer shows global surface water. It is created from the Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Land Water Mask (MOD44W) data product which provides a global map of surface water at 250 meter (m) spatial resolution. The data are available annually from 2000 to 2015. MOD44W is derived using a decision tree classifier trained with MODIS data and validated with the Version 5 MOD44W data product. A series of masks are applied to address known issues caused by terrain shadow, burn scars, cloudiness, or ice cover in oceans. A primary improvement in Version 6 is the generation of time series data rather than a simple static representation of water, given that water bodies fluctuate in size and location over time due to both natural and anthropogenic causes.",
+    "Reference: MOD44W doi:10.5067/MODIS/MOD44W.006",
+    "A yearly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-01-01 to 2015-01-01."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-01-01 to 2015-01-01"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2015]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Terra_L3_Land_Water_Mask"
+  ],
+  "dct_subject_sm": [
+    "Land Cover"
+  ],
+  "dcat_theme_sm": [
+    "Biology",
+    "Society",
+    "Land Cover",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Yearly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Terra_L3_Land_Water_Mask",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_Land_Water_Mask/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Terra_L3_Land_Water_Mask\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Terra_L3_Land_Water_Mask&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

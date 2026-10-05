@@ -1,0 +1,75 @@
+{
+  "id": "nasa-gibs-gmi_brightness_temp_asc",
+  "dct_title_s": "Brightness Temperature (Ascending), GPM / GMI",
+  "dct_description_sm": [
+    "The Global Precipitation Measurement (GPM) Microwave Imager (GMI) Brightness Temperature (Ascending) layer displays the brightness temperature. Brightness temperature is the apparent temperature of the Earth at a particular frequency due to the natural emission from the Earth's surface, from gases in the atmosphere, and from precipitation. GMI has a total of 13 channels, each of which observes the Earth at a different frequency (10-183 GHz) or at a different polarization (vertical or horizontal). The Brightness Temperature layer is a full-color image generated from the brightness temperature observed by three of the thirteen channels of the GMI instrument. The three-channel composite in this data layer is based on Negri et al. (1989, Bulletin of the Amer. Meteor. Society), and is designed to show a variety of land, atmospheric, and precipitation features. Oceans show up blue or green, continents are faded brown, snow cover is white, high humidity in the atmosphere darkens the colors near clouds, and clouds and precipitation are gray to white.",
+    "The GPM Microwave Imager (GMI) is an instrument on the satellite known as the Global Precipitation Measurement (GPM) Core Observatory. The parent data product for the Brightness Temperature layer is the 1CGMI data product, which is also known as \"Level 1C Common Calibrated Brightness Temperatures\" or as \"GPM_1CGPMGMI\". The imagery resolution is 2 km and sensor resolution is approximately 4 km at the equator, and the footprints of the GMI channels vary from approximately 26 km to 6 km across. The temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2014-03-04 and updated as new data arrive. Made from GPM GMI Common Calibrated Brightness Temperatures Collocated L1C 1.5 hours 13 km V08 (GPM_1CGPMGMI) (GPM_1CGPMGMI, version 08, doi:10.5067/GPM/GMI/GPM/1C/08)."
+  ],
+  "dct_creator_sm": [
+    "Wesley Berg"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2014-03-04 to present"
+  ],
+  "gbl_indexYear_im": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2014 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GMI_Brightness_Temp_Asc"
+  ],
+  "dct_subject_sm": [
+    "Brightness Temperature",
+    "Atmospheric Water Vapor",
+    "Precipitation"
+  ],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "GPM",
+    "GMI",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 70, -70)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 70, -70)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GMI_Brightness_Temp_Asc",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GMI_Brightness_Temp_Asc/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GMI_Brightness_Temp_Asc\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GMI_Brightness_Temp_Asc&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

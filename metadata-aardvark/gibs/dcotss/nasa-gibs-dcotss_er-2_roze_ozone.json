@@ -1,0 +1,54 @@
+{
+  "id": "nasa-gibs-dcotss_er-2_roze_ozone",
+  "dct_title_s": "ROZE Ozone and Flight Track (Per Flight), DCOTSS/NASA ER-2 ROZE",
+  "dct_description_sm": [
+    "The Dynamics and Chemistry to the Summer Stratosphere (DCOTSS) ER-2 Flight Tracks and Rapid Ozone Experiment (ROZE) Ozone data provide the location of where the NASA ER-2 aircraft collected data to support the campaign. These data include measurements of trace gas species, including Ozone. Ozone data featured in this layer were collected by the ROZE instrument, which is a broadband cavity-enhanced ultraviolet (UT) absorption instrument for the detection of in situ ozone.",
+    "Each summer the North American Monsoon Anticyclone (NAMA) dominates the circulation of the North-Western Hemisphere and acts to partially confine and isolate air from the surrounding atmosphere. Strong convective storms in the NAMA regularly reach altitudes deep into the lower stratosphere, with some ascending above 20 km. These storms carry water and pollutants from the troposphere into the otherwise very dry stratosphere, where they can have a significant impact on radiative and chemical processes, potentially including destruction of stratospheric ozone. The Dynamics and Chemistry of the Summer Stratosphere (DCOTSS) field campaign was a NASA Earth Venture Suborbital research project aimed at investigating these thunderstorms. DCOTSS utilized NASA’s ER-2 aircraft and conducted two ~8-week science deployments based out of Salina, KS spanning early to late summer.",
+    "References: DCOTSS at the ASDC, doi:10.5067/ASDC/SUBORBITAL/DCOTSS/DATA001; DCOTSS Overview Publication; ROZE Overview",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2021-06-17 to 2022-07-11."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2021-06-17 to 2022-07-11"
+  ],
+  "gbl_indexYear_im": [
+    2021,
+    2022
+  ],
+  "gbl_dateRange_drsim": [
+    "[2021 TO 2022]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "DCOTSS_ER-2_ROZE_Ozone"
+  ],
+  "dct_subject_sm": [
+    "Ozone"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "DCOTSS_ER-2_ROZE_Ozone",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,DCOTSS_ER-2_ROZE_Ozone\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=DCOTSS_ER-2_ROZE_Ozone&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nasa-gibs-goes-east_abi_firetemp",
+  "dct_title_s": "Fire Temperature, GOES-East/ABI",
+  "dct_description_sm": [
+    "Note: This layer is generally available for the most recent 90 days, though certain historical ranges are also preserved.",
+    "The Fire Temperature RGB layer from the GOES-East Advanced Baseline Imager (ABI) is used to identify where the most intense fires are occurring and differentiate these from \"cooler\" fires. The RGB takes advantage of the fact that from 3.9µm to shorter wavelengths, background solar radiation and surface reflectance increases. This means that fires need to be more intense in order to be detected by the 2.2 and 1.6µm bands, as more intense fires emit more radiation at these wavelengths. Therefore, small/\"cool\" fires will only show up at 3.9µm and appear red while increases in fire intensity cause greater contributions of the other channels resulting in white very intense fires.",
+    "To interpret the RGB image, the following is a guide as to what each color represents in the image:",
+    "Warm fire - red",
+    "Very warm fire - orange",
+    "Hot fire - yellow",
+    "Very hot fire - near white",
+    "Burn scars - shades of maroon",
+    "Clear sky: land - purples to pink",
+    "Clear sky: water/snow/night - near black",
+    "Water clouds - shades of blue",
+    "Ice clouds - shades of green",
+    "The Geostationary Operational Environmental Satellites (GOES)-East satellite (currently, GOES-19) is centered on 75.2 degrees W, covering the Conterminous US, Canada, Central and South America. The GOES-East ABI imagery is available on a rolling 90-day basis at 10 minute intervals. The sensor resolution is 2 km, the imagery resolution in Worldview/Global Imagery Browse Services (GIBS) is 2 km, the temporal resolution is 10 minutes, and the latency (time from satellite acquisition to availability in GIBS) is approximately 40 minutes.",
+    "References: GOES-R: Fire Temperature RGB Quick Guide",
+    "A subdaily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2025-04-23 and updated as new data arrive."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2025-04-23 to present"
+  ],
+  "gbl_indexYear_im": [
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2025 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GOES-East_ABI_FireTemp"
+  ],
+  "dct_subject_sm": [
+    "Geostationary"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Subdaily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GOES-East_ABI_FireTemp",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GOES-East_ABI_FireTemp/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=GOES-East_ABI_FireTemp\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GOES-East_ABI_FireTemp&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

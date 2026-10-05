@@ -1,0 +1,59 @@
+{
+  "id": "nasa-gibs-otd_high_resolution_full_climatology_otd_flash_rate_climatology",
+  "dct_title_s": "Lightning Flash Rate, OrbView-1 / OTD",
+  "dct_description_sm": [
+    "The OrbView-1/OTD Lightning Flash Rate layer indicates the average lightning flash rate over an area in number of flashes per square kilometers per year (Flashes/km²/year) from 4 May 1995 to 31 December 2013. The imagery resolution is 3 to 6 kilometers and is available as a single layer for viewing in Worldview/Global Imagery Browse Services (GIBS). This layer was constructed through the detection of total lightning occurring in the Earth’s tropical and subtropical regions by the Optical Transient Detector (OTD) on the OrbView-1 satellite, and then calculated the frequency of each lightning flash.",
+    "The OTD instrument detects both intra-cloud and cloud-to-ground lightning discharges during day and night conditions with a high detection efficiency. The OTD located the lightning discharges that occurred within its field-of-view and marked the time of occurrence of the lightning.",
+    "A multi-day visualization from NASA's Global Imagery Browse Services (GIBS), for 1995-05-04. Made from LIS/OTD 0.5 Degree High Resolution Full Climatology (HRFC) V2.3.2015 (lohrfc, version 2.3.2015, doi:10.5067/LIS/LIS-OTD/DATA302)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1995-05-04"
+  ],
+  "gbl_indexYear_im": [
+    1995
+  ],
+  "gbl_dateRange_drsim": [
+    "[1995 TO 1995]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OTD_High_Resolution_Full_Climatology_OTD_Flash_Rate_Climatology"
+  ],
+  "dct_subject_sm": [
+    "Lightning"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "OrbView-1",
+    "OTD",
+    "TRMM",
+    "LIS",
+    "Multi-Day"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OTD_High_Resolution_Full_Climatology_OTD_Flash_Rate_Climatology",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OTD_High_Resolution_Full_Climatology_OTD_Flash_Rate_Climatology/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OTD_High_Resolution_Full_Climatology_OTD_Flash_Rate_Climatology\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OTD_High_Resolution_Full_Climatology_OTD_Flash_Rate_Climatology&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

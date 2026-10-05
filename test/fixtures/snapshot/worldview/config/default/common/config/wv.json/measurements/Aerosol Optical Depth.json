@@ -1,0 +1,29 @@
+{
+  "measurements": {
+    "Aerosol Optical Depth": {
+      "id": "aerosol-optical-depth",
+      "title": "Aerosol Optical Depth",
+      "subtitle": "AERONET, Aura/OMI, Aqua/MODIS, Terra/MODIS, Aqua and Terra/MODIS, Terra/MISR, SeaWiFS Deep Blue, Suomi NPP/VIIRS, Suomi NPP/OMPS LP, NOAA-20/VIIRS, NOAA-21/OMPS LP, NOAA-21/VIIRS, MERRA-2",
+      "sources": {
+        "Aqua/MODIS": {
+          "id": "aqua-modis",
+          "title": "Aqua/MODIS",
+          "description": "modis/Aerosol",
+          "image": "",
+          "settings": [
+            "OrbitTracks_Aqua_Ascending"
+          ]
+        },
+        "Terra/MISR": {
+          "id": "terra-misr",
+          "title": "Terra/MISR",
+          "description": "",
+          "image": "",
+          "settings": [
+            "MISR_Aerosol_Optical_Depth_Avg_Green_Monthly"
+          ]
+        }
+      }
+    }
+  }
+}

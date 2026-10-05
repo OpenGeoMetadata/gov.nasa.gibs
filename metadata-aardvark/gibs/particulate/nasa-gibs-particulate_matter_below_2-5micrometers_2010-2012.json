@@ -1,0 +1,56 @@
+{
+  "id": "nasa-gibs-particulate_matter_below_2-5micrometers_2010-2012",
+  "dct_title_s": "Particulate Matter < 2.5µm, 2010-2012, SDEI: Global Annual PM 2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), v1 (1998-2012)",
+  "dct_description_sm": [
+    "The Particulate Matter < 2.5µm, 2010-2012 layer is part of the Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD) data set represents a series of three-year running mean grids (1998-2012) of fine particulate matter (solid particles and liquid droplets) that were derived from a combination of MODIS (Moderate Resolution Imaging Spectroradiometer), MISR (Multi-angle Imaging SpectroRadiometer) and SeaWIFS (Sea-Viewing Wide Field-of-View Sensor) AOD satellite retrievals. Together the grids provide a continuous surface of concentrations in micrograms per cubic meter of particulate matter 2.5 micrometers or smaller (PM2.5) for health and environmental research. For each satellite-derived PM2.5 source, the total column retrievals of AOD were converted to near-ground PM2.5 levels using the GEOS-Chem chemical transport model to represent local relationships between AOD and PM2.5. A global decadal (2001-2010) mean PM2.5 concentration grid was also produced.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD), 1998-2012 (CIESIN_SEDAC_SDEI_PM25_MMSAOD, version 1.0, doi:10.7927/H4028PFS)."
+  ],
+  "dct_creator_sm": [
+    "van Donkelaar, A., R.V. Martin, M. Brauer, and B.L. BoysScience Information Network - CIESIN - Columbia University"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Particulate_Matter_Below_2.5micrometers_2010-2012"
+  ],
+  "dct_subject_sm": [
+    "Particulate Matter",
+    "Particulates"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Society"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "MODIS",
+    "Terra",
+    "MISR",
+    "OrbView-2",
+    "SeaWiFS"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 70, -55)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 70, -55)",
+  "dcat_centroid": "7.5,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Particulate_Matter_Below_2.5micrometers_2010-2012",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Particulate_Matter_Below_2.5micrometers_2010-2012/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,Particulate_Matter_Below_2.5micrometers_2010-2012\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Particulate_Matter_Below_2.5micrometers_2010-2012&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

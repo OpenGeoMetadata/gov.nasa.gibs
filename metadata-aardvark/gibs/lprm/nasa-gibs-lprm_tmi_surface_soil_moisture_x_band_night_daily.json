@@ -1,0 +1,83 @@
+{
+  "id": "nasa-gibs-lprm_tmi_surface_soil_moisture_x_band_night_daily",
+  "dct_title_s": "Surface Soil Moisture X-band (Night), TRMM / TMI LPRM",
+  "dct_description_sm": [
+    "The Surface Soil Moisture X-band (Night, Daily) layer displays level 3, daily, gridded surface soil moisture for the nighttime overpass. The surface soil moisture information is derived from passive microwave remote sensing data from the Tropical Rainfall Measuring Mission (TRMM) Microwave Imager (TMI), using the Land Parameter Retrieval Model (LPRM). The LPRM is based on a forward radiative transfer model to retrieve surface soil moisture and vegetation optical depth.",
+    "The spatial resolution is 25 km x 25 km, the imagery resolution is 2 km and temporal availability is daily, covering the period from December 1997 to April 2015.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1997-12-08 to 2015-04-08. Made from TMI/TRMM surface soil moisture (LPRM) L3 1 day 25 km x 25 km nighttime V001 (LPRM_TMI_NT_SOILM3) (LPRM_TMI_NT_SOILM3, version 001, doi:10.5067/GWHRZEL8SA21)."
+  ],
+  "dct_creator_sm": [
+    "Vrije Universiteit Amsterdam (Richard de Jeu) and NASA GSFC (Manfred Owe)"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1997-12-08 to 2015-04-08"
+  ],
+  "gbl_indexYear_im": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015
+  ],
+  "gbl_dateRange_drsim": [
+    "[1997 TO 2015]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "LPRM_TMI_Surface_Soil_Moisture_X_Band_Night_Daily"
+  ],
+  "dct_subject_sm": [
+    "Soil Moisture",
+    "Skin Temperature",
+    "Soil Moisture/Water Content",
+    "Plant Characteristics"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "TRMM",
+    "TMI",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 40, -40)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 40, -40)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "LPRM_TMI_Surface_Soil_Moisture_X_Band_Night_Daily",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/LPRM_TMI_Surface_Soil_Moisture_X_Band_Night_Daily/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,LPRM_TMI_Surface_Soil_Moisture_X_Band_Night_Daily\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=LPRM_TMI_Surface_Soil_Moisture_X_Band_Night_Daily&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

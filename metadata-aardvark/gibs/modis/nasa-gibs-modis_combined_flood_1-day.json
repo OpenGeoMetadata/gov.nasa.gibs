@@ -1,0 +1,68 @@
+{
+  "id": "nasa-gibs-modis_combined_flood_1-day",
+  "dct_title_s": "Flood (1-Day Window), Terra and Aqua / MODIS",
+  "dct_description_sm": [
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2021-01-01 and updated as new data arrive. Made from MODIS/Aqua+Terra Global Flood Product L3 NRT 250m (MCDWD_L3_NRT, version 6.1, doi:10.5067/MODIS/MCDWD_L3_NRT.061); MODIS/Aqua+Terra Global Flood Product L3 NRT 250m 1-day GeoTIFF (MCDWD_L3_F1_NRT, version 6.1, doi:10.5067/MODIS/MCDWD_L3_F1_NRT.061).",
+    "The MODIS/Aqua+Terra Global Flood Product L3 Near Real Time (NRT) 250m Global Flood Product (MCDWD_L3_NRT) (beta) provides daily maps of flooding globally. The product is provided over 3 compositing periods (1-day, 2-day, and 3-day) to minimize the impact of clouds and more rigorously identify flood water (the best composite will depend on the cloudiness for a particular event). The beta version of the product will be updated. For more information, visit product page at: https://earthdata.nasa.gov/earth-observation-data/near-real-time/mcdwd-nrt"
+  ],
+  "dct_creator_sm": [
+    "Land, Atmosphere Near real-time Capability for EOS (LANCE) Moderate Resolution Imaging Spectroradiometer (MODIS)"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2021-01-01 to present"
+  ],
+  "gbl_indexYear_im": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2021 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Combined_Flood_1-Day"
+  ],
+  "dct_subject_sm": [
+    "Flood Hazard",
+    "Surface Water Processes/Measurements",
+    "Floods"
+  ],
+  "dcat_theme_sm": [
+    "Society",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Terra",
+    "MODIS",
+    "Aqua",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Combined_Flood_1-Day",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Combined_Flood_1-Day/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Combined_Flood_1-Day&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

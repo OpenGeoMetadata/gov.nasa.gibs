@@ -1,0 +1,72 @@
+{
+  "id": "nasa-gibs-viirs_noaa21_brightness_temp_bandi5_night",
+  "dct_title_s": "Brightness Temperature (Band I5, Night), NOAA-21 / VIIRS",
+  "dct_description_sm": [
+    "The VIIRS Brightness Temperature (Band I5, Night) layer is the brightness temperature, measured in Kelvin (K), calculated from the top-of-the-atmosphere radiances. It does not provide an accurate temperature of either clouds or the land surface, but it does show relative temperature differences which can be used to distinguish features both in clouds and over clear land. It can be used to distinguish land, sea ice, and open water over the polar regions during winter (in cloudless areas).",
+    "The VIIRS Brightness Temperature layer is calculated from VIIRS Calibrated Radiances. The VIIRS instrument is aboard the joint NASA/NOAA NOAA-21 (JPSS-2) satellite. The sensor resolution is 375m, the imagery resolution is 250m, and the temporal resolution is daily.",
+    "Note: The Corrected Reflectance and the Thermal Band I5 imagery from NOAA-21/VIIRS will occasionally show a checkered pattern, especially over the respective polar areas. This is due to overlapping and superimposition of observations from multiple orbits with widely different cloud/snow coverages. The checkered pattern may also arise from the mixture of partial day and night observations. Though all necessary steps have been taken to mitigate this effect, users may still notice this to some extent over the polar areas, depending on the season.",
+    "VJ202IMG_NRT doi:10.5067/VIIRS/VJ202IMG_NRT.021",
+    "VJ202IMG doi:10.5067/VIIRS/VJ203IMG.021",
+    "VJ203IMG_NRT doi:10.5067/VIIRS/VJ203IMG_NRT.021",
+    "VJ203IMG doi:10.5067/VIIRS/VJ202IMG.021",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2023-02-10 and updated as new data arrive. Made from VIIRS/JPSS2 Imagery Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 375m V2.1 (VJ203IMG, version 2.1, doi:10.5067/VIIRS/VJ203IMG.021); VIIRS/JPSS2 Imagery Resolution 6-Min L1B Swath 375m V2.1 (VJ202IMG, version 2.1, doi:10.5067/VIIRS/VJ202IMG.021)."
+  ],
+  "dct_creator_sm": [
+    "VCST Team"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2023-02-10 to present"
+  ],
+  "gbl_indexYear_im": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2023 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_NOAA21_Brightness_Temp_BandI5_Night"
+  ],
+  "dct_subject_sm": [
+    "Brightness Temperature",
+    "Infrared Radiance",
+    "Reflected Infrared",
+    "Geolocation",
+    "Visible Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-21",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_NOAA21_Brightness_Temp_BandI5_Night",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA21_Brightness_Temp_BandI5_Night/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_NOAA21_Brightness_Temp_BandI5_Night\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_NOAA21_Brightness_Temp_BandI5_Night&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

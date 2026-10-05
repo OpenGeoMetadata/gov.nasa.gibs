@@ -1,0 +1,66 @@
+{
+  "id": "nasa-gibs-tempo_l2_ozone_profile_total_column_granule",
+  "dct_title_s": "Ozone Profile (L2, Total Ozone Column, Subdaily) (BETA), TEMPO",
+  "dct_description_sm": [
+    "The Tropospheric Emissions: Monitoring of Pollution (TEMPO) Total Ozone Column Amount layer provides information on the total amount of ozone in a vertical column of the atmosphere and is measured in Dobson Units (DU). The retrieval is performed using the Smithsonian Astrophysical Observatory (SAO) ozone profile algorithm, which is based on the optimal estimation method. The total ozone column is calculated by integrating the ozone profile provided in 24 vertical layers.",
+    "Imagery is available as approximately six-minute granules for daylight hours over North America. The sensor’s native spatial resolution is ~2 km x 4.75 km at the center of TEMPO’s field of regard (FOR). Due to the computational burden of on-line radiative transfer calculations and limited computational resources, a spatial coadding strategy is applied. Specifically, four native ground pixels in the North-South direction are coadded and provided as a single retrieval pixel. Therefore, the product’s spatial resolution is ~8 km x 4.75 km at the center of TEMPO’s FOR. The imagery is generated at 2 km resolution by projecting the data onto a regular grid using an Elliptically Weighted Averaging Nearest Neighbor interpolation method. The layer is filtered to remove low-quality pixels based on several criteria, using retrieval exit status (removing data that are not converged), solar zenith angle (removing data retrieved at high solar zenith angles), viewing zenith angle (removing data retrieved at high viewing zenith angles), fit RMS (removing with a high ratio of fitting residual to measurement error), average residual (removing data with high average relative fitting residual) and effective cloud fraction (removing where clouds obscure the column) variables. The filters applied are set to remove pixels based on the following: retrieval exit status ≤ 1 and ≥ 99, solar zenith angle greater than 80 degrees, viewing zenith angle greater than 80 degrees, fit RMS greater than 3, average residual greater than 0.3, and effective cloud fraction greater than 0.5.",
+    "Ozone profile Level 2 files provide ozone (ozone profile, total ozone column, troposphere ozone column, and stratosphere ozone column) and supporting information at spatial resolution of four North-South direction coadded from TEMPO’s native spatial resolution for individual granules. Each granule covers the entire North-South TEMPO FOR but only a portion of the East-West FOR. The temporal resolution of a nominal scan is approximately one hour during daylight hours, with more frequent scans in the morning over the eastern portion of the FOR and in the evenings over the western portion of the FOR.",
+    "A subdaily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2023-08-02 and updated as new data arrive. Made from TEMPO ozone profile V04 (BETA) (TEMPO_O3PROF_L2, version V04, doi:10.5067/IS-40e/TEMPO/O3PROF_L2.004)."
+  ],
+  "dct_creator_sm": [
+    "Junsung Park, Xiong Liu, & John C Houck"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2023-08-02 to present"
+  ],
+  "gbl_indexYear_im": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2023 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "TEMPO_L2_Ozone_Profile_Total_Column_Granule"
+  ],
+  "dct_subject_sm": [
+    "Ozone",
+    "Oxygen Compounds"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "IS-40e",
+    "TEMPO",
+    "Subdaily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-170, -10, 80, 10)",
+  "dcat_bbox": "ENVELOPE(-170, -10, 80, 10)",
+  "dcat_centroid": "45,-90",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "TEMPO_L2_Ozone_Profile_Total_Column_Granule",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/TEMPO_L2_Ozone_Profile_Total_Column_Granule/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,TEMPO_L2_Ozone_Profile_Total_Column_Granule\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=TEMPO_L2_Ozone_Profile_Total_Column_Granule&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

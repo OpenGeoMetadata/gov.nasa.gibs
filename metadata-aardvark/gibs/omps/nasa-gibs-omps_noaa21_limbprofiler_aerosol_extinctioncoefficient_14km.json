@@ -1,0 +1,64 @@
+{
+  "id": "nasa-gibs-omps_noaa21_limbprofiler_aerosol_extinctioncoefficient_14km",
+  "dct_title_s": "Aerosol Extinction Vertical Profile (13.5 - 14.5 km), NOAA-21 / OMPS LP",
+  "dct_description_sm": [
+    "The OMPS Aerosol Extinction Vertical Profile (13.5 - 14.5km) layer indicates the average retrieved aerosol extinction coefficient at altitudes of 13.5 - 14.5 km above the tropopause in km-1 (or 1/km), as measured by the Limb Profiler (LP) sensor on the joint NASA/NOAA NOAA-21 satellite. The assumed tropopause height comes from the Goddard Earth Observing System Forward Processing for Instrument Teams (GEOS FP-IT) data product.",
+    "The OMPS Aerosol Extinction Vertical Profile (13.5 - 14.5 km) layer is a science parameter of the OMPS-N21 LP Near real-time (NRT) Aerosol Extinction Vertical Profile swath multi-wavelength orbital 3slit product.",
+    "It is available from the OMPS Limb Profiler (LP) sensor on the joint NASA/NOAA NOAA-21 satellite. Spatial coverage is global (-90 to 90 degrees latitude), and there are about 14.5 orbits per day each measuring three limb profiles spaced approximately 250 km in the cross-track direction. The profiles are measured from the ground up to about 80 km with a vertical resolution of the retrieved profiles of approximately 1.8 km. The temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2023-02-09 and updated as new data arrive. Made from OMPS-N21 L2 LP Aerosol Extinction Vertical Profile swath daily 3slit V2 (OMPS_N21_LP_L2_AER_DAILY) (OMPS_N21_LP_L2_AER_DAILY, version 1.0, doi:10.5067/FWE0H6HNGHFL)."
+  ],
+  "dct_creator_sm": [
+    "Ghassan Taha"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2023-02-09 to present"
+  ],
+  "gbl_indexYear_im": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2023 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OMPS_NOAA21_LimbProfiler_Aerosol_ExtinctionCoefficient_14KM"
+  ],
+  "dct_subject_sm": [
+    "Aerosol Extinction"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-21",
+    "OMPS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OMPS_NOAA21_LimbProfiler_Aerosol_ExtinctionCoefficient_14KM",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OMPS_NOAA21_LimbProfiler_Aerosol_ExtinctionCoefficient_14KM/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OMPS_NOAA21_LimbProfiler_Aerosol_ExtinctionCoefficient_14KM\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OMPS_NOAA21_LimbProfiler_Aerosol_ExtinctionCoefficient_14KM&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

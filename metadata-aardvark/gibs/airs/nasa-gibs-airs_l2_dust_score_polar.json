@@ -1,0 +1,88 @@
+{
+  "id": "nasa-gibs-airs_l2_dust_score_polar",
+  "dct_title_s": "Dust Score (L2, Polar), Aqua / AIRS",
+  "dct_description_sm": [
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2002-08-30 and updated as new data arrive. Made from AIRS/Aqua L2 Support Retrieval (AIRS-only) V006 (AIRS2SUP) (AIRS2SUP, version 006, doi:10.5067/Aqua/AIRS/DATA208); Aqua/AIRS L2 Support Retrieval (AIRS-only) V7.0 (AIRS2SUP, version 7.0, doi:10.5067/APJ6EEN0PD0Z).",
+    "The Atmospheric Infrared Sounder (AIRS) is a grating spectrometer (R = 1200) aboard the second Earth Observing System (EOS) polar-orbiting platform, EOS Aqua. In combination with the Advanced Microwave Sounding Unit (AMSU) and the Humidity Sounder for Brazil (HSB), AIRS constitutes an innovative atmospheric sounding group of visible, infrared, and microwave sensors. This product is similar to AIRX2SUP. It is a new product produced using AIRS IR only because the radiometric noise in AMSU channel 4 started to increase significantly (since June 2007). The Support Product includes higher vertical resolution profiles of the quantities found in the Standard Product, plus intermediate outputs (e.g., microwave-only retrieval), research products such as the abundance of trace gases, and detailed quality assessment information. The Support Product profiles contain 100 levels between 1100 and .016 mb; this higher resolution simplifies the generation of radiances using forward models, though the vertical information content is no greater than that in the Standard Product profiles. The intended users of the Support Product are researchers interested in generating forward radiance or in examining research products, and the AIRS algorithm development team. The Support Product is generated at all locations as Standard Products. An AIRS granule has been set as 6 minutes of data, 30 footprints cross track by 45 lines along track. There are 240 granules per day, with an orbit repeat cycle of approximately 16 day."
+  ],
+  "dct_creator_sm": [
+    "AIRS Science Team/Joao Teixeira",
+    "AIRS project"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-08-30 to present"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AIRS_L2_Dust_Score_Polar"
+  ],
+  "dct_subject_sm": [
+    "Dust",
+    "Surface Temperature",
+    "Carbon Monoxide",
+    "Cloud Properties",
+    "Emissivity",
+    "Geopotential Height"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "AIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_references_s": "{\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg3413/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AIRS_L2_Dust_Score_Polar&STYLES=&SRS=EPSG:3413&BBOX=-4194304,-4194304,4194304,4194304&WIDTH=512&HEIGHT=512&FORMAT=image/jpeg\"}"
+}

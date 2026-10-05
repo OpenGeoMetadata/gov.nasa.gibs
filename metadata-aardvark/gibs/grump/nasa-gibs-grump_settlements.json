@@ -1,0 +1,48 @@
+{
+  "id": "nasa-gibs-grump_settlements",
+  "dct_title_s": "Settlements, Global Rural-Urban Mapping Project (GRUMP), v1",
+  "dct_description_sm": [
+    "The Settlements vector layer indicates the locations of settlements around the world. It is part of the Global Rural-Urban Mapping Project, Version 1.01 (GRUMPv1): Settlement Points, Revision 01 and is an updated version of the Settlement Points, Version 1 (v1) used in the original population reallocation. Revision 01 includes improved geospatial location for selected settlements, as well as new georeferenced settlements. The Settlements layer includes attributes such as settlement name, population estimates per settlement for the year 2000, country, and whether the settlement is urban or rural.",
+    "The settlement points served as an input to the population gridding algorithm and the urban extents products of the Global Rural-Urban Mapping Project, Version 1.01 (GRUMPv1).",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Settlement Points, Revision 01 (CIESIN_SEDAC_GRUMPv1_STLMNT01, version 1.01, doi:10.7927/H4BC3WG1)."
+  ],
+  "dct_creator_sm": [
+    "Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GRUMP_Settlements"
+  ],
+  "dct_subject_sm": [
+    "Settlements",
+    "Human Settlements",
+    "Sustainability"
+  ],
+  "dcat_theme_sm": [
+    "Society"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 85, -58)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 85, -58)",
+  "dcat_centroid": "13.5,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GRUMP_Settlements",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GRUMP_Settlements\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GRUMP_Settlements&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

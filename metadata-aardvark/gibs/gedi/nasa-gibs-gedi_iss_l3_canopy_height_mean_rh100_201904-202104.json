@@ -1,0 +1,58 @@
+{
+  "id": "nasa-gibs-gedi_iss_l3_canopy_height_mean_rh100_201904-202104",
+  "dct_title_s": "Canopy Height Mean (L3, v2, 2019 APR - 2021 APR), ISS / GEDI",
+  "dct_description_sm": [
+    "The Canopy Height Mean (L3, v2, 2019 APR - 2021 APR) layer shows the canopy height as the mean height (in meters) above the ground of the received waveform signal that was the first reflection off the top of the canopy (RH100). RH100 or relative height is the 100th percentile of waveform energy relative to ground elevation. This layer is from the version 2 release of the Global Elevation Dynamics Investigation (GEDI) L3 gridded land surface metrics data covering the period between the 19th and the 122nd mission weeks (2019 APR 18 - 2021 APR 14). It is derived from the GEDI L2B version 2 geolocated laser footprints RH100 data product. The imagery resolution is 1 km and is available globally within -52 and 52 degrees latitude.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS), for 2019-04-18. Made from GEDI L3 Gridded Land Surface Metrics, Version 2 (GEDI_L3_LandSurface_Metrics_V2_1952, version 2, doi:10.3334/ORNLDAAC/1952)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2019-04-18"
+  ],
+  "gbl_indexYear_im": [
+    2019
+  ],
+  "gbl_dateRange_drsim": [
+    "[2019 TO 2019]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GEDI_ISS_L3_Canopy_Height_Mean_RH100_201904-202104"
+  ],
+  "dct_subject_sm": [
+    "Canopy Characteristics",
+    "Lidar Waveform",
+    "Terrain Elevation"
+  ],
+  "dcat_theme_sm": [
+    "Biology"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "ISS",
+    "GEDI"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 52, -52)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 52, -52)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GEDI_ISS_L3_Canopy_Height_Mean_RH100_201904-202104",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GEDI_ISS_L3_Canopy_Height_Mean_RH100_201904-202104/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GEDI_ISS_L3_Canopy_Height_Mean_RH100_201904-202104\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GEDI_ISS_L3_Canopy_Height_Mean_RH100_201904-202104&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

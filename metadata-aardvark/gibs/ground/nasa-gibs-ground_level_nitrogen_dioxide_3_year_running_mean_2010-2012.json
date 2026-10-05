@@ -1,0 +1,58 @@
+{
+  "id": "nasa-gibs-ground_level_nitrogen_dioxide_3_year_running_mean_2010-2012",
+  "dct_title_s": "Ground-Level NO2, 2010-2012, Global 3-Year Running Mean Ground-Level NO2 Grids from GOME, SCIAMACHY and GOME-2, v1 (1996-2012)",
+  "dct_description_sm": [
+    "The Ground Level NO2, 2010 - 2012 layer is from the Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2. The Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2 represent a series of three-year running mean grids (1996-2012) of ground level NO2 that were derived from Global Ozone Monitoring Experiment (GOME), SCanning Imaging Absorption SpectroMeter for Atmospheric CHartographY (SCIAMACHY) and Global Ozone Monitoring Experiment-2 (GOME-2) satellite retrievals. For each satellite-derived NO2 source, the relationship between satellite observations of tropospheric NO2 column densities and the NO2 concentrations at ground level relevant to human exposure is simulated, using the Goddard Earth Observing System chemical transport model (GEOS-Chem) to produce a mean NO2 concentration raster grid. The grid cell resolution is six arc-minutes (0.1 degree, or approximately 10 km at the equator) covering the global land surface.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global 3-Year Running Mean Ground-Level Nitrogen Dioxide (NO2) Grids from GOME, SCIAMACHY and GOME-2 (CIESIN_SEDAC_SDEI_NO2, version 1.0, doi:10.7927/H4JW8BTT)."
+  ],
+  "dct_creator_sm": [
+    "Geddes, J.A., R.V. Martin, B.L. Boys, and A. van Donkelaar",
+    "Geddes, J.A, R.V. Martin, B.L. Boys, and A. van Donkelaar"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Ground_Level_Nitrogen_Dioxide_3_Year_Running_Mean_2010-2012"
+  ],
+  "dct_subject_sm": [
+    "Nitrogen Dioxide",
+    "Nitrogen Compounds",
+    "Sustainability",
+    "Habitat Conversion/Fragmentation"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "ERS-2",
+    "GOME",
+    "METOP-A",
+    "GOME-2",
+    "METOP-B",
+    "ENVISAT",
+    "SCIAMACHY"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Ground_Level_Nitrogen_Dioxide_3_Year_Running_Mean_2010-2012",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Ground_Level_Nitrogen_Dioxide_3_Year_Running_Mean_2010-2012/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,Ground_Level_Nitrogen_Dioxide_3_Year_Running_Mean_2010-2012\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Ground_Level_Nitrogen_Dioxide_3_Year_Running_Mean_2010-2012&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,63 @@
+{
+  "id": "nasa-gibs-omps_noaa21_nadirmapper_aerosolindex_pyrocumulonimbus_380",
+  "dct_title_s": "Aerosol Index (PyroCumuloNimbus) at 380nm, NOAA-21 / OMPS NM",
+  "dct_description_sm": [
+    "The Aerosol Index (PyroCumuloNimbus) at 380nm layer is similar to the Aerosol Index at 380nm layer; the expanded range is geared towards the study of not only pyrocumulonimbus (pyroCb) events (which can have values anywhere from 10 to as much as 50) but other extreme events including heavy smoke from large fire clusters (with AI values between 5 and 10) and ash from volcanic eruptions (from 10 to 20 and above).",
+    "The Aerosol Index (PyroCumuloNimbus) at 380nm layer is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)-N21 L2 NM Aerosol Index swath orbital NRT (OMPS_N21_NMUVAI_L2_NRT) available from the OMPS Nadir-Mapper instrument on the NOAA-21 satellite. The aerosol index is derived from sun-normalized radiances (S-NRs) measured at 340 and 378.5 nm. It is essentially the difference between the measured S-NR at 378.5 nm and one calculated using a reflectivity determined from the 340 nm wavelength while assuming an atmosphere free of smoke, ash, or dust. The sensor resolution is, at nadir, approximately 12 km cross-track by 17 km along-track; the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2025-04-28 and updated as new data arrive. Made from OMPS-N21 L2 NM Aerosol Index swath orbital NRT (OMPS_N21_NMUVAI_L2_NRT, version 2)."
+  ],
+  "dct_creator_sm": [
+    "NASA/GSFC/OMISIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2025-04-28 to present"
+  ],
+  "gbl_indexYear_im": [
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2025 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OMPS_NOAA21_NadirMapper_AerosolIndex_PyroCumuloNimbus_380"
+  ],
+  "dct_subject_sm": [
+    "Aerosol Index",
+    "Dust/Ash/Smoke",
+    "Aerosols"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-21",
+    "OMPS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OMPS_NOAA21_NadirMapper_AerosolIndex_PyroCumuloNimbus_380",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OMPS_NOAA21_NadirMapper_AerosolIndex_PyroCumuloNimbus_380/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OMPS_NOAA21_NadirMapper_AerosolIndex_PyroCumuloNimbus_380\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OMPS_NOAA21_NadirMapper_AerosolIndex_PyroCumuloNimbus_380&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

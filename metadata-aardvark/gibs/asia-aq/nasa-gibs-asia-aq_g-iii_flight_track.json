@@ -1,0 +1,59 @@
+{
+  "id": "nasa-gibs-asia-aq_g-iii_flight_track",
+  "dct_title_s": "LaRC G-III Flight Track (Per Flight), ASIA-AQ/LaRC G-III",
+  "dct_description_sm": [
+    "The Airborne and Satellite Investigation of Asian Air Quality (ASIA-AQ) G-III Flight Tracks provide the locations of where the NASA LaRC G-III aircraft collected measurements to support the ASIA-AQ field campaign. The G-III was equipped with a remote sensing payload, including the Geostationary Coastal and Air Pollution Events (GeoCAPE) Airborne Simulator (GCAS) and the High Spectral Resolution Lidar-2 (HSRL-2). This payload provided column densities of NO2 and profiles of ozone and aerosol characteristics.",
+    "The Airborne and Satellite Investigation of Asian Air Quality (ASIA-AQ) was an international cooperative field study designed to address local air quality challenges. Conducted from January-March 2024, ASIA-AQ deployed multiple aircraft to collect in situ and remote sensing measurements, along with numerous ground-based observations and modeling assessments. Data was collected over four countries including the Philippines, Taiwan, South Korea and Thailand, and flights were conducted in full partnership with local scientists and environmental agencies responsible for air quality monitoring and assessment. One of the primary goals of ASIA-AQ was to contribute improving integration of satellite observations with existing air quality ground monitoring and modeling efforts across Asia. Air quality observations from satellites are evolving with new capabilities from South Korea’s Geostationary Environment Monitoring Spectrometer (GEMS), which conducts hourly measurements to provide a new view of air quality conditions from space that complements and depends upon ground-based monitoring efforts of countries in its field of view. ASIA-AQ science goals focused on satellite validation and interpretation, emissions quantification and verification, model evaluation, aerosol chemistry, and ozone chemistry.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2024-02-06 to 2024-03-27. Made from ASIA-AQ LaRC G-III High Spectral Resolution Lidar-2 Data (ASIA-AQ_AircraftRemoteSensing_LaRC-G3_HSRL2_Data, version 1, doi:10.5067/ASDC/SUBORBITAL/ASIA-AQ/DATA001/G3/AircraftRemoteSensing/HSRL2_1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-02-06 to 2024-03-27"
+  ],
+  "gbl_indexYear_im": [
+    2024
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2024]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "ASIA-AQ_G-III_Flight_Track"
+  ],
+  "dct_subject_sm": [
+    "Suborbital Flight Tracks",
+    "Aerosol Extinction",
+    "Lidar Depolarization Ratio",
+    "Lidar Backscatter",
+    "Tropospheric Ozone",
+    "Oxygen Compounds"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "G-III",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(99.73, 128.6, 37.84, 8)",
+  "dcat_bbox": "ENVELOPE(99.73, 128.6, 37.84, 8)",
+  "dcat_centroid": "22.92,114.165",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "ASIA-AQ_G-III_Flight_Track",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,ASIA-AQ_G-III_Flight_Track\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=ASIA-AQ_G-III_Flight_Track&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

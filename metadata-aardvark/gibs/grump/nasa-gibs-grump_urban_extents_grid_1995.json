@@ -1,0 +1,51 @@
+{
+  "id": "nasa-gibs-grump_urban_extents_grid_1995",
+  "dct_title_s": "Urban Extents, GRUMPv1: Urban Extents Grid, v1 (1995)",
+  "dct_description_sm": [
+    "The Urban Extents layer indicates the extent of urban areas around the world for the year 1995 and is part of the Global Rural-Urban Mapping Project, Version 1 (GRUMPv1).",
+    "The Global Rural-Urban Mapping Project, Version 1 (GRUMPv1) urban extents grids distinguish urban and rural areas based on a combination of population counts (persons), settlement points, and the presence of Nighttime Lights. Areas are defined as urban where contiguous lighted cells from the Nighttime Lights or approximated urban extents based on buffered settlement points for which the total population is greater than 5,000 persons.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global Rural-Urban Mapping Project, Version 1 (GRUMPv1): Urban Extents Grid (CIESIN_SEDAC_GRUMPv1_EXT, version 1.00, doi:10.7927/H4GH9FVG)."
+  ],
+  "dct_creator_sm": [
+    "Balk, D.L., U. Deichmann, G. Yetman, F. Pozzi, S. I. Hay, and A. Nelson"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GRUMP_Urban_Extents_Grid_1995"
+  ],
+  "dct_subject_sm": [
+    "Urban Extents",
+    "Boundaries",
+    "Sustainability"
+  ],
+  "dcat_theme_sm": [
+    "Society"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Raster data"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 84, -56)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 84, -56)",
+  "dcat_centroid": "14,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GRUMP_Urban_Extents_Grid_1995",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GRUMP_Urban_Extents_Grid_1995/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GRUMP_Urban_Extents_Grid_1995\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GRUMP_Urban_Extents_Grid_1995&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

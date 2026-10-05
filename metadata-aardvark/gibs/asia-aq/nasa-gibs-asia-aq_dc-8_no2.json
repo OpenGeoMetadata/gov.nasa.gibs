@@ -1,0 +1,59 @@
+{
+  "id": "nasa-gibs-asia-aq_dc-8_no2",
+  "dct_title_s": "Nitrogen Dioxide and Flight Track (Per Flight), ASIA-AQ/NASA DC-8",
+  "dct_description_sm": [
+    "The Airborne and Satellite Investigation of Asian Air Quality (ASIA-AQ) Flight Tracks and In-Situ Nitrogen Dioxide (NO2) measurements provide NO2 data collected onboard NASA’s DC-8 aircraft. The DC-8 conducted sixteen science flights to support to ASIA-AQ goals and research objectives. The NO2 data provided in this dataset, expressed as parts per trillion by volume (pptv), was measured using the Compact Airborne Nitrogen diOxide Experiment (CANOE).",
+    "The Airborne and Satellite Investigation of Asian Air Quality (ASIA-AQ) was an international cooperative field study designed to address local air quality challenges. Conducted from January-March 2024, ASIA-AQ deployed multiple aircraft to collect in situ and remote sensing measurements, along with numerous ground-based observations and modeling assessments. Data was collected over four countries including the Philippines, Taiwan, South Korea and Thailand, and flights were conducted in full partnership with local scientists and environmental agencies responsible for air quality monitoring and assessment. One of the primary goals of ASIA-AQ was to contribute improving integration of satellite observations with existing air quality ground monitoring and modeling efforts across Asia. Air quality observations from satellites are evolving with new capabilities from South Korea’s Geostationary Environment Monitoring Spectrometer (GEMS), which conducts hourly measurements to provide a new view of air quality conditions from space that complements and depends upon ground-based monitoring efforts of countries in its field of view. ASIA-AQ science goals focused on satellite validation and interpretation, emissions quantification and verification, model evaluation, aerosol chemistry, and ozone chemistry.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2024-02-05 to 2024-03-27. Made from ASIA-AQ DC-8 In-Situ Trace Gas Data (ASIA-AQ_TraceGas_AircraftInSitu_DC8_Data, version 1, doi:10.5067/SUBORBITAL/ASIA-AQ/DATA001/DC8/TraceGas_AircraftInSitu_1); ASIA-AQ DC-8 In-Situ Meteorology and Navigation Data (ASIA-AQ_MetNav_AircraftInSitu_DC8_Data, version 1, doi:10.5067/SUBORBITAL/ASIA-AQ/DATA001/DC8/MetNav_AircraftInSitu_1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-02-05 to 2024-03-27"
+  ],
+  "gbl_indexYear_im": [
+    2024
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2024]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "ASIA-AQ_DC-8_NO2"
+  ],
+  "dct_subject_sm": [
+    "Nitrogen Dioxide",
+    "Nitrogen Compounds",
+    "Tropospheric Ozone",
+    "Oxygen Compounds",
+    "Carbon and Hydrocarbon Compounds",
+    "Halocarbons and Halogens"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NASA DC-8",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 61.37, 12.46)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 61.37, 12.46)",
+  "dcat_centroid": "36.915,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "ASIA-AQ_DC-8_NO2",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,ASIA-AQ_DC-8_NO2\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=ASIA-AQ_DC-8_NO2&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "nasa-gibs-landsat_human_built-up_and_settlement_extent",
+  "dct_title_s": "Human Built-up And Settlement Extent, Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat, v1 (2010)",
+  "dct_description_sm": [
+    "The Human Built-up And Settlement Extent layer is from the Global Human Built-up And Settlement Extent (HBASE) Dataset from Landsat. It is a global map of HBASE derived from the Global Land Survey (GLS) Landsat dataset for the target year 2010. The layer is differentiated into three categories, \"Not HBASE\", \"HBASE\" and \"Road\". The spatial resolution is 30m. The spatial extent covers the entire globe except Antarctica and some small islands.",
+    "The dataset is expected to have a rather broad spectrum of users, from those wishing to examine/study the fine details of urban land cover over the globe at full 30m resolution to global modelers trying to understand the climate/environmental impacts of man-made surfaces at continental to global scales. For example, the data are applicable to local modeling studies of urban impacts on the energy, water, and carbon cycles, as well as analyses at the individual country level.",
+    "A visualization from NASA's Global Imagery Browse Services (GIBS). Made from Global Human Built-up And Settlement Extent (HBASE) Dataset From Landsat (CIESIN_SEDAC_ULANDSAT_HBASE_V1, version 1.0, doi:10.7927/H4DN434S)."
+  ],
+  "dct_creator_sm": [
+    "Wang, P., C. Huang, E. C. Brown de Colstoun, J. C. Tilton, and B. Tan"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Landsat_Human_Built-up_And_Settlement_Extent"
+  ],
+  "dct_subject_sm": [
+    "Human Built-up And Settlement Extent",
+    "Human Settlements",
+    "Urbanization/Urban Sprawl",
+    "Infrastructure"
+  ],
+  "dcat_theme_sm": [
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "LANDSAT",
+    "TM",
+    "ETM+"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 82.788372, -58.349606)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 82.788372, -58.349606)",
+  "dcat_centroid": "12.219383,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Landsat_Human_Built-up_And_Settlement_Extent",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Landsat_Human_Built-up_And_Settlement_Extent/default/default/GoogleMapsCompatible_Level12/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,Landsat_Human_Built-up_And_Settlement_Extent\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Landsat_Human_Built-up_And_Settlement_Extent&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "nasa-gibs-smap_l2_passive_day_soil_moisture_option1",
+  "dct_title_s": "Soil Moisture 36 km (L2, Passive, Day, Single Channel Algorithm, H-pol), SMAP / Radiometer",
+  "dct_description_sm": [
+    "The Soil Moisture Active Passive (SMAP) \"Soil Moisture 36 km (L2, Passive, Day, Single Channel Algorithm, H Polarization)\" layer displays surface soil moisture in cm³/cm³ posted on a 36 km EASE-Grid 2.0 derived from the Single Channel Algorithm H-Polarization (SCA-H), one of four optional soil moisture algorithms, for the 6:00 a.m. descending (Day) half-orbit passes of the SMAP radiometer. The SMAP radiometer measures natural thermal emission emanating from the soil surface. The variation in the intensity of this radiation depends on the dielectric properties and temperature of the target medium, which for the near surface soil layer is a function of the amount of moisture present. In the SCA-H, the horizontally polarized brightness temperatures are converted to emissivity using a surrogate for the physical temperature of the emitting layer. The derived emissivity is corrected for vegetation and surface roughness to obtain the soil emissivity. The Fresnel equation is then used to determine the dielectric constant. Finally, a dielectric mixing model is used to obtain the soil moisture given knowledge of the soil texture.",
+    "The SMAP spacecraft carries two instruments, a radar (active) and a radiometer (passive), that together make global measurements of land surface soil moisture and freeze/thaw state. It is useful for monitoring and predicting natural hazards such as floods and droughts, understanding the linkages between Earth’s water, energy and carbon cycles, and reducing uncertainties in predicting weather and climate.",
+    "Data field: soil_moisture_option1",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2015-03-31 and updated as new data arrive. Made from SMAP L2 Radiometer Half-Orbit 36 km EASE-Grid Soil Moisture V009 (SPL2SMP, version 009, doi:10.5067/K7Y2D8QQVZ4L)."
+  ],
+  "dct_creator_sm": [
+    "NASA/JPL/SMAP"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2015-03-31 to present"
+  ],
+  "gbl_indexYear_im": [
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2015 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SMAP_L2_Passive_Day_Soil_Moisture_Option1"
+  ],
+  "dct_subject_sm": [
+    "Soil Moisture",
+    "Brightness Temperature",
+    "Soil Moisture/Water Content"
+  ],
+  "dcat_theme_sm": [
+    "Land Cover",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "SMAP",
+    "SMAP L-BAND RADIOMETER",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SMAP_L2_Passive_Day_Soil_Moisture_Option1",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SMAP_L2_Passive_Day_Soil_Moisture_Option1/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SMAP_L2_Passive_Day_Soil_Moisture_Option1\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SMAP_L2_Passive_Day_Soil_Moisture_Option1&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

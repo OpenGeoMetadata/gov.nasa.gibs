@@ -1,0 +1,63 @@
+{
+  "id": "nasa-gibs-omps_noaa20_so2_upper_troposphere_and_stratosphere",
+  "dct_title_s": "Sulfur Dioxide (Upper Troposphere and Stratosphere), NOAA-20 / OMPS",
+  "dct_description_sm": [
+    "The OMPS Sulfur Dioxide (SO2) Upper Troposphere and Stratosphere layer indicates the column density of sulfur dioxide in the upper troposphere and stratosphere (corresponding to 17 km center of mass altitude (CMA)) and is measured in Dobson Units (DU). This layer can be used for studies on explosive volcanic eruptions.",
+    "The OMPS Sulfur Dioxide (SO2) Upper Troposphere and Stratosphere layer is a science parameter of the Ozone Mapping and Profiler Suite (OMPS)-N20 NM PCA Sulfur Dioxide (SO2) Step 1 Total Column 1-Orbit L2 Swath 17x13km collection 1 product. It is available from the OMPS Nadir-Mapper (NM) sensor on the joint NASA/NOAA NOAA-20 (JPSS-1) satellite. The sensor resolution is 25 km, imagery resolution is 2 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2024-10-31 and updated as new data arrive. Made from OMPS-N20 NM PCA SO2 Step 1 Total Column 1-Orbit L2 Swath 17x13km NRT (OMPS_N20_NMSO2_PCA_L2_Step1_NRT, version 1, doi:10.5067/OMPS/OMPS_N20_NMSO2_PCA_L2_Step1.1)."
+  ],
+  "dct_creator_sm": [
+    "NASA/GSFC/OMISIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-10-31 to present"
+  ],
+  "gbl_indexYear_im": [
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OMPS_NOAA20_SO2_Upper_Troposphere_and_Stratosphere"
+  ],
+  "dct_subject_sm": [
+    "Sulfur Dioxide",
+    "Sulfur Compounds"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-20",
+    "OMPS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OMPS_NOAA20_SO2_Upper_Troposphere_and_Stratosphere",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OMPS_NOAA20_SO2_Upper_Troposphere_and_Stratosphere/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OMPS_NOAA20_SO2_Upper_Troposphere_and_Stratosphere\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OMPS_NOAA20_SO2_Upper_Troposphere_and_Stratosphere&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

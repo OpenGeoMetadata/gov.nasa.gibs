@@ -1,0 +1,83 @@
+{
+  "id": "nasa-gibs-measures_sea_ice_snow_extent",
+  "dct_title_s": "Sea Ice and Snow Extent, DMSP 5D-2 F13/SSMI, DMSP 5D-3 F17/SSMIS, Terra/MODIS",
+  "dct_description_sm": [
+    "The MEaSUREs Sea Ice and Snow Extent layer reports the location of Northern Hemisphere snow cover and sea ice extent derived from the Terra, DMSP 5D-2/F13, and DMSP 5D-3/F17 satellites.",
+    "Snow is precipitation that forms from water vapor in the atmosphere where temperatures are below 0° Celsius. If the ground temperature is also below freezing, snow will accumulate on the ground as bright, white layer of snowpack. Snow cover reflects sunlight back into the atmosphere, helping to cool the Earth’s surface. Ice forms in the sea when air and sea temperatures are consistently cold. Some areas of the sea in the world are consistently covered in sea ice, and the sea ice even builds up to form multi-year ice packs, some areas only form sea ice in the winter. The presence of sea ice changes the normally dark blue ocean into solid white ice. This has an effect on the weather and Earth’s climate. Sunlight that would normally be absorbed by the dark blue ocean is now reflected back by the ice, increasing the surface albedo.",
+    "The MEaSUREs Sea Ice and Snow Cover layer's sensor and imagery resolution is 25 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1999-01-01 to 2012-12-31. Made from MEaSUREs Northern Hemisphere State of Cryosphere Daily 25km EASE-Grid 2.0 V001 (NSIDC-0534, version 1, doi:10.5067/MEASURES/CRYOSPHERE/nsidc-0534.001)."
+  ],
+  "dct_creator_sm": [
+    "RUTGERS/GEOGRAPHY"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1999-01-01 to 2012-12-31"
+  ],
+  "gbl_indexYear_im": [
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012
+  ],
+  "gbl_dateRange_drsim": [
+    "[1999 TO 2012]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MEaSUREs_Sea_Ice_Snow_Extent"
+  ],
+  "dct_subject_sm": [
+    "Sea Ice",
+    "Ice Extent",
+    "Snow Cover",
+    "Snow Melt"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "DMSP 5D-2/F13",
+    "SSM/I",
+    "DMSP 5D-3/F17",
+    "SSMIS",
+    "Terra",
+    "MODIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, 0)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, 0)",
+  "dcat_centroid": "45,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MEaSUREs_Sea_Ice_Snow_Extent&p=arctic\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg3413/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MEaSUREs_Sea_Ice_Snow_Extent&STYLES=&SRS=EPSG:3413&BBOX=-4194304,-4194304,4194304,4194304&WIDTH=512&HEIGHT=512&FORMAT=image/jpeg\"}"
+}

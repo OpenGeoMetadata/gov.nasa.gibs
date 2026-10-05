@@ -1,0 +1,79 @@
+{
+  "id": "nasa-gibs-ssmis_sea_ice_concentration_snow_extent",
+  "dct_title_s": "Sea Ice Concentration and Snow Extent, DMSP 5D-3 F18 / SSMIS",
+  "dct_description_sm": [
+    "NOTE: These Sea Ice Concentration and Snow Extent images are no longer being updated and may no longer reflect the most recent version of the underlying data set. Sea Ice Concentration and Snow Extent data, NISE, are still available for download from the NASA NSIDC DAAC without corresponding GIBS/Worldview imagery. Users interested in forward processing sea ice concentration images should refer to the AMSR2 Sea Ice Concentration (12km) layers.",
+    "The Sea Ice Concentration and Snow Extent layer (also known as the Near-real-time Ice and Snow Extent (NISE) data set) provides daily imagery of sea ice concentrations and snow extent for the polar regions from the SSM/I and SSMIS passive microwave sensors on board the DMSP 5D-2/F13, DMSP 5D-3/F17 and DMSP 5D-3/F18 platforms. This imagery is meant to provide a best estimate of current ice and snow conditions based on information and algorithms available at the time the data are acquired. These data are not suitable for time series, anomalies, or trends analyses.",
+    "The sensor/algorithm resolution is 25 km, imagery resolution is 1 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2009-08-17 to 2024-07-02. Made from Near-Real-Time SSM/I-SSMIS EASE-Grid Daily Global Ice Concentration and Snow Extent V005 (NISE, version 5, doi:10.5067/3KB2JPLFPK3R)."
+  ],
+  "dct_creator_sm": [
+    "NASA NSIDC DAAC"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2009-08-17 to 2024-07-02"
+  ],
+  "gbl_indexYear_im": [
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "gbl_dateRange_drsim": [
+    "[2009 TO 2024]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SSMIS_Sea_Ice_Concentration_Snow_Extent"
+  ],
+  "dct_subject_sm": [
+    "Sea Ice",
+    "Sea Ice Concentration",
+    "Snow Cover"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans",
+    "Inland Waters"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "DMSP 5D-3/F18",
+    "SSMIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "dct_references_s": "{\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SSMIS_Sea_Ice_Concentration_Snow_Extent&p=arctic\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg3413/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SSMIS_Sea_Ice_Concentration_Snow_Extent&STYLES=&SRS=EPSG:3413&BBOX=-4194304,-4194304,4194304,4194304&WIDTH=512&HEIGHT=512&FORMAT=image/jpeg\"}"
+}

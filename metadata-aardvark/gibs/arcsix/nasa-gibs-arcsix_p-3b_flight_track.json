@@ -1,0 +1,60 @@
+{
+  "id": "nasa-gibs-arcsix_p-3b_flight_track",
+  "dct_title_s": "NASA P-3B Flight Track (Per Flight), ARCSIX/NASA P-3B",
+  "dct_description_sm": [
+    "The Arctic Radiation-Cloud-Aerosol-Surface Interaction Experiment (ARCSIX) P-3B Flight Tracks provide the locations of where the NASA P-3B aircraft collected measurements to support the ARCSIX field campaign. The P-3B completed 19 science flights across two deployments and was equipped with in situ and remote sensing payloads to acquire measurements of aerosols, cloud, and radiation properties. The temporal coverage includes a Spring (May 17 - June 17, 2024) and Summer (July 22 - August 16, 2024) deployment.",
+    "The Arctic Radiation-Cloud-Aerosol-Surface Interaction EXperiment (ARCSIX) was a NASA field investigation aimed at quantifying the contributions of surface properties, clouds, aerosol particles, and precipitation to the Arctic summer surface radiation budget and sea ice melt during the early melt season. Based out of Greenland, ARCSIX completed two deployments from May – June 2024 and July - August 2024 and deployed multiple aircraft to achieve ARCSIX science objectives. Data were also collected at the Thule High Arctic Atmospheric Observatory (THAAO) in Pituffik, Greenland. The primary objective of ARCSIX was to enhance long-term space-based monitoring and predictive capabilities of Arctic sea ice, cloud, and aerosols by validating and improving remote sensing algorithms and model parameterizations in the Arctic. ARCSIX science questions focused on examining the impact of the predominant summer Arctic cloud types on the radiative surface energy budget, what processes control the evolution and maintenance of the predominant cloud types in the summertime Arctic, and how do the two-way interactions between surface properties and atmospheric forcings affect sea ice evolution.",
+    "Note: The following dates contain test/transit flights: 2024 May 17, 2024 May 24, 2024 June 17, 2024 July 22, and 2024 August 16.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2024-05-17 to 2024-08-16. Made from ARCSIX P-3B In-Situ Meteorology and Navigation Data (ARCSIX_MetNav_AircraftInSitu_P3B_Data, version 1, doi:10.5067/SUBORBITAL/ARCSIX/DATA001/P3B/MetNav_AircraftInSitu_1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2024-05-17 to 2024-08-16"
+  ],
+  "gbl_indexYear_im": [
+    2024
+  ],
+  "gbl_dateRange_drsim": [
+    "[2024 TO 2024]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "ARCSIX_P-3B_Flight_Track"
+  ],
+  "dct_subject_sm": [
+    "Suborbital Flight Tracks",
+    "Flight Data Logs",
+    "Airspeed/Ground Speed",
+    "Surface Temperature",
+    "Water Vapor Profiles",
+    "Water Vapor Indicators"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "P-3B",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-105.18, -8.31, 86.06, 37.68)",
+  "dcat_bbox": "ENVELOPE(-105.18, -8.31, 86.06, 37.68)",
+  "dcat_centroid": "61.87,-56.745",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "ARCSIX_P-3B_Flight_Track",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,ARCSIX_P-3B_Flight_Track\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=ARCSIX_P-3B_Flight_Track&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

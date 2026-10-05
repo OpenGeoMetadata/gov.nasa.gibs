@@ -1,0 +1,75 @@
+{
+  "id": "nasa-gibs-omps_ozone_total_column",
+  "dct_title_s": "Ozone, Suomi NPP / OMPS",
+  "dct_description_sm": [
+    "The OMPS Ozone layer indicates the amount of ozone in the total column and is measured in Dobson Units (DU).",
+    "The OMPS-NPP L2 NM Ozone (O3) Total Column swath orbital product provides total ozone measurements from the Ozone Mapping and Profiler Suite (OMPS) Nadir-Mapper (NM) instrument on the Suomi NPP satellite. The total column ozone amount is derived from normalized radiances using 2 wavelength pairs 317.5 and 331.2 nm under most conditions, and 331.2 and 360 nm for high ozone and high solar zenith angle conditions. Additionally, this data product contains measurements of UV aerosol index and reflectivity at 331 nm. Each granule contains data from the daylight portion of each orbit measured for a full day. Spatial coverage is global (-90 to 90 degrees latitude), and there are about 14.5 orbits per day, each has typically 400 swaths. The swath width of the NM is about 2800 km with 36 scenes, or pixels, with a footprint size of 50 km x 50 km at nadir.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-01-26 and updated as new data arrive. Made from OMPS-NPP L2 NM Ozone (O3) Total Column swath orbital (OMPS_NPP_NMTO3_L2, version 2, doi:10.5067/0WF4HAAZ0VHK)."
+  ],
+  "dct_creator_sm": [
+    "Glen Jaross"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-01-26 to present"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OMPS_Ozone_Total_Column"
+  ],
+  "dct_subject_sm": [
+    "Ozone",
+    "Oxygen Compounds"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Suomi-NPP",
+    "OMPS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OMPS_Ozone_Total_Column",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OMPS_Ozone_Total_Column/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OMPS_Ozone_Total_Column\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OMPS_Ozone_Total_Column&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "nasa-gibs-modis_aqua_l3_land_surface_temp_8day_day_tes",
+  "dct_title_s": "Land Surface Temperature (L3, 8-Day, Day, TES Algorithm), Aqua / MODIS",
+  "dct_description_sm": [
+    "The Land Surface Temperature (L3, 8-Day, Day) layer is from the new Land Surface Temperature and Emissivity (LST&E) product (MOD/MYD21), which is in addition to the heritage MOD11/MYD11 Land Surface Temperature (LST) product. It show the temperature of the land surface in Kelvin (K).",
+    "The MOD/MYD21 Temperature/Emissivity Separation (TES) algorithm is a physics-based algorithm used to dynamically retrieve both LST and spectral emissivity simultaneously from the MODIS thermal infrared (TIR) bands 29, 31, and 32. The TES algorithm is combined with an improved Water Vapor Scaling (WVS) atmospheric correction scheme to stabilize the retrieval during warm and humid conditions. The MOD/MYD21 LST&E algorithm differs from the MOD11/MYD11 L2 algorithm in that the MOD21/MYD21 algorithm is based on the ASTER TES technique, whereas the MOD11/MYD11 L2 products uses a generalized split-window (GSW) technique. MOD/MYD21 addresses the 3-5 K cold bias over desert regions that currently exists with the MOD/MYD11 LST product, and using the TES algorithm allows a dynamical retrieval of land surface emissivity for all MODIS TIR bands 29, 31, and 32. Users are encourage to read the current validation status report to better understand differences between these two products.",
+    "The MYD21A2 dataset is an 8-day composite LST product that uses an algorithm based on a simple averaging method. The algorithm calculates the average from all the cloud free MYD21A1D and MYD21A1N daily acquisitions from the 8-day period. Additional details regarding the method used to create this Level 3 (L3) product are available in the Algorithm Theoretical Basis Document (ATBD).",
+    "The MODIS Land Surface Temperature product is available from both Terra (MOD21) and Aqua (MYD21) satellites. The sensor and imagery resolution is 1 km, and the temporal resolution is 8 days.",
+    "References: MYD21A2 doi:10.5067/MODIS/MYD21A2.061",
+    "An 8-day visualization from NASA's Global Imagery Browse Services (GIBS), available from 2002-07-04 and updated as new data arrive."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-07-04 to present"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Aqua_L3_Land_Surface_Temp_8Day_Day_TES"
+  ],
+  "dct_subject_sm": [
+    "Land Surface Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "8-Day"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Aqua_L3_Land_Surface_Temp_8Day_Day_TES",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Aqua_L3_Land_Surface_Temp_8Day_Day_TES/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Aqua_L3_Land_Surface_Temp_8Day_Day_TES\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Aqua_L3_Land_Surface_Temp_8Day_Day_TES&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "nasa-gibs-modis_aqua_cloud_optical_thickness_16",
+  "dct_title_s": "Cloud Optical Thickness (1.6 microns), Aqua / MODIS",
+  "dct_description_sm": [
+    "The MODIS Cloud Optical Thickness (1.6 microns) layer is a measure of the amount of sunlight affected by absorption and scattering when passing through the clouds using Band 6 (1.6 μm). Clouds scatter and reflect most visible light. Hence it is simultaneously retrieved with Cloud Effective Radius by simultaneously measuring the reflection function of a non-absorbing and absorbing spectral channel (e.g., Visible/Near Infrared (VIS/NIR) and Shortwave Infrared (SWIR), respectively) and comparing the resulting measurements with theoretical forward model calculations.",
+    "The MODIS Cloud Optical Thickness layers are available from both the Terra (MOD06) and Aqua (MYD06) satellites for daytime overpasses. The sensor/algorithm resolution is 1 km, imagery resolution is 1 km, and the temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2002-07-03 and updated as new data arrive. Made from MODIS/Aqua Clouds 5-Min L2 Swath 1km and 5km (MYD06_L2, version 6.1, doi:10.5067/MODIS/MYD06_L2.061)."
+  ],
+  "dct_creator_sm": [
+    "MODIS Science Team"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2002-07-03 to present"
+  ],
+  "gbl_indexYear_im": [
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2002 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MODIS_Aqua_Cloud_Optical_Thickness_16"
+  ],
+  "dct_subject_sm": [
+    "Cloud Optical Thickness",
+    "Atmospheric Emitted Radiation",
+    "Emissivity",
+    "Optical Depth/Thickness",
+    "Radiative Flux",
+    "Reflectance"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "MODIS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MODIS_Aqua_Cloud_Optical_Thickness_16",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Aqua_Cloud_Optical_Thickness_16/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Aqua_Cloud_Optical_Thickness_16\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Aqua_Cloud_Optical_Thickness_16&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "nasa-gibs-amsru2_sea_ice_brightness_temp_6km_89h",
+  "dct_title_s": "Brightness Temperature for Sea Ice (89H Ghz), GCOM-W1/AMSR2",
+  "dct_description_sm": [
+    "The Advanced Microwave Scanning Radiometer-E/Advanced Microwave Scanning Radiometer-2 (AMSR-E/AMSR2) unified “Sea Ice Brightness Temperature (89H GHz)” layer displays daily averaged sea ice brightness temperatures (TBs) in Kelvin (K) at the polar regions for the 89 GHz horizontal (H) polarization channel. Brightness temperature (TB) data are particularly useful for sea ice studies because of the relatively high contrast in emissivities between open water and sea ice.",
+    "The AMSR2 instrument is a conically scanning passive microwave radiometer. This instrument senses microwave radiation for twelve channels and six frequencies ranging from 6.9 GHz to 89 GHz on board the Japan Aerospace Exploration Agency (JAXA) Global Change Observation Mission – Water 1 (GCOM-W1) satellite.",
+    "This product uses the JAXA AMSR2 Level-1R input TBs which are calibrated (unified) across the JAXA AMSR-E and AMSR2 Level-1R products.",
+    "The imagery resolution is 2 km and sensor resolution is 6.25 km. The temporal resolution is daily.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2012-07-02 to 2025-09-01. Made from AMSR-E/AMSR2 Unified L3 Daily 6.25 km Polar Gridded 89 GHz Brightness Temperatures V001 (AU_SI6, version 1, doi:10.5067/NX1R09ORNOZN)."
+  ],
+  "dct_creator_sm": [
+    "NASA/MSFC/AMSR-E SIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-07-02 to 2025-09-01"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2025]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "AMSRU2_Sea_Ice_Brightness_Temp_6km_89H"
+  ],
+  "dct_subject_sm": [
+    "Brightness Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Aqua",
+    "AMSR-E",
+    "GCOM-W1",
+    "AMSR2",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "AMSRU2_Sea_Ice_Brightness_Temp_6km_89H",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/AMSRU2_Sea_Ice_Brightness_Temp_6km_89H/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,AMSRU2_Sea_Ice_Brightness_Temp_6km_89H\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=AMSRU2_Sea_Ice_Brightness_Temp_6km_89H&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

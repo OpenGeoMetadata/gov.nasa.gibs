@@ -1,0 +1,63 @@
+{
+  "id": "nasa-gibs-otd_orbview1_flash_radiance",
+  "dct_title_s": "Calibrated Flash Radiance (OTD / Microlab-1), OrbView-1 / OTD",
+  "dct_description_sm": [
+    "The Calibrated Flash Radiance (OTD/Microlab-1) layer displays radiance of lightning flashes measured in μJ/sr/m²/μm as recorded by the Optical Transient Detector (OTD).",
+    "The Optical Transient Detector (OTD) records optical measurements of global lightning events in the daytime and nighttime. The data includes individual point (lightning) data, satellite metadata, and several derived products. The OTD was launched on 3 April 1995 aboard the Microlab-1 satellite into a near polar orbit with an inclination of 70 degrees with respect to the equator, at an altitude of 740 km.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1995-04-13 to 2000-03-23. Made from OPTICAL TRANSIENT DETECTOR (OTD) LIGHTNING V1 (otdlip, version 1, doi:10.5067/LIS/OTD/DATA101)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1995-04-13 to 2000-03-23"
+  ],
+  "gbl_indexYear_im": [
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000
+  ],
+  "gbl_dateRange_drsim": [
+    "[1995 TO 2000]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OTD_OrbView1_Flash_Radiance"
+  ],
+  "dct_subject_sm": [
+    "Lightning"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "OrbView-1",
+    "OTD",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 70, -70)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 70, -70)",
+  "dcat_centroid": "0,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OTD_OrbView1_Flash_Radiance",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OTD_OrbView1_Flash_Radiance/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OTD_OrbView1_Flash_Radiance\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OTD_OrbView1_Flash_Radiance&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

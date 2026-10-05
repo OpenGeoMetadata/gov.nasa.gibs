@@ -1,0 +1,64 @@
+{
+  "id": "nasa-gibs-himawari_ahi_band3_red_visible_1km",
+  "dct_title_s": "Red Visible (0.64 µm, Band 3, 10 minute), Himawari-9/AHI",
+  "dct_description_sm": [
+    "Note: This layer is generally available for the most recent 90 days, though certain historical ranges are also preserved.",
+    "The Red Visible (0.64 um, Band 3) layer from the Himawari-9 Advanced Himawari Imager (AHI) is used primarily to monitor the evolution of clouds throughout the daylight hours. It is also useful for identifying small-scale features such as river fog/clear air boundaries, or overshooting tops of cumulus clouds. It can also be used to identify daytime snow and ice cover, diagnose low-level cloud-drift winds, assist with detections of volcanic ash and analysis of hurricanes and winter storms.",
+    "The Himawari-9 satellite is centered on 140.7 degrees E, covering most of the Pacific Ocean, a portion of Eastern Asia, and parts of Australasia. The Himawari-9 AHI imagery is available on a rolling 90-day basis at 10 minute intervals. The sensor resolution is 0.5 km, the imagery resolution in Worldview/Global Imagery Browse Services (GIBS) is 1 km and the temporal resolution is 10 minutes, and the latency (time from satellite acquisition to availability in GIBS) is approximately 40 minutes.",
+    "References: GOES-R: ABI Band 2 (0.64 um) Quick Guide",
+    "A subdaily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2020-01-03 and updated as new data arrive."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2020-01-03 to present"
+  ],
+  "gbl_indexYear_im": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2020 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "Himawari_AHI_Band3_Red_Visible_1km"
+  ],
+  "dct_subject_sm": [
+    "Geostationary"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Subdaily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "Himawari_AHI_Band3_Red_Visible_1km",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/Himawari_AHI_Band3_Red_Visible_1km/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Himawari_AHI_Band3_Red_Visible_1km\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=Himawari_AHI_Band3_Red_Visible_1km&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

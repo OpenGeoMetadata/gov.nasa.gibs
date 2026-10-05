@@ -1,0 +1,74 @@
+{
+  "id": "nasa-gibs-oco-2_solar_induced_florescence_771nm",
+  "dct_title_s": "Solar-induced Chlorophyll Fluorescence (771nm), OCO-2",
+  "dct_description_sm": [
+    "The OCO-2 Solar Induced Chlorophyll Fluorescence 771 nm layer displays the fluorescence emission from land surfaces derived from in-filling of solar Fraunhofer lines in the 771 nm region of the measured spectrum.",
+    "One of the OCO-2 channels, the O₂ A-band, contains multiple Fraunhofer lines and thus allows for the retrieval of SIF. The absorption at 771 nm is about 1.5 times smaller than at 757 nm, but both values are made available for analysis. However, the blended SIF is the recommended product. The OCO-2 Solar Induced Chlorophyll Fluorescence 771 nm parameter is taken from the OCO-2 Level 2 Lite SIF product. OCO-2 makes eight simultaneous, adjacent measurements, each with a spatial resolution of 2.25 km x 1.29 km. These measurements are then mapped onto a 500 m² grid. The repeat cycle for OCO-2 is every 16 days.",
+    "Frankenberg et al. Prospects for chlorophyll fluorescence remote sensing from the Orbiting Carbon Observatory-2, Remote Sensing of Environment, Vol 147, 5 May. 2014, Pgs 1-12, doi:10.1016/j.rse.2014.02.007",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2014-11-01 to 2025-09-29. Made from OCO-2 Level 2 bias-corrected solar-induced fluorescence and other select fields from the IMAP-DOAS algorithm aggregated as daily files, Retrospective processing V11.2r (OCO2_L2_Lite_SIF) (OCO2_L2_Lite_SIF, version 11.2r, doi:10.5067/8XXUQU7HBGBL)."
+  ],
+  "dct_creator_sm": [
+    "OCO-2/OCO-3 Science Team, Vivienne Payne, Abhishek Chatterjee"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2014-11-01 to 2025-09-29"
+  ],
+  "gbl_indexYear_im": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "gbl_dateRange_drsim": [
+    "[2014 TO 2025]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "OCO-2_Solar_Induced_Florescence_771nm"
+  ],
+  "dct_subject_sm": [
+    "Solar Induced Chlorophyll Fluorescence",
+    "Carbon and Hydrocarbon Compounds",
+    "Solar Induced Fluorescence"
+  ],
+  "dcat_theme_sm": [
+    "Biology",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "OCO-2",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "OCO-2_Solar_Induced_Florescence_771nm",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/OCO-2_Solar_Induced_Florescence_771nm/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,OCO-2_Solar_Induced_Florescence_771nm\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=OCO-2_Solar_Induced_Florescence_771nm&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

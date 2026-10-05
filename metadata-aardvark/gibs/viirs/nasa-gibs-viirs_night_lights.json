@@ -1,0 +1,62 @@
+{
+  "id": "nasa-gibs-viirs_night_lights",
+  "dct_title_s": "Black Marble - Nighttime Lights only (Annual, 2012 & 2016), Suomi NPP / VIIRS via NASA Earth Observatory",
+  "dct_description_sm": [
+    "The Black Marble – Nighttime Lights only layer is a nighttime view of the Earth, showing visible light emanating from anthropogenic sources such as city lights and other human-driven patterns. This layer is an overlay showing only the nighttime lights. The Black Marble layer is an improvement over the \"Earth At Night 2012: VIIRS City Lights 2012\" layer, providing a look at anthropogenic light sources only, stripping out other nighttime light sources such as auroras, airglow and reflected moonlight from desert, snow, and other natural features. The layers are a composite of data from the Visible Infrared Imaging Radiometer Suite (VIIRS) instrument on board the joint NASA/NOAA Suomi National Polar-orbiting Partnership (Suomi NPP) satellite. The image composite was assembled from clear, cloud free images for 2012 and 2016.",
+    "Currently, the Black Marble imagery is available only as a single snapshot in time for 2012 and 2016. The sensor resolution is 750 m and the image resolution is 500 m. The imagery can be visualized in Worldview/Global Imagery Browse Services (GIBS).",
+    "References: Earthdata - Nighttime Lights; NASA Earth Observatory: Night Light Maps Open Up New Applications",
+    "A yearly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2012-01-01 to 2016-01-01."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2012-01-01 to 2016-01-01"
+  ],
+  "gbl_indexYear_im": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "gbl_dateRange_drsim": [
+    "[2012 TO 2016]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_Night_Lights"
+  ],
+  "dct_subject_sm": [
+    "Earth at Night"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Yearly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_Night_Lights",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Night_Lights/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=VIIRS_Night_Lights\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_Night_Lights&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

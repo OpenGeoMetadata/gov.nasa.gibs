@@ -1,0 +1,59 @@
+{
+  "id": "nasa-gibs-viirs_noaa21_surfacereflectance_bandsm11-m7-m5",
+  "dct_title_s": "Land Surface Reflectance (Bands M11-M7-M5), NOAA-21 / VIIRS",
+  "dct_description_sm": [
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2026-09-21 and updated as new data arrive. Made from VIIRS/JPSS2 Atmospherically Corrected Surface Reflectance 6-Min L2 Swath IP 375m, 750m NRT (VJ209_NRT, version 2, doi:10.5067/VIIRS/VJ209_NRT.002).",
+    "The VJ209_NRT is a Near Real Time (NRT) Visible Infrared Imager Radiometer Suite (VIIRS) 375 m, 750 m Atmospherically Corrected Surface Reflectance product. The VIIRS surface reflectance products are estimates of surface reflectance in each of the VIIRS reflective bands I1-I3, M1-M5, M7, M8, M10, and M11. The VJ209_NRT Level-2 surface reflectance product contains approximately 6 minutes' worth of data. Surface reflectance for each moderate-resolution (750m) or imagery-resolution (375m) pixel is retrieved separately for the Level-2 products. Surface reflectance is obtained by adjusting top-of-atmosphere reflectance to compensate for atmospheric effects. Corrections are made for the effects of molecular gases, including ozone and water vapor, and for the effects of atmospheric aerosols. The inputs to the surface reflectance algorithm include top-of-atmosphere reflectance for the VIIRS visible bands (VJ202MOD, VJ202IMG), the VIIRS cloud mask and aerosol product, aerosol optical thickness, and atmospheric data obtained from a reanalysis (surface pressure, atmospheric precipitable water, and ozone concentration). All surface reflectance products are produced for daytime conditions only. The product is produced under all atmospheric conditions except for night and oceans. Pixels when not produced are replaced by fill values in the Level-2 and Level-2G products. For more information read VIIRS Surface Reflectance [User's Guide](https://viirsland.gsfc.nasa.gov/PDF/VIIRS_Surf_Refl_UserGuide_v2.0.pdf)"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2026-09-21 to present"
+  ],
+  "gbl_indexYear_im": [
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2026 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_NOAA21_SurfaceReflectance_BandsM11-M7-M5"
+  ],
+  "dct_subject_sm": [
+    "Land Surface Reflectance",
+    "Surface Radiative Properties",
+    "Land Surface Temperature"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-21",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "JPEG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_NOAA21_SurfaceReflectance_BandsM11-M7-M5",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA21_SurfaceReflectance_BandsM11-M7-M5/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_NOAA21_SurfaceReflectance_BandsM11-M7-M5&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

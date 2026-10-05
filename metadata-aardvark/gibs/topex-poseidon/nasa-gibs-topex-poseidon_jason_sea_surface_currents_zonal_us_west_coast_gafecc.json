@@ -1,0 +1,85 @@
+{
+  "id": "nasa-gibs-topex-poseidon_jason_sea_surface_currents_zonal_us_west_coast_gafecc",
+  "dct_title_s": "Sea Surface Currents (Zonal, US West Coast, GAFECC), TOPEX/POSEIDON, JASON-1, OSTM/Jason-2",
+  "dct_description_sm": [
+    "The Sea Surface Currents (Zonal, US West Coast, GAFECC) layer is created from the Gridded Altimeter Fields with Enhanced Coastal Coverage data product. The product contains Sea Surface Height Anomalies (SSHA or SLA) and zonal and meridional geostrophic velocities for the US west coast encompassing 35.25 deg-48.5 deg N latitude and 227.75 deg-248.5 deg E longitude. This annually updated data product extends from October 14, 1992 through November 4, 2009. SSHA and current velocities are derived from the AVISO quarter degree DT UPD MSLA version 3.0 grids, 0.75 deg and greater away from the coast. Values within 0.75 deg of the coast are derived from tide gauge observations and interpolated out to the altimeter filled region. Details on how these data are derived can be found in: Saraceno, M., P. T. Strub, and P. M. Kosro (2008), Estimates of sea surface height and near-surface alongshore coastal currents from combinations of altimeters and tide gauges, J. Geophys. Res., 113, C11013, doi:10.1029/2008JC004756.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1992-10-14 to 2011-01-19. Made from Gridded Altimeter Fields with Enhanced Coastal Coverage Daily (ALT_TIDE_GAUGE_L4_OST_SLA_US_WEST_COAST_DAILY, version 1, doi:10.5067/USWCD-ALT01)."
+  ],
+  "dct_creator_sm": [
+    "OSU/COAS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1992-10-14 to 2011-01-19"
+  ],
+  "gbl_indexYear_im": [
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011
+  ],
+  "gbl_dateRange_drsim": [
+    "[1992 TO 2011]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "TOPEX-Poseidon_JASON_Sea_Surface_Currents_Zonal_US_West_Coast_GAFECC"
+  ],
+  "dct_subject_sm": [
+    "Sea Surface Currents",
+    "Ocean Currents",
+    "Sea Surface Height"
+  ],
+  "dcat_theme_sm": [
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "OSTM/JASON-2",
+    "POSEIDON-3",
+    "TOPEX/POSEIDON",
+    "SSALT",
+    "JASON-1",
+    "POSEIDON-2",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-133, -111, 49, 35)",
+  "dcat_bbox": "ENVELOPE(-133, -111, 49, 35)",
+  "dcat_centroid": "42,-122",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "TOPEX-Poseidon_JASON_Sea_Surface_Currents_Zonal_US_West_Coast_GAFECC",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/TOPEX-Poseidon_JASON_Sea_Surface_Currents_Zonal_US_West_Coast_GAFECC/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,TOPEX-Poseidon_JASON_Sea_Surface_Currents_Zonal_US_West_Coast_GAFECC\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=TOPEX-Poseidon_JASON_Sea_Surface_Currents_Zonal_US_West_Coast_GAFECC&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

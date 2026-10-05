@@ -1,0 +1,62 @@
+{
+  "id": "nasa-gibs-korus-aq_dc-8_ozone",
+  "dct_title_s": "Ozone and Flight Track (Per Flight), KORUS-AQ/NASA DC-8",
+  "dct_description_sm": [
+    "The Korea United States Air Quality Study (KORUS-AQ) DC-8 Flight and Ozone Tracks provide the location and concentration of ozone collected by the DC-8 aircraft to support the KORUS-AQ field campaign. Ozone data were collected by the National Center for Atmospheric Research (NCAR) 4-channel chemiluminescence instrument for NO, NO2, NOy, and O3. Latitude, longitude, and altitude were collected via the DC-8 aircraft navigational systems.",
+    "KORUS-AQ was conducted in South Korea from May to June 2016 and was jointly sponsored by NASA and Korea’s national Institute of Environmental Research (NIER). The objectives of KORUS-AQ were to investigate the factors controlling air quality in Korea and to assess future air quality observing strategies by incorporating geostationary satellite observations. KORUS-AQ adopted a highly coordinated sampling strategy involving surface and airborne measurements including both in-situ and remote sensing instruments. Airborne sampling was primarily conducted from near surface to about 12km with extensive profiling to characterize the vertical distribution of pollutants and their precursors. Airborne observational data was coupled with surface measurements from 16 ground sites and two ships: Research Vessel (R/V) Onnuri and R/V Jang Mok. Major data products collected from ground and air included in situ measurements of trace gases, aerosols, active remote sensing of ozone and aerosols, and passive remote sensing of trace gas column densities.",
+    "KORUS-AQ Campaign DOI: 10.5067/SUBORBITAL/KORUSAQ/DATA01",
+    "KORUS-AQ DC-8 Merge Data DOI: 10.5067/ASDC/SUBORBITAL/KORUSAQ_Merge_Data_1",
+    "KORUS-AQ DC-8 In Situ Trace Gas Data DOI: 10.5067/ASDC/SUBORBITAL/KORUSAQ_TraceGas_AircraftInSitu_DC8_Data_1",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2016-04-24 to 2016-06-18. Made from KORUS-AQ Aircraft Merge Data Files (KORUSAQ_Merge_Data, version 1, doi:10.5067/ASDC/SUBORBITAL/KORUSAQ_Merge_Data_1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2016-04-24 to 2016-06-18"
+  ],
+  "gbl_indexYear_im": [
+    2016
+  ],
+  "gbl_dateRange_drsim": [
+    "[2016 TO 2016]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "KORUS-AQ_DC-8_Ozone"
+  ],
+  "dct_subject_sm": [
+    "Ozone",
+    "Carbon and Hydrocarbon Compounds",
+    "Oxygen Compounds",
+    "Particulate Matter",
+    "Aerosol Optical Depth/Thickness",
+    "Aerosol Extinction"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NASA DC-8",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 61.32, 30.1)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 61.32, 30.1)",
+  "dcat_centroid": "45.71,0",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "KORUS-AQ_DC-8_Ozone",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,KORUS-AQ_DC-8_Ozone\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=KORUS-AQ_DC-8_Ozone&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

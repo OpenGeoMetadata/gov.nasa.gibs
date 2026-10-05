@@ -1,0 +1,20 @@
+{
+  "measurements": {
+    "Lightning": {
+      "id": "lightning",
+      "title": "Lightning",
+      "subtitle": "ISS/LIS, TRMM/LIS, OrbView-1/OTD, TRMM/LIS & OrbView/OTD, DMSP-F10/OLS, DMSP-F12/OTD",
+      "sources": {
+        "TRMM/LIS": {
+          "id": "trmm-lis",
+          "title": "TRMM/LIS",
+          "description": "",
+          "image": "",
+          "settings": [
+            "LIS_Very_High_Resolution_Lightning_Full_Climatology_LIS_Mean_Flash_Rate"
+          ]
+        }
+      }
+    }
+  }
+}

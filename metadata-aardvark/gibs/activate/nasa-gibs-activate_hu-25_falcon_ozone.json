@@ -1,0 +1,55 @@
+{
+  "id": "nasa-gibs-activate_hu-25_falcon_ozone",
+  "dct_title_s": "Ozone and Flight Track (Per Flight), ACTIVATE/NASA HU-25 Falcon",
+  "dct_description_sm": [
+    "The Aerosol Cloud meTeorology Interactions oVer the western ATlantic Experiment (ACTIVATE) Flight Tracks and In-Situ Ozone (O3) measurements provide ozone data collected onboard NASA’s HU-25 Falcon aircraft. The HU-25 Falcon was equipped with a comprehensive instrument payload for detailed in-situ measurements of aerosol, cloud properties, and atmospheric state, along with a few trace gas measurements for the measurement of pollution traces, which contributed to airmass classification analysis.",
+    "Marine boundary layer clouds play a critical role in Earth’s energy balance and water cycle. These clouds cover more than 45% of the ocean surface and exert a net cooling effect. The Aerosol Cloud meTeorology Interactions oVer the western Atlantic Experiment (ACTIVATE) project was a five-year project that provided important globally relevant data about changes in marine boundary layer cloud systems, atmospheric aerosols, and multiple feedbacks that warm or cool the climate. ACTIVATE studied the atmosphere over the western North Atlantic and sampled its broad range of aerosol, cloud and meteorological conditions using two aircraft, the UC-12 King Air and HU-25 Falcon. A total of 150 coordinated flights over the western North Atlantic occurred through 6 deployments from 2020-2022. The ACTIVATE science observing strategy targeted the shallow cumulus cloud regime and collected sufficient statistics over a broad range of aerosol and weather conditions which enabled robust characterization of aerosol-cloud-meteorology interactions. This strategy was implemented by two nominal flight patterns: Statistical Survey and Process Study. The statistical survey pattern involved close coordination between the remote sensing and in-situ aircraft to conduct near coincident sampling at and below cloud base as well as above and within cloud top. The process study pattern involved extensive vertical profiling to characterize the target cloud and surrounding aerosol and meteorological conditions.",
+    "References: ACTIVATE Dataset Overview; ACTIVATE at the ASDC doi:10.5067/SUBORBITAL/ACTIVATE/DATA001; ACTIVATE HU-25 Falcon Trace Gas Data, doi:10.5067/ASDC/ACTIVATE_TraceGas_AircraftInSitu_Falcon_Data_1",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2020-02-10 to 2022-06-18."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2020-02-10 to 2022-06-18"
+  ],
+  "gbl_indexYear_im": [
+    2020,
+    2021,
+    2022
+  ],
+  "gbl_dateRange_drsim": [
+    "[2020 TO 2022]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "ACTIVATE_HU-25_Falcon_Ozone"
+  ],
+  "dct_subject_sm": [
+    "Ozone"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Datasets"
+  ],
+  "dct_format_s": "Mapbox Vector Tile",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "ACTIVATE_HU-25_Falcon_Ozone",
+  "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,ACTIVATE_HU-25_Falcon_Ozone\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=ACTIVATE_HU-25_Falcon_Ozone&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

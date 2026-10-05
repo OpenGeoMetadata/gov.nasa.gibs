@@ -1,0 +1,80 @@
+{
+  "id": "nasa-gibs-mopitt_co_daily_total_column_day",
+  "dct_title_s": "Carbon Monoxide (L3, Daily, Day, Total Column), Terra / MOPITT",
+  "dct_description_sm": [
+    "The MOPITT Carbon Monoxide (CO) (Daily, Day, Total Column) layer shows the amount of carbon monoxide present in the total vertical column of the lower atmosphere (troposphere) and is measured in mole per square centimeter (mol/cm²).",
+    "The MOPITT Carbon Monoxide (Daily, Day, Total Column) layer is available from the Measurements of Pollution in the Troposphere (MOPITT) instrument on the Terra satellite. The total column is calculated by integrating the retrieved mixing ratio profiles from the 9 standard MOPITT pressure levels, 900, 800, 700, 600, 500, 400, 300, 200, and 100 hPa and at the surface and are not retrieved independently. The sensor resolution is 22 km at nadir, imagery resolution is 2 km, and the temporal resolution is daily.",
+    "References: MOP03J.009 doi:10.5067/TERRA/MOPITT/MOP03J.009",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-03-03 to 2024-11-10."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-03-03 to 2024-11-10"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2024]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "MOPITT_CO_Daily_Total_Column_Day"
+  ],
+  "dct_subject_sm": [
+    "Carbon Monoxide"
+  ],
+  "dcat_theme_sm": [
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "MOPITT_CO_Daily_Total_Column_Day",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MOPITT_CO_Daily_Total_Column_Day/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MOPITT_CO_Daily_Total_Column_Day\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MOPITT_CO_Daily_Total_Column_Day&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

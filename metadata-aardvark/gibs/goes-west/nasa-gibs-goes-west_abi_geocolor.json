@@ -1,0 +1,64 @@
+{
+  "id": "nasa-gibs-goes-west_abi_geocolor",
+  "dct_title_s": "GeoColor (True Color (Day), Multispectral IR (Night)), GOES-West/ABI",
+  "dct_description_sm": [
+    "Note: This layer is generally available for the most recent 90 days, though certain historical ranges are also preserved.",
+    "The GeoColor (True Color (Day), Multispectral blended infrared (IR; at Night)) layer from the GOES-West Advanced Baseline Imager (ABI) provides an approximation to daytime True Color imagery. The combination of spectral bands yields an appearance similar to what the human eye would perceive for land surface, oceanic and atmospheric features, with atmospheric correction used to make the appearance of these features sharper. Thus it is used primarily for the intuitive interpretation of meteorological and surface-based features such as smoke, blowing dust, and vegetation types (forests, deserts, croplands, etc.). At night, the true color imagery gives way to IR-based blended multispectral imagery that provides differentiation between low liquid water clouds (shown in light blue) and higher ice clouds (shown in gray/white). It also includes a static city lights/night lights database derived from the VIIRS Day/Night Band, which aids in geo-referencing and can help determine the proximity of clouds (such as fog) or weather hazards (such as thunderstorms or tropical cyclones) to population centers. Please note that as these lights are static, they will not change even if, for example, a weather-induced power outage occurs.",
+    "The Geostationary Operational Environmental Satellites (GOES)-West satellite (currently, GOES-18) is centered on 137.2 degrees W, covering most of the Pacific Ocean, the USA, most of Canada, Central America, the western half of South America, and parts of Australasia. The GOES-West ABI imagery is available on a rolling 90-day basis at 10 minute intervals. The product resolution is 1 km, the imagery resolution in Worldview/Global Imagery Browse Services (GIBS) is 1 km, the temporal resolution is 10 minutes, and the latency (time from satellite acquisition to availability in GIBS) is approximately 40 minutes.",
+    "GeoColor Imagery provided by NOAA/NESDIS/STAR.",
+    "References: GeoColor Product Quick Guide; Miller, Steven D., Daniel T. Lindsey, Curtis J. Seaman, and Jeremy E. Solbrig. \" GeoColor: A Blending Technique for Satellite Imagery\", Journal of Atmospheric and Oceanic Technology 37, 3 (2020): 429-448, doi:10.1175/JTECH-D-19-0134.1",
+    "A subdaily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2021-04-29 and updated as new data arrive."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2021-04-29 to present"
+  ],
+  "gbl_indexYear_im": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2021 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "GOES-West_ABI_GeoColor"
+  ],
+  "dct_subject_sm": [
+    "Geostationary"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Climate"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Subdaily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "GOES-West_ABI_GeoColor",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GOES-West_ABI_GeoColor/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=GOES-West_ABI_GeoColor\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GOES-West_ABI_GeoColor&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "nasa-gibs-ceres_ebaf_toa_cre_net_flux_monthly",
+  "dct_title_s": "TOA CRE Net Flux (Monthly, Energy Balanced and Filled), Terra / CERES",
+  "dct_description_sm": [
+    "The TOA CRE Net Flux (Monthly, Energy Balanced and Filled) layer represents the broadband incoming solar (downwelling incident sunlight) minus the reflected shortwave (SW) and emitted longwave (LW) flux at TOA (both upwelling, defined as positive), for the Cloud Radiative Effects (CRE) or cloud forcing (which is the difference above the cloud layer, between the all-sky and clear sky conditions). It can be thought of the balance between incoming and outgoing energy, indicating the total energy that is available to influence the climate. A positive global Net Flux over time indicates the Earth is warming, whereas negative values indicate cooling. CERES footprints (20 km nominal resolution) are classified as clear if they contain 99% of pixels identified as clear by the CERES-MODIS clear-sky mask.",
+    "The CERES Energy Balanced and Filled (EBAF) layers are derived from CERES SYN1Deg products, and provide monthly mean radiative fluxes corresponding to collection either at the Earth’s surface (EBAF-Surface) or top-of-the-atmosphere (EBAF-TOA). EBAF-products were designed for climate model evaluation, estimating the Earth's global mean energy budget, and to infer meridional heat transport. For some climate modelers, the products address the need for a net imbalance constrained to the ocean heat storage term.",
+    "The CERES TOA CRE Net Flux (Monthly, Energy Balanced and Filled) layer is available from the CERES instruments on the Terra satellite. The sensor resolution is 1 degree, imagery resolution is 2 km, and the temporal resolution is monthly.",
+    "Data parameter: toa_cre_net_mon",
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-03-01 to 2018-10-01. Made from CERES Energy Balanced and Filled (EBAF) TOA and Surface Monthly means data in netCDF Edition 4.2.1 (CERES_EBAF, version Edition4.2.1, doi:10.5067/TERRA-AQUA-NOAA20/CERES/EBAF_L3B004.2.1)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2000-03-01 to 2018-10-01"
+  ],
+  "gbl_indexYear_im": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "gbl_dateRange_drsim": [
+    "[2000 TO 2018]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "CERES_EBAF_TOA_CRE_Net_Flux_Monthly"
+  ],
+  "dct_subject_sm": [
+    "TOA Flux",
+    "Cloud Microphysics",
+    "Solar Radiation",
+    "Outgoing Longwave Radiation",
+    "Radiative Flux",
+    "Cloud Properties"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Imagery"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "Terra",
+    "CERES-FM1",
+    "CERES-FM2",
+    "Aqua",
+    "CERES-FM3",
+    "CERES-FM4",
+    "NOAA-20",
+    "CERES-FM6",
+    "Monthly"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "CERES_EBAF_TOA_CRE_Net_Flux_Monthly",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/CERES_EBAF_TOA_CRE_Net_Flux_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,CERES_EBAF_TOA_CRE_Net_Flux_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=CERES_EBAF_TOA_CRE_Net_Flux_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

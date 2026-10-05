@@ -1,0 +1,73 @@
+{
+  "id": "nasa-gibs-ssmi_dmsp_f14_rain_rate_over_oceans_descending",
+  "dct_title_s": "Rain Rate Over Oceans (Descending, Local AM), DMSP-F14 / SSMI",
+  "dct_description_sm": [
+    "The DMSP-F14 SSMI Rain Rate Over Oceans layer indicates the rain rate in millimeters per hour (mm/hr) over oceans. The imagery resolution is about 0.25 degrees, or about 28 kilometers, and the temporal resolution is daily. This is available in two layers, ascending, local PM and descending, local AM, for May 8, 1997 through August 8, 2008 for viewing in Worldview/Global Imagery Browse Services (GIBS). This layer was constructed by the Special Sensor Microwave/Imager (SSM/I) sensor that flew on the Defense Meteorological Satellite Program (DMSP) F14 spacecraft using a unified, physically based algorithm to retrieve rain rate measurements.",
+    "The F14 spacecraft is flown by the DMSP on the two operational polar orbiting platforms and had an orbit that was near-circular, sun-synchronous, and near-polar with an altitude of about 852 kilometers. The SSM/I sensor consisted of 7 separate total-power radiometers measuring the intensity of radiation coming from its Earth-viewing reflector operating at four different frequencies: 19.35, 22.235, 37, and 85.5 gigahertz.",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 1997-05-08 to 2008-08-08. Made from RSS SSM/I OCEAN PRODUCT GRIDS DAILY FROM DMSP F14 NETCDF V7 (rssmif14d, version 7, doi:10.5067/MEASURES/DMSP-F14/SSMI/DATA301)."
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "1997-05-08 to 2008-08-08"
+  ],
+  "gbl_indexYear_im": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008
+  ],
+  "gbl_dateRange_drsim": [
+    "[1997 TO 2008]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "SSMI_DMSP_F14_Rain_Rate_Over_Oceans_Descending"
+  ],
+  "dct_subject_sm": [
+    "Precipitation Rate",
+    "Liquid Precipitation",
+    "Surface Winds",
+    "Cloud Microphysics",
+    "Water Vapor Indicators"
+  ],
+  "dcat_theme_sm": [
+    "Climate",
+    "Oceans"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "DMSP 5D-2/F14",
+    "SSM/I",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Remote-sensing maps"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "SSMI_DMSP_F14_Rain_Rate_Over_Oceans_Descending",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/SSMI_DMSP_F14_Rain_Rate_Over_Oceans_Descending/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,SSMI_DMSP_F14_Rain_Rate_Over_Oceans_Descending\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=SSMI_DMSP_F14_Rain_Rate_Over_Oceans_Descending&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}
