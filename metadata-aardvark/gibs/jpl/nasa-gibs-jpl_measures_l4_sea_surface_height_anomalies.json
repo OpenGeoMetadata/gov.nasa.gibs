@@ -4,8 +4,10 @@
   "dct_description_sm": [
     "The Sea Surface Height Anomalies (L4) layer show gridded Sea Surface Height Anomalies (SSHA) above a mean sea surface, on 1/6th degree grid every 5 days. It contains the fully corrected heights, but delayed 3 months.",
     "The gridded data are derived from the SSHA data of TOPEX/Poseidon, Jason-1, Jason-2 and Jason-3 as reference data from the level 2 swath data found on the PO.DAAC website, plus ERS-1, ERS-2, Envisat, SARAL-AltiKa, CRyosat-2, depending on the date, from the RADS database. The gridding is done by the kriging method. The date given in the data is the center of the 5 day window.",
-    "References: SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL1812 doi:10.5067/SLREF-CDRV2",
-    "A multi-day visualization from NASA's Global Imagery Browse Services (GIBS), covering 1992-09-30 to 2019-01-22."
+    "A multi-day visualization from NASA's Global Imagery Browse Services (GIBS), covering 1992-09-30 to 2019-01-22. Made from MEaSUREs Gridded Sea Surface Height Anomalies Version 1812 (SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL1812, version 1812, doi:10.5067/SLREF-CDRV2)."
+  ],
+  "dct_creator_sm": [
+    "Zlotnicki, Victor; Qu, Zheng; Willis, Joshua"
   ],
   "dct_publisher_sm": [
     "United States. National Aeronautics and Space Administration"
@@ -51,13 +53,25 @@
     "JPL_MEaSUREs_L4_Sea_Surface_Height_Anomalies"
   ],
   "dct_subject_sm": [
-    "Sea Surface Height Anomalies"
+    "Sea Surface Height Anomalies",
+    "Sea Surface Height"
   ],
   "dcat_theme_sm": [
     "Oceans"
   ],
   "dcat_keyword_sm": [
     "Global Imagery Browse Services",
+    "OSTM/JASON-2",
+    "AMR",
+    "POSEIDON-3",
+    "JASON-1",
+    "JASON-1 Microwave Radiometer",
+    "POSEIDON-2",
+    "TOPEX/POSEIDON",
+    "TMR",
+    "SSALT",
+    "JASON-3",
+    "POSEIDON-3B",
     "Multi-Day"
   ],
   "gbl_resourceClass_sm": [
@@ -76,7 +90,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-07T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "JPL_MEaSUREs_L4_Sea_Surface_Height_Anomalies",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/JPL_MEaSUREs_L4_Sea_Surface_Height_Anomalies/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,JPL_MEaSUREs_L4_Sea_Surface_Height_Anomalies\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=JPL_MEaSUREs_L4_Sea_Surface_Height_Anomalies&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
