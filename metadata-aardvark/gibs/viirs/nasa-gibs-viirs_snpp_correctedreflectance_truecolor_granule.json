@@ -8,7 +8,7 @@
     "True Color: Red = Band I1, Green = Band M4, Blue = Band M3",
     "These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.",
     "The Visible Infrared Imaging Radiometer Suite (VIIRS) Corrected Reflectance imagery is available only as near real-time imagery. The VIIRS instrument in on board the joint NASA/NOAA Suomi National Polar orbiting Partnership (Suomi NPP) satellite. The imagery can be visualized in Worldview and the Global Imagery Browse Services (GIBS). The sensor resolution is 750 m and 375 m (M Bands are 750 m, I Bands are 375 m), imagery resolution is 250 m, and the temporal resolution is daily.",
-    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2026-07-09 and updated as new data arrive. Made from VIIRS/NPP Imagery Resolution 6-Min L1B Swath 375m NRT (VNP02IMG_NRT, version 2, doi:10.5067/VIIRS/VNP02IMG_NRT.002); VIIRS/NPP Imagery Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 375m NRT (VNP03IMG_NRT, version 2, doi:10.5067/VIIRS/VNP03IMG_NRT.002); VIIRS/NPP Moderate Resolution Bands L1B 6-Min Swath 750 m NRT (VNP02MOD_NRT, version 2, doi:10.5067/VIIRS/VNP02MOD_NRT.002); VIIRS/NPP Moderate Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 750m NRT (VNP03MOD_NRT, version 2, doi:10.5067/VIIRS/VNP03MOD_NRT.002)."
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2026-07-10 and updated as new data arrive. Made from VIIRS/NPP Imagery Resolution 6-Min L1B Swath 375m NRT (VNP02IMG_NRT, version 2, doi:10.5067/VIIRS/VNP02IMG_NRT.002); VIIRS/NPP Imagery Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 375m NRT (VNP03IMG_NRT, version 2, doi:10.5067/VIIRS/VNP03IMG_NRT.002); VIIRS/NPP Moderate Resolution Bands L1B 6-Min Swath 750 m NRT (VNP02MOD_NRT, version 2, doi:10.5067/VIIRS/VNP02MOD_NRT.002); VIIRS/NPP Moderate Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 750m NRT (VNP03MOD_NRT, version 2, doi:10.5067/VIIRS/VNP03MOD_NRT.002)."
   ],
   "dct_creator_sm": [
     "VCST Team"
@@ -17,7 +17,7 @@
     "United States. National Aeronautics and Space Administration"
   ],
   "dct_temporal_sm": [
-    "2026-07-09 to present"
+    "2026-07-10 to present"
   ],
   "gbl_indexYear_im": [
     2026
@@ -63,7 +63,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-07T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-08T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "VIIRS_SNPP_CorrectedReflectance_TrueColor_Granule",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_CorrectedReflectance_TrueColor_Granule/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=VIIRS_SNPP_CorrectedReflectance_TrueColor_Granule\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_CorrectedReflectance_TrueColor_Granule&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"

@@ -41,9 +41,9 @@
     "Datasets"
   ],
   "dct_format_s": "Mapbox Vector Tile",
-  "locn_geometry": "ENVELOPE(-124, -70, 43, 23)",
-  "dcat_bbox": "ENVELOPE(-124, -70, 43, 23)",
-  "dcat_centroid": "33,-97",
+  "locn_geometry": "ENVELOPE(-123.199, -70, 43, 23)",
+  "dcat_bbox": "ENVELOPE(-123.199, -70, 43, 23)",
+  "dcat_centroid": "33,-96.5995",
   "pcdm_memberOf_sm": [
     "nasa-gibs"
   ],
@@ -51,7 +51,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-08T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "DISCOVER-AQ_TX_P3B_Ozone",
   "dct_references_s": "{\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=DISCOVER-AQ_TX_P3B_Ozone&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
