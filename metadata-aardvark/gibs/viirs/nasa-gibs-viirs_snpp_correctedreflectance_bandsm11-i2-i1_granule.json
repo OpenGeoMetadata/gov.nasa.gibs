@@ -15,7 +15,7 @@
     "Burned areas or fire-affected areas are characterized by deposits of charcoal and ash, removal of vegetation and/or the alteration of vegetation structure. When bare soil becomes exposed, the brightness in Band I1 may increase, but that may be offset by the presence of black carbon residue; the near infrared (Band I2) will become darker, and Band M11 becomes more reflective. When assigned to red in the image, Band M11 will show burn scars as deep or bright red, depending on the type of vegetation burned, the amount of residue, or the completeness of the burn.",
     "Water",
     "Liquid water on the ground appears very dark since it absorbs in the red and the SWIR. Sediments in water appear dark blue. Ice and snow appear as bright turquoise. Clouds comprised of small water droplets scatter light equally in both the visible and the SWIR and will appear white. These clouds are usually lower to the ground and warmer. High and cold clouds are comprised of ice crystals and will appear turquoise.",
-    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2026-07-10 and updated as new data arrive. Made from VIIRS/NPP Imagery Resolution 6-Min L1B Swath 375m NRT (VNP02IMG_NRT, version 2, doi:10.5067/VIIRS/VNP02IMG_NRT.002); VIIRS/NPP Imagery Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 375m NRT (VNP03IMG_NRT, version 2, doi:10.5067/VIIRS/VNP03IMG_NRT.002); VIIRS/NPP Moderate Resolution Bands L1B 6-Min Swath 750 m NRT (VNP02MOD_NRT, version 2, doi:10.5067/VIIRS/VNP02MOD_NRT.002); VIIRS/NPP Moderate Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 750m NRT (VNP03MOD_NRT, version 2, doi:10.5067/VIIRS/VNP03MOD_NRT.002)."
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2026-07-11 and updated as new data arrive. Made from VIIRS/NPP Imagery Resolution 6-Min L1B Swath 375m NRT (VNP02IMG_NRT, version 2, doi:10.5067/VIIRS/VNP02IMG_NRT.002); VIIRS/NPP Imagery Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 375m NRT (VNP03IMG_NRT, version 2, doi:10.5067/VIIRS/VNP03IMG_NRT.002); VIIRS/NPP Moderate Resolution Bands L1B 6-Min Swath 750 m NRT (VNP02MOD_NRT, version 2, doi:10.5067/VIIRS/VNP02MOD_NRT.002); VIIRS/NPP Moderate Resolution Terrain-Corrected Geolocation 6-Min L1 Swath 750m NRT (VNP03MOD_NRT, version 2, doi:10.5067/VIIRS/VNP03MOD_NRT.002)."
   ],
   "dct_creator_sm": [
     "VCST Team"
@@ -24,7 +24,7 @@
     "United States. National Aeronautics and Space Administration"
   ],
   "dct_temporal_sm": [
-    "2026-07-10 to present"
+    "2026-07-11 to present"
   ],
   "gbl_indexYear_im": [
     2026
@@ -70,7 +70,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-08T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-09T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1_Granule",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1_Granule/default/default/GoogleMapsCompatible_Level9/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1_Granule\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_CorrectedReflectance_BandsM11-I2-I1_Granule&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"

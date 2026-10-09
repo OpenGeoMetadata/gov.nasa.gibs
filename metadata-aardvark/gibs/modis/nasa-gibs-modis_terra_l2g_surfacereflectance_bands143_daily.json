@@ -5,10 +5,8 @@
     "True Color: Red = Band 1, Green = Band 4, Blue = Band 3",
     "The Land Surface Reflectance (L2G, Daily, True Color) layer is created from the MOD09GA product which provides an estimate of the surface spectral reflectance of Terra Moderate Resolution Imaging Spectroradiometer (MODIS) Bands 1 through 7, corrected for atmospheric conditions such as gasses, aerosols, and Rayleigh scattering. Provided along with the 500 meter (m) surface reflectance, observation, and quality bands are a set of ten 1 kilometer (km) observation bands and geolocation flags. The reflectance layers from the MOD09GA are used as the source data for many of the MODIS land products.",
     "These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.",
-    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2000-02-24 and updated as new data arrive. Made from MODIS/Terra Near Real Time (NRT) Surface Reflectance Daily L2G Global 1km and 500m SIN Grid (MOD09GA, version 6NRT, doi:10.5067/MODIS/MOD09GA.NRT.006)."
-  ],
-  "dct_creator_sm": [
-    "LANCEMODIS"
+    "References: MOD09GA doi:10.5067/MODIS/MOD09GA.061",
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2000-02-24 and updated as new data arrive."
   ],
   "dct_publisher_sm": [
     "United States. National Aeronautics and Space Administration"
@@ -53,8 +51,7 @@
     "MODIS_Terra_L2G_SurfaceReflectance_Bands143_Daily"
   ],
   "dct_subject_sm": [
-    "Land Surface Reflectance",
-    "Reflectance"
+    "Land Surface Reflectance"
   ],
   "dcat_theme_sm": [
     "Imagery",
@@ -62,8 +59,6 @@
   ],
   "dcat_keyword_sm": [
     "Global Imagery Browse Services",
-    "TERRA",
-    "MODIS",
     "Daily"
   ],
   "gbl_resourceClass_sm": [
@@ -82,7 +77,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-09T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "MODIS_Terra_L2G_SurfaceReflectance_Bands143_Daily",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L2G_SurfaceReflectance_Bands143_Daily/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=MODIS_Terra_L2G_SurfaceReflectance_Bands143_Daily\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Terra_L2G_SurfaceReflectance_Bands143_Daily&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
