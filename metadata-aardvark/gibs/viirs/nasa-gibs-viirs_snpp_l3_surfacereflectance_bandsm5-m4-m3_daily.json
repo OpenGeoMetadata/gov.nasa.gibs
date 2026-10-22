@@ -1,6 +1,6 @@
 {
   "id": "nasa-gibs-viirs_snpp_l3_surfacereflectance_bandsm5-m4-m3_daily",
-  "dct_title_s": "Land Surface Reflectance (L3, Daily, Bands M5-M4-M3), Suomi NPP / VIIRS",
+  "dct_title_s": "Land Surface Reflectance (L3, Daily, True Color), Suomi NPP / VIIRS",
   "dct_description_sm": [
     "True Color: Red = Band M5, Green = Band M4, Blue = Band M3",
     "These images are called true-color or natural color because this combination of wavelengths is similar to what the human eye would see. The images are natural-looking images of land surface, oceanic and atmospheric features.",
@@ -72,7 +72,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-22T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "VIIRS_SNPP_L3_SurfaceReflectance_BandsM5-M4-M3_Daily",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_L3_SurfaceReflectance_BandsM5-M4-M3_Daily/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=VIIRS_SNPP_L3_SurfaceReflectance_BandsM5-M4-M3_Daily\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_L3_SurfaceReflectance_BandsM5-M4-M3_Daily&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
