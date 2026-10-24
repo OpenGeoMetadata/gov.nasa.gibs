@@ -6,7 +6,7 @@
     "The GLDAS Total Precipitation Rate is a science variable that indicates the intensity of the total precipitation (Rain Precipitation Rate + Snow Precipitation Rate). The data can be used for supporting research and applications related to global water and energy cycle, drought and flood, climate variability, land surface assimilation, etc.",
     "The GLDAS Total Precipitation Rate data are in 0.25 degree resolution and the imagery resolution is 2 km, and the temporal resolution is monthly.",
     "Rodell, M., P. R. Houser, U. Jambor, J. Gottschalck, K. Mitchell, C.-J. Meng, K. Arsenault, B. Cosgrove, J. Radakovich, M. Bosilovich, J. K. Entin, J. P. Walker, D. Lohmann, and D. Toll, The Global Land Data Assimilation System, Bull. Amer. Meteor. Soc., 85(3): 381-394, 2004, doi: 10.1175/BAMS-85-3-381.",
-    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-01-01 to 2026-05-01. Made from GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.1 (GLDAS_NOAH025_M) (GLDAS_NOAH025_M, version 2.1, doi:10.5067/SXAVCZFAQLNO)."
+    "A monthly visualization from NASA's Global Imagery Browse Services (GIBS), covering 2000-01-01 to 2026-06-01. Made from GLDAS Noah Land Surface Model L4 monthly 0.25 x 0.25 degree V2.1 (GLDAS_NOAH025_M) (GLDAS_NOAH025_M, version 2.1, doi:10.5067/SXAVCZFAQLNO)."
   ],
   "dct_creator_sm": [
     "Beaudoing, H. and M. Rodell, NASA/GSFC/HSL"
@@ -15,7 +15,7 @@
     "United States. National Aeronautics and Space Administration"
   ],
   "dct_temporal_sm": [
-    "2000-01-01 to 2026-05-01"
+    "2000-01-01 to 2026-06-01"
   ],
   "gbl_indexYear_im": [
     2000,
@@ -86,7 +86,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-24T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "GLDAS_Surface_Total_Precipitation_Rate_Monthly",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GLDAS_Surface_Total_Precipitation_Rate_Monthly/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GLDAS_Surface_Total_Precipitation_Rate_Monthly\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GLDAS_Surface_Total_Precipitation_Rate_Monthly&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
