@@ -1,0 +1,62 @@
+{
+  "id": "nasa-gibs-viirs_noaa21_gapfilled_brdf_corrected_daynightband_radiance",
+  "dct_title_s": "Gap-Filled BRDF Corrected Radiance (Day/Night Band), NOAA-21 / VIIRS",
+  "dct_description_sm": [
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2026-10-27 and updated as new data arrive. Made from VIIRS/JPSS2 Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 15 arc-second Linear Lat Lon Grid NRT (VJ246A2_NRT, version 2, doi:10.5067/VIIRS/VJ246A2_NRT.002).",
+    "The second of the two Near Real Time (NRT)VIIRS DNB-based datasets is a daily moonlight- and atmosphere-corrected Nighttime Lights (NTL) product called VIIRS/JPSS1 Gap-Filled Lunar BRDF-Adjusted Nighttime Lights Daily L3 Global 500m Linear Lat Lon Grid. Known by its short-name, VJ246A2, this product contains seven Science Data Sets (SDS) that include DNB BRDF-Corrected NTL, Gap-Filled DNB BRDF-Corrected NTL, DNB Lunar Irradiance, Latest High-Quality Retrieval, Mandatory Quality Flag, Cloud Mask Quality Flag, and Snow Flag. The VJ246A2_NRT product files are provided in standard Hierarchical Data Format–Earth Observing System (HDF-EOS5) format."
+  ],
+  "dct_creator_sm": [
+    "VIIRS Land SIPS"
+  ],
+  "dct_publisher_sm": [
+    "United States. National Aeronautics and Space Administration"
+  ],
+  "dct_temporal_sm": [
+    "2026-10-27 to present"
+  ],
+  "gbl_indexYear_im": [
+    2026
+  ],
+  "gbl_dateRange_drsim": [
+    "[2026 TO 2026]"
+  ],
+  "schema_provider_s": "National Aeronautics and Space Administration",
+  "dct_identifier_sm": [
+    "VIIRS_NOAA21_GapFilled_BRDF_Corrected_DayNightBand_Radiance"
+  ],
+  "dct_subject_sm": [
+    "Earth at Night",
+    "Visible Radiance"
+  ],
+  "dcat_theme_sm": [
+    "Imagery",
+    "Society",
+    "Land Cover"
+  ],
+  "dcat_keyword_sm": [
+    "Global Imagery Browse Services",
+    "NOAA-21",
+    "VIIRS",
+    "Daily"
+  ],
+  "gbl_resourceClass_sm": [
+    "Imagery"
+  ],
+  "gbl_resourceType_sm": [
+    "Satellite imagery"
+  ],
+  "dct_format_s": "PNG",
+  "locn_geometry": "ENVELOPE(-180, 180, 90, -90)",
+  "dcat_bbox": "ENVELOPE(-180, 180, 90, -90)",
+  "pcdm_memberOf_sm": [
+    "nasa-gibs"
+  ],
+  "dct_rights_sm": [
+    "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
+  ],
+  "dct_accessRights_s": "Public",
+  "gbl_mdModified_dt": "2026-10-29T00:00:00Z",
+  "gbl_mdVersion_s": "Aardvark",
+  "gbl_wxsIdentifier_s": "VIIRS_NOAA21_GapFilled_BRDF_Corrected_DayNightBand_Radiance",
+  "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_NOAA21_GapFilled_BRDF_Corrected_DayNightBand_Radiance/default/default/GoogleMapsCompatible_Level8/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_NOAA21_GapFilled_BRDF_Corrected_DayNightBand_Radiance&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
+}

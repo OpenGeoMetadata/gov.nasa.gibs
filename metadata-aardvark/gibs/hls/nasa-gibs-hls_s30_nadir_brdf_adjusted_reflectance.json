@@ -1,6 +1,6 @@
 {
   "id": "nasa-gibs-hls_s30_nadir_brdf_adjusted_reflectance",
-  "dct_title_s": "Reflectance (Nadir BRDF-Adjusted), Sentinel-2 / MSI",
+  "dct_title_s": "Reflectance (Nadir BRDF-Adjusted), HLS Sentinel-2 / MSI",
   "dct_description_sm": [
     "The Reflectance (Nadir BRDF Adjusted) imagery layer from Sentinel-2/MSI is a true-color or natural color image because this combination of wavelengths is similar to what the human eye would see. It consists of natural-looking images of land surface, oceanic and atmospheric features. The Reflectance (Nadir BRDF Adjusted) imagery layer from Sentinel-2/MSI provides 30m Nadir Bidirectional Reflectance Distribution Function (BRDF)-Adjusted Reflectance (NBAR) and is derived from a combination of the European Union’s Copernicus Sentinel-2 Multi-Spectral Instrument (MSI) data products through the Harmonized Landsat and Sentinel-2 (HLS) project.",
     "The Reflectance (Nadir BRDF-Adjusted) product (S30) is available through the HLS project from the Multi-Spectral Instrument (MSI) aboard the European Union’s Copernicus Sentinel-2A, Sentinel-2B, and Sentinel-2C satellites. The sensor resolution is 10, 20, and 60 m, imagery resolution is resampled to 30 m, and the temporal resolution is daily with a 5 day revisit time. The imagery is available in Worldview/GIBS approximately 2 - 4 days after satellite overpass. There is a separate combined Landsat 8 and 9 imagery layer available.",
@@ -70,7 +70,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-10-29T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "HLS_S30_Nadir_BRDF_Adjusted_Reflectance",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/HLS_S30_Nadir_BRDF_Adjusted_Reflectance/default/default/GoogleMapsCompatible_Level12/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=HLS_S30_Nadir_BRDF_Adjusted_Reflectance\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=HLS_S30_Nadir_BRDF_Adjusted_Reflectance&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
