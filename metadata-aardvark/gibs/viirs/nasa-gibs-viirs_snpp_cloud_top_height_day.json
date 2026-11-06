@@ -4,7 +4,7 @@
   "dct_description_sm": [
     "The VIIRS Cloud Top Height (Day) layer indicates the geopotential height of the highest cloud top at a retrieved cloud top pressure (rounded to the nearest 50 m). Cloud Top Height helps in assessing the fraction of high Cirrus clouds present in the atmosphere. Cirrus clouds are crucially important to global radiative processes and the heat balance of the Earth as they allow solar heating of the Earth while reducing infrared radiation to space.",
     "The VIIRS Cloud Top Height layer is available from the joint NASA/NOAA Suomi NPP satellite for daytime overpasses. The sensor/algorithm resolution is 750 km, imagery resolution is 1 km, and the temporal resolution is daily.",
-    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2012-03-01 and updated as new data arrive. Made from VIIRS/SNPP Cloud Properties 6-min L2 Swath 750 m (CLDPROP_L2_VIIRS_SNPP, version 1.1, doi:10.5067/VIIRS/CLDPROP_L2_VIIRS_SNPP.011)."
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), covering 2012-03-01 to 2026-11-02. Made from VIIRS/SNPP Cloud Properties 6-min L2 Swath 750 m (CLDPROP_L2_VIIRS_SNPP, version 1.1, doi:10.5067/VIIRS/CLDPROP_L2_VIIRS_SNPP.011)."
   ],
   "dct_creator_sm": [
     "NASA VIIRS Atmosphere SIPS"
@@ -13,7 +13,7 @@
     "United States. National Aeronautics and Space Administration"
   ],
   "dct_temporal_sm": [
-    "2012-03-01 to present"
+    "2012-03-01 to 2026-11-02"
   ],
   "gbl_indexYear_im": [
     2012,
@@ -72,7 +72,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-11-06T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "VIIRS_SNPP_Cloud_Top_Height_Day",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_SNPP_Cloud_Top_Height_Day/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,VIIRS_SNPP_Cloud_Top_Height_Day\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=VIIRS_SNPP_Cloud_Top_Height_Day&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"

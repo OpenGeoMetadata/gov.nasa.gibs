@@ -8,7 +8,7 @@
     "Single-polarization acquisitions, collected mostly in polar regions or over open ocean, are also colorized. Because they only have one available polarization, there is less information to integrate into the false-color visualization. The color bar passes from blue to green to orange to yellow, indicating co-polarized backscatter values from low to high. Calm water or dry soil is still generally blue, and urban areas are still generally yellow, but vegetated areas may exhibit a different color of green/orange than in the dual-pol RGB decomposition for the same area. Wet snow may appear very yellow, while drier snow is more green or blue.",
     "Note that different landcover types may appear similar to each other in this visualization. Consider referencing other imagery when interpreting this visualization.",
     "The NISAR GCOV products are produced by the NISAR Project, managed by the Jet Propulsion Laboratory, and distributed by the Alaska Satellite Facility, both under contract with NASA.",
-    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2025-10-29 and updated as new data arrive. Made from NISAR Provisional Geocoded Polarimetric Covariance Product (Version 1) (NISAR_L2_GCOV_PROVISIONAL_V1, version 1, doi:10.5067/NIL2GCOV-P1)."
+    "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2025-10-29 and updated as new data arrive. Made from NISAR Provisional Geocoded Polarimetric Covariance Product (Version 1) (NISAR_L2_GCOV_PROVISIONAL_V1, version 1, doi:10.5067/NIL2GCOV-P1); NISAR Validated Geocoded Polarimetric Covariance Product (Version 1) (NISAR_L2_GCOV_V1, version 1, doi:10.5067/NIL2GCOV-V1)."
   ],
   "dct_creator_sm": [
     "NASA-ISRO SAR Mission, Jet Propulsion Laboratory, NASA"
@@ -66,7 +66,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-11-06T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "NISAR_L2_Geocoded_Polarimetric_Covariance",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/NISAR_L2_Geocoded_Polarimetric_Covariance/default/default/GoogleMapsCompatible_Level13/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,NISAR_L2_Geocoded_Polarimetric_Covariance\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=NISAR_L2_Geocoded_Polarimetric_Covariance&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
