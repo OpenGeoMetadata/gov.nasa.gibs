@@ -2,7 +2,7 @@
   "id": "nasa-gibs-modis_combined_maiac_l2g_bidirectionalreflectance_bands143",
   "dct_title_s": "MAIAC Reflectance (BRDF-Adjusted), Terra and Aqua / MODIS",
   "dct_description_sm": [
-    "The MAIAC Reflectance (BRDF-Adjusted) layer is an RGB image of the Multi-Angle Implementation of Atmospheric Correction (MAIAC) Land Surface Bidirectional Reflectance Factor (BRF) over land based on MODIS bands 1, 4, 3. The MCD19A1N product is corrected for atmospheric gases and aerosols using a new MAIAC algorithm that is based on a time series analysis and a combination of pixel- and image-based processing. The MODIS MAIAC Land Surface BRF products provide an estimate of the surface spectral reflectance as it would be measured at ground-level in the absence of atmospheric scattering or absorption.",
+    "The MAIAC Reflectance (BRDF-Adjusted) layer is an RGB image of the Multi-Angle Implementation of Atmospheric Correction (MAIAC) Land Surface Bidirectional Reflectance Factor (BRF) over land based on MODIS bands 1, 4, 3. The MCD19A1N product is corrected for atmospheric gases and aerosols using a new MAIAC algorithm that is based on a time series analysis and a combination of pixel- and image-based processing. The MODIS MAIAC Land Surface BRF products provide an estimate of the surface spectral reflectance as it would be measured at ground-level in the absence of atmospheric scattering or absorption. It is available as a single layer that combines both Terra and Aqua observations.",
     "The MAIAC Reflectance (BRDF-Adjusted) layer is available as a combined Terra satellite and Aqua satellite layer (MCD19A1). The sensor resolution is 1 km, imagery resolution is 1 km, and the temporal resolution is daily.",
     "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2000-02-24 and updated as new data arrive. Made from MODIS/Terra+Aqua Land Surface BRF Daily L2G Global 500m and 1km SIN Grid V061 (MCD19A1, version 061, doi:10.5067/MODIS/MCD19A1.061)."
   ],
@@ -82,7 +82,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-11-10T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "MODIS_Combined_MAIAC_L2G_BidirectionalReflectance_Bands143",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Combined_MAIAC_L2G_BidirectionalReflectance_Bands143/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.jpeg\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=MODIS_Combined_MAIAC_L2G_BidirectionalReflectance_Bands143\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Combined_MAIAC_L2G_BidirectionalReflectance_Bands143&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"

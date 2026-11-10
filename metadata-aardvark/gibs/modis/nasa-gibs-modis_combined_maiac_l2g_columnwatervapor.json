@@ -3,7 +3,7 @@
   "dct_title_s": "MAIAC Columnar Water Vapor, Terra and Aqua / MODIS",
   "dct_description_sm": [
     "The MAIAC Columnar Water Vapor shows the total amount of water vapor in the column of atmosphere. It is measured in centimeters (cm) showing the depth of liquid water if all vapor were condensed.",
-    "The MAIAC Columnar Water Vapor layer is from the Moderate Resolution Imaging Spectroradiometer (MODIS) combined Terra and Aqua Multi-Angle Implementation of Atmospheric Correction (MAIAC) Land Aerosol Optical Depth level 2 product.",
+    "The MAIAC Columnar Water Vapor layer is from the Moderate Resolution Imaging Spectroradiometer (MODIS) combined Terra and Aqua Multi-Angle Implementation of Atmospheric Correction (MAIAC) Land Aerosol Optical Depth level 2 product. It is available as a single layer that combines both Terra and Aqua observations.",
     "Water cycles through the Earth’s atmosphere in three states: solid (ice), liquid (rain drops), gas (water vapor). Water vapor is the gaseous form of water, the result of evaporation. Water vapor is a strong greenhouse gas: it traps the heat from the Earth surface and keeps the Earth warm. When water vapor rises into the atmosphere, it cools and turns back into water droplets. Water droplets form clouds and eventually some clouds produce rain or snow. Monitoring water vapor is useful as it influences weather patterns and is an important component of the Earth’s climate system.",
     "The MAIAC Columnar Water Vapor product combines data from Terra and Aqua satellites. The sensor resolution is 1 km, imagery resolution is 1 km, and the temporal resolution is daily.",
     "A daily visualization from NASA's Global Imagery Browse Services (GIBS), available from 2000-02-24 and updated as new data arrive. Made from MODIS/Terra+Aqua Land Aerosol Optical Depth Daily L2G Global 1km SIN Grid V061 (MCD19A2, version 061, doi:10.5067/MODIS/MCD19A2.061)."
@@ -84,7 +84,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-11-10T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "MODIS_Combined_MAIAC_L2G_ColumnWaterVapor",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Combined_MAIAC_L2G_ColumnWaterVapor/default/default/GoogleMapsCompatible_Level7/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,MODIS_Combined_MAIAC_L2G_ColumnWaterVapor\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=MODIS_Combined_MAIAC_L2G_ColumnWaterVapor&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
