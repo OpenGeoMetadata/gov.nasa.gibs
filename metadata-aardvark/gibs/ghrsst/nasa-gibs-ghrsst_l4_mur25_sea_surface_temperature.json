@@ -66,7 +66,7 @@
     "Terra",
     "NOAA-19",
     "AVHRR-3",
-    "Buoys",
+    "BUOYS",
     "GCOM-W1",
     "AMSR2",
     "Daily"
@@ -87,7 +87,7 @@
     "We acknowledge the use of imagery provided by services from NASA's Global Imagery Browse Services (GIBS), part of NASA's Earth Science Data and Information System (ESDIS)."
   ],
   "dct_accessRights_s": "Public",
-  "gbl_mdModified_dt": "2026-10-05T00:00:00Z",
+  "gbl_mdModified_dt": "2026-11-14T00:00:00Z",
   "gbl_mdVersion_s": "Aardvark",
   "gbl_wxsIdentifier_s": "GHRSST_L4_MUR25_Sea_Surface_Temperature",
   "dct_references_s": "{\"https://wiki.openstreetmap.org/wiki/Slippy_map_tilenames\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/GHRSST_L4_MUR25_Sea_Surface_Temperature/default/default/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png\",\"http://www.opengis.net/def/serviceType/ogc/wmts\":\"https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/1.0.0/WMTSCapabilities.xml\",\"http://www.opengis.net/def/serviceType/ogc/wms\":\"https://gibs.earthdata.nasa.gov/wms/epsg3857/best/wms.cgi\",\"http://schema.org/url\":\"https://worldview.earthdata.nasa.gov/?l=Coastlines_15m,GHRSST_L4_MUR25_Sea_Surface_Temperature\",\"http://schema.org/thumbnailUrl\":\"https://gibs.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi?SERVICE=WMS&REQUEST=GetMap&VERSION=1.1.1&LAYERS=GHRSST_L4_MUR25_Sea_Surface_Temperature&STYLES=&SRS=EPSG:4326&BBOX=-180,-90,180,90&WIDTH=512&HEIGHT=256&FORMAT=image/jpeg\"}"
